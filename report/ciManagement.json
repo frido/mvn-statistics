@@ -1,0 +1,291 @@
+{
+  "data" : [ {
+    "name" : "travis",
+    "value" : 1839,
+    "childs" : [ {
+      "name" : "travis ci",
+      "value" : 983
+    }, {
+      "name" : "travis",
+      "value" : 509
+    }, {
+      "name" : "travis-ci",
+      "value" : 232
+    }, {
+      "name" : "travisci",
+      "value" : 108
+    }, {
+      "name" : "travis-ci.org",
+      "value" : 4
+    }, {
+      "name" : "http://travis-ci",
+      "value" : 2
+    }, {
+      "name" : "https://travis-ci.org/leb-epfl/defcon-imagej",
+      "value" : 1
+    } ]
+  }, {
+    "name" : "jenkins",
+    "value" : 567,
+    "childs" : [ {
+      "name" : "jenkins",
+      "value" : 514
+    }, {
+      "name" : "jenkins ci",
+      "value" : 25
+    }, {
+      "name" : "jenkins-ci",
+      "value" : 9
+    }, {
+      "name" : "puresol technologies jenkins",
+      "value" : 8
+    }, {
+      "name" : "cloudbees jenkins",
+      "value" : 5
+    }, {
+      "name" : "opf jenkins",
+      "value" : 2
+    }, {
+      "name" : "openminted jenkins",
+      "value" : 1
+    }, {
+      "name" : "jenkins and codeship",
+      "value" : 1
+    }, {
+      "name" : "jenkins@cloudbees",
+      "value" : 1
+    }, {
+      "name" : "cloudbees_jenkins",
+      "value" : 1
+    } ]
+  }, {
+    "name" : "teamcity",
+    "value" : 484,
+    "childs" : [ {
+      "name" : "teamcity",
+      "value" : 484
+    } ]
+  }, {
+    "name" : "hudson",
+    "value" : 150,
+    "childs" : [ {
+      "name" : "hudson",
+      "value" : 147
+    }, {
+      "name" : "hudson ci",
+      "value" : 3
+    } ]
+  }, {
+    "name" : "other",
+    "value" : 123,
+    "childs" : [ {
+      "name" : "${cisystem}",
+      "value" : 11
+    }, {
+      "name" : "drone.io",
+      "value" : 10
+    }, {
+      "name" : "cloudbees",
+      "value" : 9
+    }, {
+      "name" : "codeship",
+      "value" : 8
+    }, {
+      "name" : "team city",
+      "value" : 7
+    }, {
+      "name" : "none",
+      "value" : 7
+    }, {
+      "name" : "cloudbees buildhive",
+      "value" : 5
+    }, {
+      "name" : "trevis ci",
+      "value" : 5
+    }, {
+      "name" : "bitbucket pipelines",
+      "value" : 5
+    }, {
+      "name" : "cloudbess",
+      "value" : 4
+    }, {
+      "name" : "pipelines",
+      "value" : 4
+    }, {
+      "name" : "buildhive",
+      "value" : 4
+    }, {
+      "name" : "appveyor",
+      "value" : 3
+    }, {
+      "name" : "gump",
+      "value" : 3
+    }, {
+      "name" : "gforge",
+      "value" : 3
+    }, {
+      "name" : "",
+      "value" : 2
+    }, {
+      "name" : "cruisecontrol",
+      "value" : 2
+    }, {
+      "name" : "tranvis-ci.org",
+      "value" : 2
+    }, {
+      "name" : "continnuum",
+      "value" : 2
+    }, {
+      "name" : "web site",
+      "value" : 2
+    }, {
+      "name" : "todo",
+      "value" : 2
+    }, {
+      "name" : "cyborg",
+      "value" : 2
+    }, {
+      "name" : "mike",
+      "value" : 1
+    }, {
+      "name" : "${this.cimanagement.system}",
+      "value" : 1
+    }, {
+      "name" : "cirrus-ci",
+      "value" : 1
+    }, {
+      "name" : "looper",
+      "value" : 1
+    }, {
+      "name" : "logelastic pipelines",
+      "value" : 1
+    }, {
+      "name" : "travic ci",
+      "value" : 1
+    }, {
+      "name" : "${c8tech.ci.system}",
+      "value" : 1
+    }, {
+      "name" : "robozombie",
+      "value" : 1
+    }, {
+      "name" : "taskcluster",
+      "value" : 1
+    }, {
+      "name" : "azure",
+      "value" : 1
+    }, {
+      "name" : "icklebot",
+      "value" : 1
+    }, {
+      "name" : "husdon",
+      "value" : 1
+    }, {
+      "name" : "snap-ci",
+      "value" : 1
+    }, {
+      "name" : "${ci-managament-system}",
+      "value" : 1
+    }, {
+      "name" : "bitbucket-pipelines",
+      "value" : 1
+    }, {
+      "name" : "travys",
+      "value" : 1
+    }, {
+      "name" : "drone",
+      "value" : 1
+    }, {
+      "name" : "spring-boot-starter-dao",
+      "value" : 1
+    }, {
+      "name" : "bitrise",
+      "value" : 1
+    }, {
+      "name" : "team city 7.1.2",
+      "value" : 1
+    }, {
+      "name" : "azure pipelines",
+      "value" : 1
+    } ]
+  }, {
+    "name" : "bamboo",
+    "value" : 121,
+    "childs" : [ {
+      "name" : "bamboo",
+      "value" : 114
+    }, {
+      "name" : "atlassian bamboo",
+      "value" : 4
+    }, {
+      "name" : "bamboo, hosted by opf",
+      "value" : 2
+    }, {
+      "name" : "openpcf bamboo",
+      "value" : 1
+    } ]
+  }, {
+    "name" : "github",
+    "value" : 70,
+    "childs" : [ {
+      "name" : "github actions",
+      "value" : 46
+    }, {
+      "name" : "github",
+      "value" : 21
+    }, {
+      "name" : "github workflow",
+      "value" : 3
+    } ]
+  }, {
+    "name" : "circle",
+    "value" : 61,
+    "childs" : [ {
+      "name" : "circleci",
+      "value" : 46
+    }, {
+      "name" : "circle ci",
+      "value" : 15
+    } ]
+  }, {
+    "name" : "gitlab",
+    "value" : 49,
+    "childs" : [ {
+      "name" : "gitlab-ci",
+      "value" : 23
+    }, {
+      "name" : "gitlab",
+      "value" : 15
+    }, {
+      "name" : "gitlab ci",
+      "value" : 7
+    }, {
+      "name" : "gitlab ci/cd",
+      "value" : 2
+    }, {
+      "name" : "gitlab.com",
+      "value" : 1
+    }, {
+      "name" : "gitlabci",
+      "value" : 1
+    } ]
+  }, {
+    "name" : "continuum",
+    "value" : 38,
+    "childs" : [ {
+      "name" : "continuum",
+      "value" : 38
+    } ]
+  }, {
+    "name" : "rultor",
+    "value" : 30,
+    "childs" : [ {
+      "name" : "rultor",
+      "value" : 30
+    } ]
+  }, {
+    "name" : "other",
+    "value" : 0,
+    "childs" : [ ]
+  } ]
+}

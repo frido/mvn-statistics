@@ -1,0 +1,40 @@
+{
+  "max" : 29,
+  "maxName" : "https://repo1.maven.org/maven2/com/dorkbox/Network-Dorkbox-Util/1.20/Network-Dorkbox-Util-1.20.pom",
+  "size" : 229267,
+  "nonZeros" : 137756,
+  "sum" : 139800,
+  "average" : 1.01,
+  "nonZeroRatio" : 60.09,
+  "mode" : [ {
+    "name" : "1",
+    "value" : 136088
+  }, {
+    "name" : "0",
+    "value" : 91511
+  }, {
+    "name" : "2",
+    "value" : 1474
+  }, {
+    "name" : "3",
+    "value" : 128
+  }, {
+    "name" : "4",
+    "value" : 21
+  }, {
+    "name" : "6",
+    "value" : 21
+  }, {
+    "name" : "5",
+    "value" : 12
+  }, {
+    "name" : "7",
+    "value" : 9
+  }, {
+    "name" : "29",
+    "value" : 1
+  }, {
+    "name" : "8",
+    "value" : 1
+  } ]
+}

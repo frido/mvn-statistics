@@ -1,0 +1,33 @@
+{
+  "data" : [ {
+    "name" : "org.apache.maven.plugins:maven-javadoc-plugin",
+    "value" : 2800
+  }, {
+    "name" : "org.apache.maven.plugins:maven-project-info-reports-plugin",
+    "value" : 1884
+  }, {
+    "name" : "org.apache.maven.plugins:maven-jxr-plugin",
+    "value" : 1296
+  }, {
+    "name" : "org.apache.maven.plugins:maven-surefire-report-plugin",
+    "value" : 1220
+  }, {
+    "name" : "org.apache.maven.plugins:maven-checkstyle-plugin",
+    "value" : 1058
+  }, {
+    "name" : "org.codehaus.mojo:findbugs-maven-plugin",
+    "value" : 1021
+  }, {
+    "name" : "org.apache.maven.plugins:maven-pmd-plugin",
+    "value" : 1005
+  }, {
+    "name" : "org.codehaus.mojo:cobertura-maven-plugin",
+    "value" : 906
+  }, {
+    "name" : "org.jacoco:jacoco-maven-plugin",
+    "value" : 462
+  }, {
+    "name" : "org.codehaus.mojo:taglist-maven-plugin",
+    "value" : 396
+  } ]
+}

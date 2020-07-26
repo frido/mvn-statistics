@@ -1,0 +1,40 @@
+{
+  "max" : 421,
+  "maxName" : "https://repo1.maven.org/maven2/org/wildfly/wildfly-ee-galleon-pack/20.0.1.Final/wildfly-ee-galleon-pack-20.0.1.Final.pom",
+  "size" : 229267,
+  "nonZeros" : 191054,
+  "sum" : 1251052,
+  "average" : 6.55,
+  "nonZeroRatio" : 83.33,
+  "mode" : [ {
+    "name" : "0",
+    "value" : 38213
+  }, {
+    "name" : "2",
+    "value" : 24404
+  }, {
+    "name" : "3",
+    "value" : 23972
+  }, {
+    "name" : "1",
+    "value" : 22581
+  }, {
+    "name" : "4",
+    "value" : 21422
+  }, {
+    "name" : "5",
+    "value" : 18393
+  }, {
+    "name" : "6",
+    "value" : 16055
+  }, {
+    "name" : "7",
+    "value" : 12183
+  }, {
+    "name" : "8",
+    "value" : 9892
+  }, {
+    "name" : "9",
+    "value" : 7804
+  } ]
+}

@@ -1,0 +1,33 @@
+{
+  "data" : [ {
+    "name" : "org.apache.maven.plugins:maven-compiler-plugin",
+    "value" : 33183
+  }, {
+    "name" : "org.apache.maven.plugins:maven-source-plugin",
+    "value" : 25624
+  }, {
+    "name" : "org.apache.maven.plugins:maven-javadoc-plugin",
+    "value" : 24368
+  }, {
+    "name" : "org.apache.maven.plugins:maven-gpg-plugin",
+    "value" : 15076
+  }, {
+    "name" : "org.apache.maven.plugins:maven-surefire-plugin",
+    "value" : 14321
+  }, {
+    "name" : "org.sonatype.plugins:nexus-staging-maven-plugin",
+    "value" : 14278
+  }, {
+    "name" : "org.apache.maven.plugins:maven-jar-plugin",
+    "value" : 13530
+  }, {
+    "name" : "org.apache.maven.plugins:maven-release-plugin",
+    "value" : 10325
+  }, {
+    "name" : "org.apache.felix:maven-bundle-plugin",
+    "value" : 8689
+  }, {
+    "name" : "org.apache.maven.plugins:maven-assembly-plugin",
+    "value" : 6601
+  } ]
+}
