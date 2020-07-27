@@ -25,6 +25,6 @@ public class DeveloperReport {
     }
 
     public List<KeyValueParent> getData() {
-        return output.toList();
+        return output.getList();
     }
 }

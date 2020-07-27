@@ -468,8 +468,7 @@
       "name" : "apache license - version 2.0, january 2004",
       "value" : 1
     } ]
-  },
-    {
+  }, {
     "name" : "mit",
     "value" : 26940,
     "childs" : [ {
@@ -695,8 +694,7 @@
       "name" : "the mit license (mit) copyright (c) 2015 q42",
       "value" : 1
     } ]
-  },
-    {
+  }, {
     "name" : "bsd",
     "value" : 9127,
     "childs" : [ {
@@ -1198,8 +1196,7 @@
       "name" : "bsd revised license",
       "value" : 1
     } ]
-  },
-    {
+  }, {
     "name" : "gnu",
     "value" : 6493,
     "childs" : [ {
@@ -2127,8 +2124,7 @@
       "name" : "affero gnu public license",
       "value" : 1
     } ]
-  },
-    {
+  }, {
     "name" : "other",
     "value" : 4856,
     "childs" : [ {
@@ -4697,8 +4693,7 @@
       "name" : "university of illinois",
       "value" : 1
     } ]
-  },
-    {
+  }, {
     "name" : "lgpl",
     "value" : 4697,
     "childs" : [ {
@@ -5140,8 +5135,7 @@
       "name" : "gnu lesser general public license (gnu lgpl), version 3",
       "value" : 1
     } ]
-  },
-    {
+  }, {
     "name" : "eclipse",
     "value" : 3509,
     "childs" : [ {
@@ -5283,8 +5277,7 @@
       "name" : "epl (eclipse public license)",
       "value" : 1
     } ]
-  },
-    {
+  }, {
     "name" : "apl2",
     "value" : 2273,
     "childs" : [ {
@@ -5294,8 +5287,7 @@
       "name" : "apl2.0",
       "value" : 3
     } ]
-  },
-    {
+  }, {
     "name" : "gpl",
     "value" : 1560,
     "childs" : [ {
@@ -5629,8 +5621,7 @@
       "name" : "cddl+gpl 1.1",
       "value" : 1
     } ]
-  },
-    {
+  }, {
     "name" : "agpl",
     "value" : 540,
     "childs" : [ {
@@ -5676,8 +5667,7 @@
       "name" : "agpl 3.00",
       "value" : 1
     } ]
-  },
-    {
+  }, {
     "name" : "mozilla",
     "value" : 531,
     "childs" : [ {
@@ -5765,8 +5755,7 @@
       "name" : "mozilla public license (mpl) version 2.0",
       "value" : 1
     } ]
-  },
-    {
+  }, {
     "name" : "isc",
     "value" : 268,
     "childs" : [ {
@@ -5788,8 +5777,7 @@
       "name" : "isc license (isc)",
       "value" : 1
     } ]
-  },
-    {
+  }, {
     "name" : "affero",
     "value" : 267,
     "childs" : [ {

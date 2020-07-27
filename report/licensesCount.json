@@ -4,8 +4,6 @@
   "size" : 229267,
   "nonZeros" : 137756,
   "sum" : 139800,
-  "average" : 1.01,
-  "nonZeroRatio" : 60.09,
   "mode" : [ {
     "name" : "1",
     "value" : 136088
@@ -36,5 +34,10 @@
   }, {
     "name" : "8",
     "value" : 1
-  } ]
+  }, {
+    "name" : "10",
+    "value" : 1
+  } ],
+  "average" : 1.01,
+  "nonZeroRatio" : 60.09
 }

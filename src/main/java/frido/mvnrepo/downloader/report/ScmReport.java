@@ -1,7 +1,6 @@
 package frido.mvnrepo.downloader.report;
 
 import frido.mvnrepo.downloader.stats.KeyValue;
-import frido.mvnrepo.downloader.stats.KeyValueParent;
 import frido.mvnrepo.downloader.stats.KeyValueParentList;
 
 import java.util.List;
@@ -41,7 +40,7 @@ public class ScmReport {
     }
 
 
-    public List<KeyValueParent> getData() {
-        return output.toList();
+    public KeyValueParentList getData() {
+        return output;
     }
 }

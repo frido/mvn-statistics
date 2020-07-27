@@ -6,13 +6,13 @@ public class KeyValueParent implements Comparable<KeyValueParent>{
     private final int limit;
     private String name;
     private int value;
-    private KeyValueList childs;
+    private KeyValueMap childs;
 
     public KeyValueParent(String name, int limit) {
         this.name = name;
         this.value = 0;
         this.limit = limit;
-        this.childs = new KeyValueList(limit);
+        this.childs = new KeyValueMap(limit);
     }
 
     public void add(String artifactId, int diff) {

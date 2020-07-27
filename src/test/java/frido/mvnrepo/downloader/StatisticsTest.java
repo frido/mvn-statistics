@@ -2,6 +2,7 @@ package frido.mvnrepo.downloader;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
+import frido.mvnrepo.downloader.report.CiManagementReport;
 import frido.mvnrepo.downloader.report.CountReport;
 import frido.mvnrepo.downloader.report.DeveloperReport;
 import frido.mvnrepo.downloader.report.ScmReport;
@@ -21,6 +22,8 @@ class StatisticsTest {
 
     private static StatisticsJson stats;
 
+    private static Long POM_SIZE = 229267l;
+
     @BeforeAll
     static void before() throws IOException {
         String inputString = Files.readString(Paths.get("statistics.json"));
@@ -32,7 +35,7 @@ class StatisticsTest {
     @Test
     void githubLinks() throws IOException {
         ScmReport report = new ScmReport(stats.getScm());
-        KeyValueParent github = report.getData().get(0);
+        KeyValueParent github = report.getData().getList().get(0);
         System.out.println(github.getName());
         System.out.println(github.getValue());
         System.out.println(github.getChilds().size());
@@ -50,6 +53,14 @@ class StatisticsTest {
     void getContributorsMode() throws IOException {
         CountReport report = new CountReport(stats.getContributorsCount());
         System.out.println(": " + report);
+    }
+
+    @Test
+    void getCount() throws IOException {
+        CiManagementReport report = new CiManagementReport(stats.getCiManagement());
+        long number = report.getData().getList().stream().mapToLong(KeyValueParent::getValue).sum();
+        System.out.println("number : " + number);
+        System.out.println("percent : " + (number / (POM_SIZE / 100)));
     }
 
 

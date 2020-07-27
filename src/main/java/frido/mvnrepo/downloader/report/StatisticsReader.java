@@ -2,6 +2,7 @@ package frido.mvnrepo.downloader.report;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
+import frido.mvnrepo.downloader.stats.KeyValueList;
 import frido.mvnrepo.downloader.stats.StatisticsJson;
 
 import java.io.IOException;
@@ -26,7 +27,7 @@ public class StatisticsReader {
         print("dependencyArtifact.json", report.dependencyArtifact());
         print("plugins.json", report.plugins());
         print("reportingPlugins.json", report.reportingPlugins());
-        print("inceptionYears.json", statisticsJson.getInceptionYears());
+        print("inceptionYears.json", new KeyValueList(statisticsJson.getInceptionYears()));
         print("licenses.json", report.getLicenses());
         print("developers.json", report.getDevelopers());
         print("issueManagement.json", report.getIssues());
@@ -38,7 +39,7 @@ public class StatisticsReader {
         print("developersCount.json", new CountReport(statisticsJson.getDevelopersCount()));
         print("contributorsCount.json", new CountReport(statisticsJson.getContributorsCount()));
         print("profilesCount.json", new CountReport(statisticsJson.getProfilesCount()));
-        print("profiles.json", statisticsJson.getProfiles());
+        print("profiles.json", new KeyValueList(statisticsJson.getProfiles()));
 
     }
 

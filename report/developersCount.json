@@ -4,8 +4,6 @@
   "size" : 229267,
   "nonZeros" : 132835,
   "sum" : 218645,
-  "average" : 1.65,
-  "nonZeroRatio" : 57.94,
   "mode" : [ {
     "name" : "1",
     "value" : 107002
@@ -36,5 +34,91 @@
   }, {
     "name" : "13",
     "value" : 475
-  } ]
+  }, {
+    "name" : "15",
+    "value" : 338
+  }, {
+    "name" : "14",
+    "value" : 326
+  }, {
+    "name" : "8",
+    "value" : 322
+  }, {
+    "name" : "9",
+    "value" : 276
+  }, {
+    "name" : "11",
+    "value" : 218
+  }, {
+    "name" : "19",
+    "value" : 201
+  }, {
+    "name" : "21",
+    "value" : 118
+  }, {
+    "name" : "12",
+    "value" : 103
+  }, {
+    "name" : "16",
+    "value" : 94
+  }, {
+    "name" : "18",
+    "value" : 72
+  }, {
+    "name" : "23",
+    "value" : 36
+  }, {
+    "name" : "17",
+    "value" : 19
+  }, {
+    "name" : "31",
+    "value" : 17
+  }, {
+    "name" : "22",
+    "value" : 16
+  }, {
+    "name" : "20",
+    "value" : 15
+  }, {
+    "name" : "24",
+    "value" : 9
+  }, {
+    "name" : "45",
+    "value" : 2
+  }, {
+    "name" : "27",
+    "value" : 2
+  }, {
+    "name" : "32",
+    "value" : 2
+  }, {
+    "name" : "127",
+    "value" : 2
+  }, {
+    "name" : "25",
+    "value" : 1
+  }, {
+    "name" : "28",
+    "value" : 1
+  }, {
+    "name" : "33",
+    "value" : 1
+  }, {
+    "name" : "56",
+    "value" : 1
+  }, {
+    "name" : "35",
+    "value" : 1
+  }, {
+    "name" : "38",
+    "value" : 1
+  }, {
+    "name" : "60",
+    "value" : 1
+  }, {
+    "name" : "41",
+    "value" : 1
+  } ],
+  "average" : 1.65,
+  "nonZeroRatio" : 57.94
 }

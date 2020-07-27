@@ -2,14 +2,14 @@ package frido.mvnrepo.downloader.report;
 
 import frido.mvnrepo.downloader.core.Artifact;
 import frido.mvnrepo.downloader.stats.KeyValue;
-import frido.mvnrepo.downloader.stats.KeyValueList;
+import frido.mvnrepo.downloader.stats.KeyValueMap;
 
 import java.util.List;
 
 public class PluginsReport {
 
     List<KeyValue> data;
-    private KeyValueList output = new KeyValueList();
+    private KeyValueMap output = new KeyValueMap();
 
     public PluginsReport(List<KeyValue> plugins) {
         data = plugins;

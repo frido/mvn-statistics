@@ -1,7 +1,7 @@
 package frido.mvnrepo.downloader.report;
 
 import frido.mvnrepo.downloader.stats.KeyValue;
-import frido.mvnrepo.downloader.stats.KeyValueList;
+import frido.mvnrepo.downloader.stats.KeyValueMap;
 import frido.mvnrepo.downloader.stats.ValueList;
 
 import java.math.BigDecimal;
@@ -36,7 +36,7 @@ public class CountReport {
     }
 
     public List<KeyValue> getMode() {
-        KeyValueList map = new KeyValueList();
+        KeyValueMap map = new KeyValueMap();
         data.getList().stream().map(String::valueOf).forEach(map::add);
         return map.toList();
     }

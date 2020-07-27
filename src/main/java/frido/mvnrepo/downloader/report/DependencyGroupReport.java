@@ -26,7 +26,7 @@ public class DependencyGroupReport {
     }
 
     public List<KeyValueParent> getData() {
-        return output.toList();
+        return output.getList();
     }
 
 }

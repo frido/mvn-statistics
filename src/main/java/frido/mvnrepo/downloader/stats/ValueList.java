@@ -2,6 +2,7 @@ package frido.mvnrepo.downloader.stats;
 
 import java.util.LinkedList;
 
+// TODO: ako to ten JSON sem nastavi ked chybaju settre
 public class ValueList {
     private LinkedList<Long> list = new LinkedList<>();
     private long max = 0;

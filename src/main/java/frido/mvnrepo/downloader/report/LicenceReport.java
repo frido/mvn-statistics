@@ -66,6 +66,6 @@ public class LicenceReport {
 
 
     public List<KeyValueParent> getData() {
-        return output.toList();
+        return output.getList();
     }
 }

@@ -4,8 +4,6 @@
   "size" : 5147,
   "nonZeros" : 4986,
   "sum" : 14936,
-  "average" : 3.00,
-  "nonZeroRatio" : 96.87,
   "mode" : [ {
     "name" : "1",
     "value" : 2058
@@ -36,5 +34,31 @@
   }, {
     "name" : "10",
     "value" : 77
-  } ]
+  }, {
+    "name" : "9",
+    "value" : 75
+  }, {
+    "name" : "11",
+    "value" : 34
+  }, {
+    "name" : "13",
+    "value" : 21
+  }, {
+    "name" : "12",
+    "value" : 19
+  }, {
+    "name" : "14",
+    "value" : 9
+  }, {
+    "name" : "15",
+    "value" : 5
+  }, {
+    "name" : "16",
+    "value" : 1
+  }, {
+    "name" : "17",
+    "value" : 1
+  } ],
+  "average" : 3.00,
+  "nonZeroRatio" : 96.87
 }

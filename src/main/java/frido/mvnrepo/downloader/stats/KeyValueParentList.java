@@ -27,12 +27,16 @@ public class KeyValueParentList {
         }
     }
 
-    public List<KeyValueParent> toList() {
+    public List<KeyValueParent> getList() {
         List<KeyValueParent> out = map.values().stream().sorted().limit(limit).collect(Collectors.toList());
         KeyValueParent otherKeyValue = new KeyValueParent("other", limit);
         map.values().stream().sorted().skip(limit).forEach(x -> otherKeyValue.add(x.getName(), x.getValue()));
         out.add(otherKeyValue);
         return out;
+    }
+
+    public long getSum() {
+        return map.values().stream().mapToLong(KeyValueParent::getValue).sum();
     }
 
 }

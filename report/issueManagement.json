@@ -1,694 +1,685 @@
 {
-  "data" : [
-    {
-    "name" : "github",
-    "value" : 13966,
-    "childs" : [ {
+  "data" : {
+    "list" : [ {
       "name" : "github",
-      "value" : 8884
+      "value" : 13966,
+      "childs" : [ {
+        "name" : "github",
+        "value" : 8884
+      }, {
+        "name" : "github issues",
+        "value" : 4114
+      }, {
+        "name" : "github issue",
+        "value" : 461
+      }, {
+        "name" : "github issue tracker",
+        "value" : 175
+      }, {
+        "name" : "github issue management",
+        "value" : 146
+      }, {
+        "name" : "github.com",
+        "value" : 91
+      }, {
+        "name" : "github issue tracking",
+        "value" : 36
+      }, {
+        "name" : "github tracker",
+        "value" : 10
+      }, {
+        "name" : "github-issue",
+        "value" : 6
+      }, {
+        "name" : "https://github.com",
+        "value" : 6
+      }, {
+        "name" : "github-issues",
+        "value" : 5
+      }, {
+        "name" : "github issues 2.0",
+        "value" : 4
+      }, {
+        "name" : "issuetracking@github",
+        "value" : 3
+      }, {
+        "name" : "issues @ github",
+        "value" : 3
+      }, {
+        "name" : "github-repo issues",
+        "value" : 2
+      }, {
+        "name" : "ahab github",
+        "value" : 2
+      }, {
+        "name" : "https://github.com/",
+        "value" : 2
+      }, {
+        "name" : "github tickets",
+        "value" : 1
+      }, {
+        "name" : "github issue tracker of dyna4jdbc project",
+        "value" : 1
+      }, {
+        "name" : "sheath github issues",
+        "value" : 1
+      }, {
+        "name" : "github issue list",
+        "value" : 1
+      }, {
+        "name" : "adpuserinfo library github issues",
+        "value" : 1
+      }, {
+        "name" : "github social coding",
+        "value" : 1
+      }, {
+        "name" : "github issue tracker of relay-jdbc project",
+        "value" : 1
+      }, {
+        "name" : "swagger java comet client github",
+        "value" : 1
+      }, {
+        "name" : "adpconnection library github issues",
+        "value" : 1
+      }, {
+        "name" : "github issues!",
+        "value" : 1
+      }, {
+        "name" : "github issues manager",
+        "value" : 1
+      }, {
+        "name" : "github issue system",
+        "value" : 1
+      }, {
+        "name" : "github ticketing system",
+        "value" : 1
+      }, {
+        "name" : "http://www.github.com/secdec/astam-correlator/issues",
+        "value" : 1
+      }, {
+        "name" : "github code issues",
+        "value" : 1
+      }, {
+        "name" : "github@git issue",
+        "value" : 1
+      } ]
     }, {
-      "name" : "github issues",
-      "value" : 4114
-    }, {
-      "name" : "github issue",
-      "value" : 461
-    }, {
-      "name" : "github issue tracker",
-      "value" : 175
-    }, {
-      "name" : "github issue management",
-      "value" : 146
-    }, {
-      "name" : "github.com",
-      "value" : 91
-    }, {
-      "name" : "github issue tracking",
-      "value" : 36
-    }, {
-      "name" : "github tracker",
-      "value" : 10
-    }, {
-      "name" : "github-issue",
-      "value" : 6
-    }, {
-      "name" : "https://github.com",
-      "value" : 6
-    }, {
-      "name" : "github-issues",
-      "value" : 5
-    }, {
-      "name" : "github issues 2.0",
-      "value" : 4
-    }, {
-      "name" : "issuetracking@github",
-      "value" : 3
-    }, {
-      "name" : "issues @ github",
-      "value" : 3
-    }, {
-      "name" : "github-repo issues",
-      "value" : 2
-    }, {
-      "name" : "ahab github",
-      "value" : 2
-    }, {
-      "name" : "https://github.com/",
-      "value" : 2
-    }, {
-      "name" : "github tickets",
-      "value" : 1
-    }, {
-      "name" : "github issue tracker of dyna4jdbc project",
-      "value" : 1
-    }, {
-      "name" : "sheath github issues",
-      "value" : 1
-    }, {
-      "name" : "github issue list",
-      "value" : 1
-    }, {
-      "name" : "adpuserinfo library github issues",
-      "value" : 1
-    }, {
-      "name" : "github social coding",
-      "value" : 1
-    }, {
-      "name" : "github issue tracker of relay-jdbc project",
-      "value" : 1
-    }, {
-      "name" : "swagger java comet client github",
-      "value" : 1
-    }, {
-      "name" : "adpconnection library github issues",
-      "value" : 1
-    }, {
-      "name" : "github issues!",
-      "value" : 1
-    }, {
-      "name" : "github issues manager",
-      "value" : 1
-    }, {
-      "name" : "github issue system",
-      "value" : 1
-    }, {
-      "name" : "github ticketing system",
-      "value" : 1
-    }, {
-      "name" : "http://www.github.com/secdec/astam-correlator/issues",
-      "value" : 1
-    }, {
-      "name" : "github code issues",
-      "value" : 1
-    }, {
-      "name" : "github@git issue",
-      "value" : 1
-    } ]
-  },
-    {
-    "name" : "jira",
-    "value" : 1449,
-    "childs" : [ {
       "name" : "jira",
-      "value" : 1402
-    }, {
-      "name" : "couchbase jira",
-      "value" : 7
-    }, {
-      "name" : "atlassian jira",
-      "value" : 7
-    }, {
-      "name" : "jira tracker",
-      "value" : 6
-    }, {
-      "name" : "goal jira",
-      "value" : 6
-    }, {
-      "name" : "jira-tracker",
-      "value" : 3
-    }, {
-      "name" : "rbac accelerator jira",
-      "value" : 3
-    }, {
-      "name" : "ow2 jira",
-      "value" : 2
-    }, {
-      "name" : "fortress core jira",
-      "value" : 2
-    }, {
-      "name" : "commander web admin jira",
-      "value" : 2
-    }, {
-      "name" : "openntf jira",
-      "value" : 2
-    }, {
-      "name" : "enmasse jira",
-      "value" : 2
-    }, {
-      "name" : "terracotta's jira",
-      "value" : 2
-    }, {
-      "name" : "openpcf jira",
-      "value" : 1
-    }, {
-      "name" : "kylo jira at atlassian.net",
-      "value" : 1
-    }, {
-      "name" : "jirastudio",
-      "value" : 1
-    } ]
-  },
-    {
-    "name" : "other",
-    "value" : 292,
-    "childs" : [ {
-      "name" : "githhub",
-      "value" : 58
-    }, {
-      "name" : "git",
-      "value" : 14
-    }, {
-      "name" : "issues",
-      "value" : 13
-    }, {
-      "name" : "osc issue",
-      "value" : 11
-    }, {
-      "name" : "fossil",
-      "value" : 11
-    }, {
-      "name" : "${issuesystem}",
-      "value" : 11
-    }, {
-      "name" : "tickets",
-      "value" : 10
-    }, {
-      "name" : "the bug genie",
-      "value" : 10
-    }, {
-      "name" : "opencredo cloud storage",
-      "value" : 9
-    }, {
-      "name" : "mantis",
-      "value" : 8
-    }, {
-      "name" : "gforge",
-      "value" : 8
-    }, {
-      "name" : "",
-      "value" : 7
-    }, {
-      "name" : "java.net",
-      "value" : 7
-    }, {
-      "name" : "papoose-r4",
-      "value" : 6
-    }, {
-      "name" : "launchpad",
-      "value" : 6
-    }, {
-      "name" : "phabricator",
-      "value" : 6
-    }, {
-      "name" : "coding.net",
-      "value" : 5
-    }, {
-      "name" : "git@osc issue",
-      "value" : 4
-    }, {
-      "name" : "issue",
-      "value" : 4
-    }, {
-      "name" : "osc git",
-      "value" : 4
-    }, {
-      "name" : "project issues",
-      "value" : 4
-    }, {
-      "name" : "oschina issue",
-      "value" : 4
-    }, {
-      "name" : "issuezilla",
-      "value" : 4
-    }, {
-      "name" : "git hub",
-      "value" : 4
-    }, {
-      "name" : "saxon community",
-      "value" : 3
-    }, {
-      "name" : "git issue",
-      "value" : 3
-    }, {
-      "name" : "assembla",
-      "value" : 3
-    }, {
-      "name" : "guthub",
-      "value" : 2
-    }, {
-      "name" : "mantisbt",
-      "value" : 2
-    }, {
-      "name" : "osqa",
-      "value" : 2
-    }, {
-      "name" : "git@osc",
-      "value" : 2
-    }, {
-      "name" : "coding topic",
-      "value" : 2
-    }, {
-      "name" : "sf",
-      "value" : 2
-    }, {
-      "name" : "chiliproject",
-      "value" : 2
-    }, {
-      "name" : "sf.net",
-      "value" : 2
-    }, {
-      "name" : "source forge",
-      "value" : 2
-    }, {
-      "name" : "collabnet",
-      "value" : 2
-    }, {
-      "name" : "trello",
-      "value" : 1
-    }, {
-      "name" : "opencredo couchdb",
-      "value" : 1
-    }, {
-      "name" : "${issue-system}",
-      "value" : 1
-    }, {
-      "name" : "none",
-      "value" : 1
-    }, {
-      "name" : "codex",
-      "value" : 1
-    }, {
-      "name" : "githb",
-      "value" : 1
-    }, {
-      "name" : "features",
-      "value" : 1
-    }, {
-      "name" : "toolazydogs",
-      "value" : 1
-    }, {
-      "name" : "assembla tickets",
-      "value" : 1
-    }, {
-      "name" : "hackerone",
-      "value" : 1
-    }, {
-      "name" : "soureforge",
-      "value" : 1
-    }, {
-      "name" : "faststub-issues",
-      "value" : 1
-    }, {
-      "name" : "personal website",
-      "value" : 1
-    }, {
-      "name" : "osc git issue",
-      "value" : 1
-    }, {
-      "name" : "opencredo esper",
-      "value" : 1
-    }, {
-      "name" : "curity help desk",
-      "value" : 1
-    }, {
-      "name" : "githhub issues",
-      "value" : 1
-    }, {
-      "name" : "uid-generator-spring-boot-starter-issues",
-      "value" : 1
-    }, {
-      "name" : "rest-crypto-spring-boot-starter-issues",
-      "value" : 1
-    }, {
-      "name" : "forge",
-      "value" : 1
-    }, {
-      "name" : "coding issue",
-      "value" : 1
-    }, {
-      "name" : "openjra",
-      "value" : 1
-    }, {
-      "name" : "luan",
-      "value" : 1
-    }, {
-      "name" : "mybatis generalmapper issue",
-      "value" : 1
-    }, {
-      "name" : "logelastic issues",
-      "value" : 1
-    }, {
-      "name" : "${issue-management-system-name}",
-      "value" : 1
-    }, {
-      "name" : "grandparent pom",
-      "value" : 1
-    }, {
-      "name" : "${project.name} forums",
-      "value" : 1
-    }, {
-      "name" : "default",
-      "value" : 1
-    }, {
-      "name" : "${c8tech.im.system}",
-      "value" : 1
-    }, {
-      "name" : "generalmapper issue",
-      "value" : 1
-    }, {
-      "name" : "easycode issue",
-      "value" : 1
-    }, {
-      "name" : "${this.issuemanagement.system}",
-      "value" : 1
-    }, {
-      "name" : "avs java client issues",
-      "value" : 1
-    }, {
-      "name" : "codeberg issues",
-      "value" : 1
-    } ]
-  },
-    {
-    "name" : "google",
-    "value" : 225,
-    "childs" : [ {
-      "name" : "google code",
-      "value" : 120
-    }, {
-      "name" : "code.google.com",
-      "value" : 32
-    }, {
-      "name" : "google code issue tracking",
-      "value" : 14
+      "value" : 1449,
+      "childs" : [ {
+        "name" : "jira",
+        "value" : 1402
+      }, {
+        "name" : "couchbase jira",
+        "value" : 7
+      }, {
+        "name" : "atlassian jira",
+        "value" : 7
+      }, {
+        "name" : "jira tracker",
+        "value" : 6
+      }, {
+        "name" : "goal jira",
+        "value" : 6
+      }, {
+        "name" : "jira-tracker",
+        "value" : 3
+      }, {
+        "name" : "rbac accelerator jira",
+        "value" : 3
+      }, {
+        "name" : "ow2 jira",
+        "value" : 2
+      }, {
+        "name" : "fortress core jira",
+        "value" : 2
+      }, {
+        "name" : "commander web admin jira",
+        "value" : 2
+      }, {
+        "name" : "openntf jira",
+        "value" : 2
+      }, {
+        "name" : "enmasse jira",
+        "value" : 2
+      }, {
+        "name" : "terracotta's jira",
+        "value" : 2
+      }, {
+        "name" : "openpcf jira",
+        "value" : 1
+      }, {
+        "name" : "kylo jira at atlassian.net",
+        "value" : 1
+      }, {
+        "name" : "jirastudio",
+        "value" : 1
+      } ]
+    }, {
+      "name" : "other",
+      "value" : 292,
+      "childs" : [ {
+        "name" : "githhub",
+        "value" : 58
+      }, {
+        "name" : "git",
+        "value" : 14
+      }, {
+        "name" : "issues",
+        "value" : 13
+      }, {
+        "name" : "osc issue",
+        "value" : 11
+      }, {
+        "name" : "fossil",
+        "value" : 11
+      }, {
+        "name" : "${issuesystem}",
+        "value" : 11
+      }, {
+        "name" : "tickets",
+        "value" : 10
+      }, {
+        "name" : "the bug genie",
+        "value" : 10
+      }, {
+        "name" : "opencredo cloud storage",
+        "value" : 9
+      }, {
+        "name" : "mantis",
+        "value" : 8
+      }, {
+        "name" : "gforge",
+        "value" : 8
+      }, {
+        "name" : "",
+        "value" : 7
+      }, {
+        "name" : "java.net",
+        "value" : 7
+      }, {
+        "name" : "papoose-r4",
+        "value" : 6
+      }, {
+        "name" : "launchpad",
+        "value" : 6
+      }, {
+        "name" : "phabricator",
+        "value" : 6
+      }, {
+        "name" : "coding.net",
+        "value" : 5
+      }, {
+        "name" : "git@osc issue",
+        "value" : 4
+      }, {
+        "name" : "issue",
+        "value" : 4
+      }, {
+        "name" : "osc git",
+        "value" : 4
+      }, {
+        "name" : "project issues",
+        "value" : 4
+      }, {
+        "name" : "oschina issue",
+        "value" : 4
+      }, {
+        "name" : "issuezilla",
+        "value" : 4
+      }, {
+        "name" : "git hub",
+        "value" : 4
+      }, {
+        "name" : "saxon community",
+        "value" : 3
+      }, {
+        "name" : "git issue",
+        "value" : 3
+      }, {
+        "name" : "assembla",
+        "value" : 3
+      }, {
+        "name" : "guthub",
+        "value" : 2
+      }, {
+        "name" : "mantisbt",
+        "value" : 2
+      }, {
+        "name" : "osqa",
+        "value" : 2
+      }, {
+        "name" : "git@osc",
+        "value" : 2
+      }, {
+        "name" : "coding topic",
+        "value" : 2
+      }, {
+        "name" : "sf",
+        "value" : 2
+      }, {
+        "name" : "chiliproject",
+        "value" : 2
+      }, {
+        "name" : "sf.net",
+        "value" : 2
+      }, {
+        "name" : "source forge",
+        "value" : 2
+      }, {
+        "name" : "collabnet",
+        "value" : 2
+      }, {
+        "name" : "trello",
+        "value" : 1
+      }, {
+        "name" : "opencredo couchdb",
+        "value" : 1
+      }, {
+        "name" : "${issue-system}",
+        "value" : 1
+      }, {
+        "name" : "none",
+        "value" : 1
+      }, {
+        "name" : "codex",
+        "value" : 1
+      }, {
+        "name" : "githb",
+        "value" : 1
+      }, {
+        "name" : "features",
+        "value" : 1
+      }, {
+        "name" : "toolazydogs",
+        "value" : 1
+      }, {
+        "name" : "assembla tickets",
+        "value" : 1
+      }, {
+        "name" : "hackerone",
+        "value" : 1
+      }, {
+        "name" : "soureforge",
+        "value" : 1
+      }, {
+        "name" : "faststub-issues",
+        "value" : 1
+      }, {
+        "name" : "personal website",
+        "value" : 1
+      }, {
+        "name" : "osc git issue",
+        "value" : 1
+      }, {
+        "name" : "opencredo esper",
+        "value" : 1
+      }, {
+        "name" : "curity help desk",
+        "value" : 1
+      }, {
+        "name" : "githhub issues",
+        "value" : 1
+      }, {
+        "name" : "uid-generator-spring-boot-starter-issues",
+        "value" : 1
+      }, {
+        "name" : "rest-crypto-spring-boot-starter-issues",
+        "value" : 1
+      }, {
+        "name" : "forge",
+        "value" : 1
+      }, {
+        "name" : "coding issue",
+        "value" : 1
+      }, {
+        "name" : "openjra",
+        "value" : 1
+      }, {
+        "name" : "luan",
+        "value" : 1
+      }, {
+        "name" : "mybatis generalmapper issue",
+        "value" : 1
+      }, {
+        "name" : "logelastic issues",
+        "value" : 1
+      }, {
+        "name" : "${issue-management-system-name}",
+        "value" : 1
+      }, {
+        "name" : "grandparent pom",
+        "value" : 1
+      }, {
+        "name" : "${project.name} forums",
+        "value" : 1
+      }, {
+        "name" : "default",
+        "value" : 1
+      }, {
+        "name" : "${c8tech.im.system}",
+        "value" : 1
+      }, {
+        "name" : "generalmapper issue",
+        "value" : 1
+      }, {
+        "name" : "easycode issue",
+        "value" : 1
+      }, {
+        "name" : "${this.issuemanagement.system}",
+        "value" : 1
+      }, {
+        "name" : "avs java client issues",
+        "value" : 1
+      }, {
+        "name" : "codeberg issues",
+        "value" : 1
+      } ]
     }, {
       "name" : "google",
-      "value" : 11
+      "value" : 225,
+      "childs" : [ {
+        "name" : "google code",
+        "value" : 120
+      }, {
+        "name" : "code.google.com",
+        "value" : 32
+      }, {
+        "name" : "google code issue tracking",
+        "value" : 14
+      }, {
+        "name" : "google",
+        "value" : 11
+      }, {
+        "name" : "googlecode",
+        "value" : 10
+      }, {
+        "name" : "google code issue tracker",
+        "value" : 7
+      }, {
+        "name" : "google-code issue management",
+        "value" : 5
+      }, {
+        "name" : "google groups",
+        "value" : 4
+      }, {
+        "name" : "google code issues",
+        "value" : 4
+      }, {
+        "name" : "google-code",
+        "value" : 3
+      }, {
+        "name" : "google code issue",
+        "value" : 3
+      }, {
+        "name" : "google code - issue tracking",
+        "value" : 2
+      }, {
+        "name" : "google issues",
+        "value" : 2
+      }, {
+        "name" : "project hosting at google code",
+        "value" : 2
+      }, {
+        "name" : "google code hosting",
+        "value" : 1
+      }, {
+        "name" : "googlecode issue tracker",
+        "value" : 1
+      }, {
+        "name" : "google code issuetracker",
+        "value" : 1
+      }, {
+        "name" : "google issue tracking",
+        "value" : 1
+      }, {
+        "name" : "mxupdate issues on google code",
+        "value" : 1
+      }, {
+        "name" : "code.google",
+        "value" : 1
+      } ]
     }, {
-      "name" : "googlecode",
-      "value" : 10
-    }, {
-      "name" : "google code issue tracker",
-      "value" : 7
-    }, {
-      "name" : "google-code issue management",
-      "value" : 5
-    }, {
-      "name" : "google groups",
-      "value" : 4
-    }, {
-      "name" : "google code issues",
-      "value" : 4
-    }, {
-      "name" : "google-code",
-      "value" : 3
-    }, {
-      "name" : "google code issue",
-      "value" : 3
-    }, {
-      "name" : "google code - issue tracking",
-      "value" : 2
-    }, {
-      "name" : "google issues",
-      "value" : 2
-    }, {
-      "name" : "project hosting at google code",
-      "value" : 2
-    }, {
-      "name" : "google code hosting",
-      "value" : 1
-    }, {
-      "name" : "googlecode issue tracker",
-      "value" : 1
-    }, {
-      "name" : "google code issuetracker",
-      "value" : 1
-    }, {
-      "name" : "google issue tracking",
-      "value" : 1
-    }, {
-      "name" : "mxupdate issues on google code",
-      "value" : 1
-    }, {
-      "name" : "code.google",
-      "value" : 1
-    } ]
-  },
-    {
-    "name" : "sourceforge",
-    "value" : 205,
-    "childs" : [ {
       "name" : "sourceforge",
-      "value" : 121
+      "value" : 205,
+      "childs" : [ {
+        "name" : "sourceforge",
+        "value" : 121
+      }, {
+        "name" : "sourceforge tracker",
+        "value" : 23
+      }, {
+        "name" : "sourceforge2",
+        "value" : 14
+      }, {
+        "name" : "sourceforge.net",
+        "value" : 7
+      }, {
+        "name" : "sourceforge tickets",
+        "value" : 7
+      }, {
+        "name" : "sourceforge.net tracker",
+        "value" : 5
+      }, {
+        "name" : "sourceforge.net tickets",
+        "value" : 4
+      }, {
+        "name" : "sourceforge bug tracker",
+        "value" : 4
+      }, {
+        "name" : "http://sourceforge.net/",
+        "value" : 3
+      }, {
+        "name" : "sourceforge issue-tracker",
+        "value" : 3
+      }, {
+        "name" : "sourceforge bugtracking",
+        "value" : 2
+      }, {
+        "name" : "sourceforge issue tracker",
+        "value" : 2
+      }, {
+        "name" : "sourceforge.net bugtracker",
+        "value" : 2
+      }, {
+        "name" : "sourceforge bug tracking system",
+        "value" : 2
+      }, {
+        "name" : "sourceforge.net - tracker",
+        "value" : 2
+      }, {
+        "name" : "sourceforge trac",
+        "value" : 1
+      }, {
+        "name" : "sourceforge tracking system",
+        "value" : 1
+      }, {
+        "name" : "sourceforge \"tickets tools\"",
+        "value" : 1
+      }, {
+        "name" : "tracker sourceforge",
+        "value" : 1
+      } ]
     }, {
-      "name" : "sourceforge tracker",
-      "value" : 23
-    }, {
-      "name" : "sourceforge2",
-      "value" : 14
-    }, {
-      "name" : "sourceforge.net",
-      "value" : 7
-    }, {
-      "name" : "sourceforge tickets",
-      "value" : 7
-    }, {
-      "name" : "sourceforge.net tracker",
-      "value" : 5
-    }, {
-      "name" : "sourceforge.net tickets",
-      "value" : 4
-    }, {
-      "name" : "sourceforge bug tracker",
-      "value" : 4
-    }, {
-      "name" : "http://sourceforge.net/",
-      "value" : 3
-    }, {
-      "name" : "sourceforge issue-tracker",
-      "value" : 3
-    }, {
-      "name" : "sourceforge bugtracking",
-      "value" : 2
-    }, {
-      "name" : "sourceforge issue tracker",
-      "value" : 2
-    }, {
-      "name" : "sourceforge.net bugtracker",
-      "value" : 2
-    }, {
-      "name" : "sourceforge bug tracking system",
-      "value" : 2
-    }, {
-      "name" : "sourceforge.net - tracker",
-      "value" : 2
-    }, {
-      "name" : "sourceforge trac",
-      "value" : 1
-    }, {
-      "name" : "sourceforge tracking system",
-      "value" : 1
-    }, {
-      "name" : "sourceforge \"tickets tools\"",
-      "value" : 1
-    }, {
-      "name" : "tracker sourceforge",
-      "value" : 1
-    } ]
-  },
-    {
-    "name" : "bitbucket",
-    "value" : 204,
-    "childs" : [ {
       "name" : "bitbucket",
-      "value" : 188
+      "value" : 204,
+      "childs" : [ {
+        "name" : "bitbucket",
+        "value" : 188
+      }, {
+        "name" : "bitbucket issues",
+        "value" : 6
+      }, {
+        "name" : "bitbucket issue",
+        "value" : 5
+      }, {
+        "name" : "bitbucket repo issue tracker",
+        "value" : 2
+      }, {
+        "name" : "bitbucket integrated issue tracker",
+        "value" : 1
+      }, {
+        "name" : "bitbucket issue tracker",
+        "value" : 1
+      }, {
+        "name" : "bitbucket issues management",
+        "value" : 1
+      } ]
     }, {
-      "name" : "bitbucket issues",
-      "value" : 6
-    }, {
-      "name" : "bitbucket issue",
-      "value" : 5
-    }, {
-      "name" : "bitbucket repo issue tracker",
-      "value" : 2
-    }, {
-      "name" : "bitbucket integrated issue tracker",
-      "value" : 1
-    }, {
-      "name" : "bitbucket issue tracker",
-      "value" : 1
-    }, {
-      "name" : "bitbucket issues management",
-      "value" : 1
-    } ]
-  },
-    {
-    "name" : "trac",
-    "value" : 200,
-    "childs" : [ {
       "name" : "trac",
-      "value" : 71
+      "value" : 200,
+      "childs" : [ {
+        "name" : "trac",
+        "value" : 71
+      }, {
+        "name" : "youtrack",
+        "value" : 47
+      }, {
+        "name" : "issue tracker",
+        "value" : 18
+      }, {
+        "name" : "issuetracker",
+        "value" : 12
+      }, {
+        "name" : "gerrit issue tracker",
+        "value" : 8
+      }, {
+        "name" : "libreoffice issue tracker",
+        "value" : 6
+      }, {
+        "name" : "support contract",
+        "value" : 5
+      }, {
+        "name" : "resthub issue tracker",
+        "value" : 4
+      }, {
+        "name" : "sf bug tracker",
+        "value" : 3
+      }, {
+        "name" : "tracker",
+        "value" : 3
+      }, {
+        "name" : "issue tracking",
+        "value" : 3
+      }, {
+        "name" : "dailymotion sdk java issue tracker",
+        "value" : 2
+      }, {
+        "name" : "track",
+        "value" : 2
+      }, {
+        "name" : "java.net spnego issue tracker",
+        "value" : 1
+      }, {
+        "name" : "shield cas realm issue tracker",
+        "value" : 1
+      }, {
+        "name" : "source forge tracker",
+        "value" : 1
+      }, {
+        "name" : "bug tracker at sf.net",
+        "value" : 1
+      }, {
+        "name" : "sf.net issue tracking system",
+        "value" : 1
+      }, {
+        "name" : "sf.net issue tracking",
+        "value" : 1
+      }, {
+        "name" : "spring postinitialize issue tracker",
+        "value" : 1
+      }, {
+        "name" : "javaforge bug tracker",
+        "value" : 1
+      }, {
+        "name" : "bugtracker",
+        "value" : 1
+      }, {
+        "name" : "jtrac issue tracker",
+        "value" : 1
+      }, {
+        "name" : "spring mvc router issue tracker",
+        "value" : 1
+      }, {
+        "name" : "java.net issue tracker",
+        "value" : 1
+      }, {
+        "name" : "tracking java client issues",
+        "value" : 1
+      }, {
+        "name" : "simple metric framework issue tracker",
+        "value" : 1
+      }, {
+        "name" : "pivotal tracker",
+        "value" : 1
+      }, {
+        "name" : "spring identity issue tracker",
+        "value" : 1
+      } ]
     }, {
-      "name" : "youtrack",
-      "value" : 47
-    }, {
-      "name" : "issue tracker",
-      "value" : 18
-    }, {
-      "name" : "issuetracker",
-      "value" : 12
-    }, {
-      "name" : "gerrit issue tracker",
-      "value" : 8
-    }, {
-      "name" : "libreoffice issue tracker",
-      "value" : 6
-    }, {
-      "name" : "support contract",
-      "value" : 5
-    }, {
-      "name" : "resthub issue tracker",
-      "value" : 4
-    }, {
-      "name" : "sf bug tracker",
-      "value" : 3
-    }, {
-      "name" : "tracker",
-      "value" : 3
-    }, {
-      "name" : "issue tracking",
-      "value" : 3
-    }, {
-      "name" : "dailymotion sdk java issue tracker",
-      "value" : 2
-    }, {
-      "name" : "track",
-      "value" : 2
-    }, {
-      "name" : "java.net spnego issue tracker",
-      "value" : 1
-    }, {
-      "name" : "shield cas realm issue tracker",
-      "value" : 1
-    }, {
-      "name" : "source forge tracker",
-      "value" : 1
-    }, {
-      "name" : "bug tracker at sf.net",
-      "value" : 1
-    }, {
-      "name" : "sf.net issue tracking system",
-      "value" : 1
-    }, {
-      "name" : "sf.net issue tracking",
-      "value" : 1
-    }, {
-      "name" : "spring postinitialize issue tracker",
-      "value" : 1
-    }, {
-      "name" : "javaforge bug tracker",
-      "value" : 1
-    }, {
-      "name" : "bugtracker",
-      "value" : 1
-    }, {
-      "name" : "jtrac issue tracker",
-      "value" : 1
-    }, {
-      "name" : "spring mvc router issue tracker",
-      "value" : 1
-    }, {
-      "name" : "java.net issue tracker",
-      "value" : 1
-    }, {
-      "name" : "tracking java client issues",
-      "value" : 1
-    }, {
-      "name" : "simple metric framework issue tracker",
-      "value" : 1
-    }, {
-      "name" : "pivotal tracker",
-      "value" : 1
-    }, {
-      "name" : "spring identity issue tracker",
-      "value" : 1
-    } ]
-  },
-    {
-    "name" : "redmine",
-    "value" : 143,
-    "childs" : [ {
       "name" : "redmine",
-      "value" : 143
-    } ]
-  },
-    {
-    "name" : "gitlab",
-    "value" : 128,
-    "childs" : [ {
+      "value" : 143,
+      "childs" : [ {
+        "name" : "redmine",
+        "value" : 143
+      } ]
+    }, {
       "name" : "gitlab",
-      "value" : 107
+      "value" : 128,
+      "childs" : [ {
+        "name" : "gitlab",
+        "value" : 107
+      }, {
+        "name" : "gitlab issues",
+        "value" : 18
+      }, {
+        "name" : "gitlab.com",
+        "value" : 1
+      }, {
+        "name" : "gitlab issue manager",
+        "value" : 1
+      }, {
+        "name" : "gitlab-issues",
+        "value" : 1
+      } ]
     }, {
-      "name" : "gitlab issues",
-      "value" : 18
-    }, {
-      "name" : "gitlab.com",
-      "value" : 1
-    }, {
-      "name" : "gitlab issue manager",
-      "value" : 1
-    }, {
-      "name" : "gitlab-issues",
-      "value" : 1
-    } ]
-  },
-    {
-    "name" : "gitee",
-    "value" : 89,
-    "childs" : [ {
       "name" : "gitee",
-      "value" : 42
+      "value" : 89,
+      "childs" : [ {
+        "name" : "gitee",
+        "value" : 42
+      }, {
+        "name" : "gitee issue",
+        "value" : 33
+      }, {
+        "name" : "gitee issues",
+        "value" : 10
+      }, {
+        "name" : "git@gitee issue management",
+        "value" : 4
+      } ]
     }, {
-      "name" : "gitee issue",
-      "value" : 33
-    }, {
-      "name" : "gitee issues",
-      "value" : 10
-    }, {
-      "name" : "git@gitee issue management",
-      "value" : 4
-    } ]
-  },
-    {
-    "name" : "bugzilla",
-    "value" : 76,
-    "childs" : [ {
       "name" : "bugzilla",
-      "value" : 76
-    } ]
-  },
-    {
-    "name" : "gitea",
-    "value" : 18,
-    "childs" : [ {
-      "name" : "gitea issues",
-      "value" : 14
+      "value" : 76,
+      "childs" : [ {
+        "name" : "bugzilla",
+        "value" : 76
+      } ]
     }, {
       "name" : "gitea",
-      "value" : 4
-    } ]
-  }, {
-    "name" : "other",
-    "value" : 0,
-    "childs" : [ ]
-  } ]
+      "value" : 18,
+      "childs" : [ {
+        "name" : "gitea issues",
+        "value" : 14
+      }, {
+        "name" : "gitea",
+        "value" : 4
+      } ]
+    }, {
+      "name" : "other",
+      "value" : 0,
+      "childs" : [ ]
+    } ],
+    "sum" : 16995
+  }
 }

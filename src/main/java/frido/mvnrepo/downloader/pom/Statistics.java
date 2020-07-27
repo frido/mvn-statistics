@@ -4,29 +4,29 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import frido.mvnrepo.downloader.stats.ValueList;
-import frido.mvnrepo.downloader.stats.KeyValueList;
+import frido.mvnrepo.downloader.stats.KeyValueMap;
 import frido.mvnrepo.downloader.stats.StatisticsJson;
 
 public class Statistics {
 
-    private KeyValueList ciManagement = new KeyValueList();
-    private KeyValueList dependencies = new KeyValueList();
+    private KeyValueMap ciManagement = new KeyValueMap();
+    private KeyValueMap dependencies = new KeyValueMap();
     private ValueList dependenciesCount = new ValueList();
-    private KeyValueList plugins = new KeyValueList();
+    private KeyValueMap plugins = new KeyValueMap();
     private ValueList pluginsCount = new ValueList();
-    private KeyValueList reportingPlugins = new KeyValueList();
+    private KeyValueMap reportingPlugins = new KeyValueMap();
     private ValueList reportingPluginsCount = new ValueList();
-    private KeyValueList inceptionYears = new KeyValueList();
+    private KeyValueMap inceptionYears = new KeyValueMap();
     private ValueList licensesCount = new ValueList();
-    private KeyValueList licenses = new KeyValueList();
+    private KeyValueMap licenses = new KeyValueMap();
     private ValueList developersCount = new ValueList();
-    private KeyValueList developers = new KeyValueList();
+    private KeyValueMap developers = new KeyValueMap();
     private ValueList contributorsCount = new ValueList();
-    private KeyValueList contributors = new KeyValueList();
-    private KeyValueList issueManagement = new KeyValueList();
-    private KeyValueList scm = new KeyValueList();
+    private KeyValueMap contributors = new KeyValueMap();
+    private KeyValueMap issueManagement = new KeyValueMap();
+    private KeyValueMap scm = new KeyValueMap();
     private ValueList profilesCount = new ValueList();
-    private KeyValueList profiles = new KeyValueList();
+    private KeyValueMap profiles = new KeyValueMap();
 
 
     public void addCiManagement(String system) {
