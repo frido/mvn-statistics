@@ -7,7 +7,7 @@ import frido.mvnrepo.downloader.report.CountReport;
 import frido.mvnrepo.downloader.report.DeveloperReport;
 import frido.mvnrepo.downloader.report.ScmReport;
 import frido.mvnrepo.downloader.stats.KeyValue;
-import frido.mvnrepo.downloader.stats.KeyValueParent;
+import frido.mvnrepo.downloader.stats.KeyValueGroup;
 import frido.mvnrepo.downloader.stats.StatisticsJson;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -35,7 +35,7 @@ class StatisticsTest {
     @Test
     void githubLinks() throws IOException {
         ScmReport report = new ScmReport(stats.getScm());
-        KeyValueParent github = report.getData().getList().get(0);
+        KeyValueGroup github = report.getData().getList().get(0);
         System.out.println(github.getName());
         System.out.println(github.getValue());
         System.out.println(github.getChilds().size());
@@ -58,7 +58,7 @@ class StatisticsTest {
     @Test
     void getCount() throws IOException {
         CiManagementReport report = new CiManagementReport(stats.getCiManagement());
-        long number = report.getData().getList().stream().mapToLong(KeyValueParent::getValue).sum();
+        long number = report.getData().getList().stream().mapToLong(KeyValueGroup::getValue).sum();
         System.out.println("number : " + number);
         System.out.println("percent : " + (number / (POM_SIZE / 100)));
     }

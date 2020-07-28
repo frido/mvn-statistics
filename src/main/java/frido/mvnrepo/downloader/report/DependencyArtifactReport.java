@@ -2,15 +2,15 @@ package frido.mvnrepo.downloader.report;
 
 import frido.mvnrepo.downloader.core.Artifact;
 import frido.mvnrepo.downloader.stats.KeyValue;
-import frido.mvnrepo.downloader.stats.KeyValueParent;
-import frido.mvnrepo.downloader.stats.KeyValueParentList;
+import frido.mvnrepo.downloader.stats.KeyValueGroup;
+import frido.mvnrepo.downloader.stats.KeyValueGroupList;
 
 import java.util.List;
 
 public class DependencyArtifactReport {
 
     List<KeyValue> data;
-    private KeyValueParentList output = new KeyValueParentList();
+    private KeyValueGroupList output = new KeyValueGroupList();
 
     public DependencyArtifactReport(List<KeyValue> dependencies) {
         data = dependencies;
@@ -24,7 +24,7 @@ public class DependencyArtifactReport {
         }
     }
 
-    public List<KeyValueParent> getData() {
+    public List<KeyValueGroup> getData() {
         return output.getList();
     }
 }

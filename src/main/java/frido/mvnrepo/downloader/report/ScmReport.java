@@ -1,14 +1,14 @@
 package frido.mvnrepo.downloader.report;
 
 import frido.mvnrepo.downloader.stats.KeyValue;
-import frido.mvnrepo.downloader.stats.KeyValueParentList;
+import frido.mvnrepo.downloader.stats.KeyValueGroupList;
 
 import java.util.List;
 
 public class ScmReport {
 
     List<KeyValue> data;
-    private KeyValueParentList output = new KeyValueParentList(Integer.MAX_VALUE);
+    private KeyValueGroupList output = new KeyValueGroupList(Integer.MAX_VALUE);
 
     public ScmReport(List<KeyValue> ciManagement) {
         this.data = ciManagement;
@@ -40,7 +40,7 @@ public class ScmReport {
     }
 
 
-    public KeyValueParentList getData() {
+    public KeyValueGroupList getData() {
         return output;
     }
 }

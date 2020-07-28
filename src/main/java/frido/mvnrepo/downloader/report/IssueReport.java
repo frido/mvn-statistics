@@ -1,14 +1,14 @@
 package frido.mvnrepo.downloader.report;
 
 import frido.mvnrepo.downloader.stats.KeyValue;
-import frido.mvnrepo.downloader.stats.KeyValueParentList;
+import frido.mvnrepo.downloader.stats.KeyValueGroupList;
 
 import java.util.List;
 
 public class IssueReport {
 
     List<KeyValue> data;
-    private KeyValueParentList output = new KeyValueParentList();
+    private KeyValueGroupList output = new KeyValueGroupList();
 
     public IssueReport(List<KeyValue> ciManagement) {
         this.data = ciManagement;
@@ -61,7 +61,7 @@ public class IssueReport {
     }
 
 
-    public KeyValueParentList getData() {
+    public KeyValueGroupList getData() {
         return output;
     }
 }

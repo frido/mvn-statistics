@@ -2,13 +2,13 @@ package frido.mvnrepo.downloader.stats;
 
 import java.util.List;
 
-public class KeyValueParent implements Comparable<KeyValueParent>{
+public class KeyValueGroup implements Comparable<KeyValueGroup>{
     private final int limit;
     private String name;
     private int value;
     private KeyValueMap childs;
 
-    public KeyValueParent(String name, int limit) {
+    public KeyValueGroup(String name, int limit) {
         this.name = name;
         this.value = 0;
         this.limit = limit;
@@ -21,7 +21,7 @@ public class KeyValueParent implements Comparable<KeyValueParent>{
     }
 
     @Override
-    public int compareTo(KeyValueParent o) {
+    public int compareTo(KeyValueGroup o) {
         return o.getValue() - this.value;
     }
 

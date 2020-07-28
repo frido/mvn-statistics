@@ -2,19 +2,19 @@ package frido.mvnrepo.downloader.report;
 
 import frido.mvnrepo.downloader.core.Artifact;
 import frido.mvnrepo.downloader.stats.KeyValue;
-import frido.mvnrepo.downloader.stats.KeyValueParent;
-import frido.mvnrepo.downloader.stats.KeyValueParentList;
+import frido.mvnrepo.downloader.stats.KeyValueGroup;
+import frido.mvnrepo.downloader.stats.KeyValueGroupList;
 
 import java.util.List;
 
 public class DependencyGroupReport {
 
     List<KeyValue> data;
-    private KeyValueParentList output;
+    private KeyValueGroupList output;
 
     public DependencyGroupReport(List<KeyValue> dependencies, int limit) {
         data = dependencies;
-        output = new KeyValueParentList(limit); // TODO: set parameter to limit child list
+        output = new KeyValueGroupList(limit); // TODO: set parameter to limit child list
         process();
     }
 
@@ -25,7 +25,7 @@ public class DependencyGroupReport {
         }
     }
 
-    public List<KeyValueParent> getData() {
+    public List<KeyValueGroup> getData() {
         return output.getList();
     }
 
