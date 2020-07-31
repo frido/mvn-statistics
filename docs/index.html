@@ -1,4 +1,38 @@
-<h2>Intro</h2>
+<!doctype html>
+<html lang="sk">
+
+    <head>
+        <title>The State of Maven ecosystem</title>
+        <meta charset="utf-8">
+        <meta name="Description" content="Petržalka, investičný plán, projekty, rozpočet, štúdie, zámery">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="language" content="sk">
+        <meta name="robots" content="index,follow"/>
+        <meta name="googlebot" content="index,follow"/>
+        <meta name="keywords" content="Petržalka, investičný plán, projekty, rozpočet, štúdie, zámery"/>
+
+        <meta property="og:url" content=""/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="Projekty v Petržalke"/>
+        <meta property="og:description" content="Petržalka, investičný plán, projekty, rozpočet, štúdie, zámery"/>
+        <meta property="og:image" content="Petržalka, investičný plán, projekty, rozpočet, štúdie, zámery"/>
+        <meta property="fb:app_id" content="294839814987467"/>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="container">
+
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-4">The State of Maven ecosystem</h1>
+                    <p class="lead">Analysis of 229 267 pom.xml files from Maven central repository</p>
+                </div>
+            </div>
+
+            <h2>Intro</h2>
 <p>I analyzed <strong>229 267</strong> <code>pom.xml</code> files.</p>
 <p>POM files are from last version of each maven project in repository (<code>https://repo1.maven.org/maven2/</code>).</p>
 <h2>POM elements</h2>
@@ -6,7 +40,7 @@
 The most used element is <code>&lt;dependencies&gt;</code>, that is listed in 83.33% of all poms.</p>
 <p><img src="./charts/pom.png" alt="pom"></p>
 <h2>Dependencies</h2>
-<table>
+<table class="table">
 <thead>
 <tr>
 <th>Element</th>
@@ -29,7 +63,7 @@ The most used element is <code>&lt;dependencies&gt;</code>, that is listed in 83
 <h4>Grouped by ArtifactId</h4>
 <p><img src="./charts/dependencyArtifact.png" alt="dependencyArtifact"></p>
 <h2>Licence</h2>
-<table>
+<table class="table">
 <thead>
 <tr>
 <th>Element</th>
@@ -49,7 +83,7 @@ The most used element is <code>&lt;dependencies&gt;</code>, that is listed in 83
 </table>
 <p><img src="./charts/licenses.png" alt="licenses"></p>
 <p><em>Legend:</em></p>
-<table>
+<table class="table">
 <thead>
 <tr>
 <th>short name</th>
@@ -104,7 +138,7 @@ The most used element is <code>&lt;dependencies&gt;</code>, that is listed in 83
 </tbody>
 </table>
 <h2>SCM</h2>
-<table>
+<table class="table">
 <thead>
 <tr>
 <th>Element</th>
@@ -121,7 +155,7 @@ The most used element is <code>&lt;dependencies&gt;</code>, that is listed in 83
 <p><img src="./charts/scm.png" alt="scm"></p>
 <h2>People</h2>
 <h4>Developers</h4>
-<table>
+<table class="table">
 <thead>
 <tr>
 <th>Element</th>
@@ -141,7 +175,7 @@ The most used element is <code>&lt;dependencies&gt;</code>, that is listed in 83
 </table>
 <p><strong>80.55%</strong> <code>pom.xml</code> files are with one developer.</p>
 <h4>Contributors</h4>
-<table>
+<table class="table">
 <thead>
 <tr>
 <th>Element</th>
@@ -164,7 +198,7 @@ The most used element is <code>&lt;dependencies&gt;</code>, that is listed in 83
 <p><strong>28751</strong> unique email addresses</p>
 <h2>Plugins</h2>
 <h4>Build plugins</h4>
-<table>
+<table class="table">
 <thead>
 <tr>
 <th>Element</th>
@@ -184,7 +218,7 @@ The most used element is <code>&lt;dependencies&gt;</code>, that is listed in 83
 </table>
 <p><img src="./charts/plugins.png" alt="plugins"></p>
 <h4>Reporting plugins</h4>
-<table>
+<table class="table">
 <thead>
 <tr>
 <th>Element</th>
@@ -204,7 +238,7 @@ The most used element is <code>&lt;dependencies&gt;</code>, that is listed in 83
 </table>
 <p><img src="./charts/reportingPlugins.png" alt="reportingPlugins"></p>
 <h2>Profiles</h2>
-<table>
+<table class="table">
 <thead>
 <tr>
 <th>Element</th>
@@ -224,7 +258,7 @@ The most used element is <code>&lt;dependencies&gt;</code>, that is listed in 83
 </table>
 <p><img src="./charts/profiles.png" alt="profiles"></p>
 <h2>Inception years</h2>
-<table>
+<table class="table">
 <thead>
 <tr>
 <th>Element</th>
@@ -240,7 +274,7 @@ The most used element is <code>&lt;dependencies&gt;</code>, that is listed in 83
 </table>
 <p><img src="./charts/inceptionYears.png" alt="inceptionYears"></p>
 <h2>Issue management</h2>
-<table>
+<table class="table">
 <thead>
 <tr>
 <th>Element</th>
@@ -256,7 +290,7 @@ The most used element is <code>&lt;dependencies&gt;</code>, that is listed in 83
 </table>
 <p><img src="./charts/issueManagement.png" alt="issueManagement"></p>
 <h2>CI Management</h2>
-<table>
+<table class="table">
 <thead>
 <tr>
 <th>Element</th>
@@ -271,3 +305,8 @@ The most used element is <code>&lt;dependencies&gt;</code>, that is listed in 83
 </tbody>
 </table>
 <p><img src="./charts/ciManagement.png" alt="ciManagement"></p>
+
+        </div>
+
+    </body>
+</html>

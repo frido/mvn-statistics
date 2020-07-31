@@ -10,6 +10,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "markdown-it": "^11.0.0"
+    "@types/markdown-it": "^10.0.1",
+    "@types/mustache": "^4.0.1",
+    "markdown-it": "^11.0.0",
+    "mustache": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.26"
   }
 }

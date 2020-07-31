@@ -1,0 +1,4 @@
+###
+GET https://api.github.com/repos/exoego/aws-sdk-scalajs-facade
+Authorization: token ed13ee8fc89d12d3dfa8f074586fd3938d82c71c
+

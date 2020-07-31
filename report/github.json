@@ -1,0 +1,13 @@
+{
+"data" : [
+GithubRepoJson{fullName='liferay/liferay-portal'}
+GithubRepoJson{fullName='exoego/aws-sdk-scalajs-facade'}
+GithubRepoJson{fullName='akka/akka'}
+GithubRepoJson{fullName='scalaz/scalaz'}
+GithubRepoJson{fullName='OpenLiberty/open-liberty'}
+GithubRepoJson{fullName='eclipse/upm'}
+GithubRepoJson{fullName='scala-js/scala-js'}
+GithubRepoJson{fullName='null'}
+GithubRepoJson{fullName='apereo/cas'}
+GithubRepoJson{fullName='karma4u101/FoBo'}
+]}
