@@ -10,11 +10,10 @@ import java.util.List;
 public class DependencyGroupReport {
 
     List<KeyValue> data;
-    private KeyValueGroupList output;
+    private KeyValueGroupList output = new KeyValueGroupList();
 
     public DependencyGroupReport(List<KeyValue> dependencies) {
         data = dependencies;
-        output = new KeyValueGroupList();
         process();
     }
 

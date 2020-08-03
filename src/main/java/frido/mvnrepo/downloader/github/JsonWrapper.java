@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 
 // TODO: move to ObjectWriter
+// delete
 public class JsonWrapper {
 
     private Object data;

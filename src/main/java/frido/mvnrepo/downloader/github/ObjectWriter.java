@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 // TODO: extends Writer
+// Create better writer like Object/List Writer
 public class ObjectWriter implements AutoCloseable {
 
     private final PrintWriter printWriter;

@@ -20,7 +20,7 @@ public class DependencyArtifactReport {
     private void process() {
         for (KeyValue item : data) {
             Artifact artifact = new Artifact(item.getName());
-            output.add(artifact.getGroup(), artifact.getArtifact(), item.getValue());
+            output.add(artifact.getGroupAndArtifact(), artifact.getVersion(), item.getValue());
         }
     }
 

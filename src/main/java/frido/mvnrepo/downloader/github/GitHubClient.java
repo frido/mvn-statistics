@@ -2,6 +2,7 @@ package frido.mvnrepo.downloader.github;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import frido.mvnrepo.downloader.core.json.GithubRepoJson;
 
 import java.io.IOException;
 import java.net.URI;
@@ -24,15 +25,6 @@ public class GitHubClient {
     }
 
     public Optional<GithubRepoJson> repo(String fullName) {
-//        // TODO: maybe java httpClient works too
-//        try (CloseableHttpClient httpclient = HttpClients.createDefault()) {
-//            var response = Request.Get("https://api.github.com/repos/" + fullName).addHeader("Authorization", token).execute().returnContent();
-//            return toJson(response.asString());
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//            return new GithubRepoJson();
-//        }
-
         try {
             HttpRequest request = HttpRequest.newBuilder(new URI("https://api.github.com/repos/" + fullName)).header("Authorization", token).timeout(Duration.of(10, ChronoUnit.SECONDS)).build();
             var response = client.send(request, HttpResponse.BodyHandlers.ofString());

@@ -1,5 +1,5 @@
 {
-  "list" : [ {
+  "data" : [ {
     "name" : "release",
     "value" : 11866
   }, {
@@ -23432,6 +23432,5 @@
   }, {
     "name" : "platform-macosx",
     "value" : 1
-  } ],
-  "sum" : 49285
+  } ]
 }

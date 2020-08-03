@@ -1,100 +1,102 @@
 {
-  "max" : 29,
-  "maxName" : "https://repo1.maven.org/maven2/de/shadowhunt/subversion/4.0.0/subversion-4.0.0.pom",
-  "size" : 229267,
-  "nonZeros" : 77950,
-  "sum" : 254427,
-  "mode" : [ {
-    "name" : "0",
-    "value" : 151317
-  }, {
-    "name" : "1",
-    "value" : 24078
-  }, {
-    "name" : "2",
-    "value" : 14658
-  }, {
-    "name" : "3",
-    "value" : 10182
-  }, {
-    "name" : "4",
-    "value" : 8627
-  }, {
-    "name" : "5",
-    "value" : 7251
-  }, {
-    "name" : "6",
-    "value" : 5105
-  }, {
-    "name" : "7",
-    "value" : 3191
-  }, {
-    "name" : "8",
-    "value" : 1895
-  }, {
-    "name" : "9",
-    "value" : 1099
-  }, {
-    "name" : "10",
-    "value" : 704
-  }, {
-    "name" : "11",
-    "value" : 458
-  }, {
-    "name" : "12",
-    "value" : 300
-  }, {
-    "name" : "13",
-    "value" : 151
-  }, {
-    "name" : "14",
-    "value" : 76
-  }, {
-    "name" : "15",
-    "value" : 54
-  }, {
-    "name" : "16",
-    "value" : 37
-  }, {
-    "name" : "17",
-    "value" : 30
-  }, {
-    "name" : "18",
-    "value" : 20
-  }, {
-    "name" : "19",
-    "value" : 10
-  }, {
-    "name" : "21",
-    "value" : 9
-  }, {
-    "name" : "20",
-    "value" : 5
-  }, {
-    "name" : "23",
-    "value" : 3
-  }, {
-    "name" : "22",
-    "value" : 1
-  }, {
-    "name" : "24",
-    "value" : 1
-  }, {
-    "name" : "25",
-    "value" : 1
-  }, {
-    "name" : "26",
-    "value" : 1
-  }, {
-    "name" : "27",
-    "value" : 1
-  }, {
-    "name" : "28",
-    "value" : 1
-  }, {
-    "name" : "29",
-    "value" : 1
-  } ],
-  "average" : 3.26,
-  "nonZeroRatio" : 34.00
+  "data" : {
+    "max" : 29,
+    "maxName" : "https://repo1.maven.org/maven2/de/shadowhunt/subversion/4.0.0/subversion-4.0.0.pom",
+    "size" : 229267,
+    "nonZeros" : 77950,
+    "sum" : 254427,
+    "nonZeroRatio" : 34.00,
+    "average" : 3.26,
+    "mode" : [ {
+      "name" : "0",
+      "value" : 151317
+    }, {
+      "name" : "1",
+      "value" : 24078
+    }, {
+      "name" : "2",
+      "value" : 14658
+    }, {
+      "name" : "3",
+      "value" : 10182
+    }, {
+      "name" : "4",
+      "value" : 8627
+    }, {
+      "name" : "5",
+      "value" : 7251
+    }, {
+      "name" : "6",
+      "value" : 5105
+    }, {
+      "name" : "7",
+      "value" : 3191
+    }, {
+      "name" : "8",
+      "value" : 1895
+    }, {
+      "name" : "9",
+      "value" : 1099
+    }, {
+      "name" : "10",
+      "value" : 704
+    }, {
+      "name" : "11",
+      "value" : 458
+    }, {
+      "name" : "12",
+      "value" : 300
+    }, {
+      "name" : "13",
+      "value" : 151
+    }, {
+      "name" : "14",
+      "value" : 76
+    }, {
+      "name" : "15",
+      "value" : 54
+    }, {
+      "name" : "16",
+      "value" : 37
+    }, {
+      "name" : "17",
+      "value" : 30
+    }, {
+      "name" : "18",
+      "value" : 20
+    }, {
+      "name" : "19",
+      "value" : 10
+    }, {
+      "name" : "21",
+      "value" : 9
+    }, {
+      "name" : "20",
+      "value" : 5
+    }, {
+      "name" : "23",
+      "value" : 3
+    }, {
+      "name" : "22",
+      "value" : 1
+    }, {
+      "name" : "24",
+      "value" : 1
+    }, {
+      "name" : "25",
+      "value" : 1
+    }, {
+      "name" : "26",
+      "value" : 1
+    }, {
+      "name" : "27",
+      "value" : 1
+    }, {
+      "name" : "28",
+      "value" : 1
+    }, {
+      "name" : "29",
+      "value" : 1
+    } ]
+  }
 }

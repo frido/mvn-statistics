@@ -7,11 +7,16 @@ import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
+// TODO: move list files to data folder
 public class JsonWriter {
     private final Path file;
 
     public JsonWriter(String fileName) {
         file = Paths.get(fileName);
+    }
+
+    public JsonWriter(String reportFolder, String fileName) {
+        file = Paths.get(reportFolder, fileName);
     }
 
     public void write(Object toJson) {

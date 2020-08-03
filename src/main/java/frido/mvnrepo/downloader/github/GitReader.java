@@ -2,10 +2,8 @@ package frido.mvnrepo.downloader.github;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
-import frido.mvnrepo.downloader.core.json.KeyValueGroupJson;
-import frido.mvnrepo.downloader.core.json.KeyValueGroupListJson;
+import frido.mvnrepo.downloader.core.json.*;
 import frido.mvnrepo.downloader.core.stats.KeyValue;
-import frido.mvnrepo.downloader.core.json.StatisticsJson;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -49,12 +47,14 @@ public class GitReader {
         return Collections.EMPTY_LIST;
     }
 
+    // TODO: Object Writer
     private void print(String fileName, Object object) throws IOException {
         ObjectMapper mapper = new ObjectMapper();
         mapper.enable(SerializationFeature.INDENT_OUTPUT);
         mapper.writeValue(Paths.get(fileName).toFile(), object);
     }
 
+    // TODO: Object Reader
     private StatisticsJson readFile() throws IOException {
         String inputString = Files.readString(Paths.get("statistics.json"));
         ObjectMapper mapper = new ObjectMapper();

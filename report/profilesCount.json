@@ -1,118 +1,120 @@
 {
-  "max" : 55,
-  "maxName" : "https://repo1.maven.org/maven2/cn/home1/maven-build/3.3.0/maven-build-3.3.0.pom",
-  "size" : 229267,
-  "nonZeros" : 30123,
-  "sum" : 49285,
-  "mode" : [ {
-    "name" : "0",
-    "value" : 199144
-  }, {
-    "name" : "1",
-    "value" : 21129
-  }, {
-    "name" : "2",
-    "value" : 5185
-  }, {
-    "name" : "3",
-    "value" : 1843
-  }, {
-    "name" : "4",
-    "value" : 780
-  }, {
-    "name" : "5",
-    "value" : 411
-  }, {
-    "name" : "6",
-    "value" : 231
-  }, {
-    "name" : "7",
-    "value" : 165
-  }, {
-    "name" : "8",
-    "value" : 79
-  }, {
-    "name" : "9",
-    "value" : 75
-  }, {
-    "name" : "10",
-    "value" : 59
-  }, {
-    "name" : "11",
-    "value" : 42
-  }, {
-    "name" : "12",
-    "value" : 28
-  }, {
-    "name" : "13",
-    "value" : 18
-  }, {
-    "name" : "14",
-    "value" : 17
-  }, {
-    "name" : "17",
-    "value" : 9
-  }, {
-    "name" : "16",
-    "value" : 8
-  }, {
-    "name" : "15",
-    "value" : 6
-  }, {
-    "name" : "20",
-    "value" : 6
-  }, {
-    "name" : "19",
-    "value" : 5
-  }, {
-    "name" : "22",
-    "value" : 3
-  }, {
-    "name" : "24",
-    "value" : 3
-  }, {
-    "name" : "27",
-    "value" : 3
-  }, {
-    "name" : "23",
-    "value" : 2
-  }, {
-    "name" : "32",
-    "value" : 2
-  }, {
-    "name" : "34",
-    "value" : 2
-  }, {
-    "name" : "38",
-    "value" : 2
-  }, {
-    "name" : "21",
-    "value" : 2
-  }, {
-    "name" : "48",
-    "value" : 1
-  }, {
-    "name" : "26",
-    "value" : 1
-  }, {
-    "name" : "28",
-    "value" : 1
-  }, {
-    "name" : "30",
-    "value" : 1
-  }, {
-    "name" : "55",
-    "value" : 1
-  }, {
-    "name" : "33",
-    "value" : 1
-  }, {
-    "name" : "35",
-    "value" : 1
-  }, {
-    "name" : "18",
-    "value" : 1
-  } ],
-  "average" : 1.64,
-  "nonZeroRatio" : 13.14
+  "data" : {
+    "max" : 55,
+    "maxName" : "https://repo1.maven.org/maven2/cn/home1/maven-build/3.3.0/maven-build-3.3.0.pom",
+    "size" : 229267,
+    "nonZeros" : 30123,
+    "sum" : 49285,
+    "nonZeroRatio" : 13.14,
+    "average" : 1.64,
+    "mode" : [ {
+      "name" : "0",
+      "value" : 199144
+    }, {
+      "name" : "1",
+      "value" : 21129
+    }, {
+      "name" : "2",
+      "value" : 5185
+    }, {
+      "name" : "3",
+      "value" : 1843
+    }, {
+      "name" : "4",
+      "value" : 780
+    }, {
+      "name" : "5",
+      "value" : 411
+    }, {
+      "name" : "6",
+      "value" : 231
+    }, {
+      "name" : "7",
+      "value" : 165
+    }, {
+      "name" : "8",
+      "value" : 79
+    }, {
+      "name" : "9",
+      "value" : 75
+    }, {
+      "name" : "10",
+      "value" : 59
+    }, {
+      "name" : "11",
+      "value" : 42
+    }, {
+      "name" : "12",
+      "value" : 28
+    }, {
+      "name" : "13",
+      "value" : 18
+    }, {
+      "name" : "14",
+      "value" : 17
+    }, {
+      "name" : "17",
+      "value" : 9
+    }, {
+      "name" : "16",
+      "value" : 8
+    }, {
+      "name" : "15",
+      "value" : 6
+    }, {
+      "name" : "20",
+      "value" : 6
+    }, {
+      "name" : "19",
+      "value" : 5
+    }, {
+      "name" : "22",
+      "value" : 3
+    }, {
+      "name" : "24",
+      "value" : 3
+    }, {
+      "name" : "27",
+      "value" : 3
+    }, {
+      "name" : "23",
+      "value" : 2
+    }, {
+      "name" : "32",
+      "value" : 2
+    }, {
+      "name" : "34",
+      "value" : 2
+    }, {
+      "name" : "38",
+      "value" : 2
+    }, {
+      "name" : "21",
+      "value" : 2
+    }, {
+      "name" : "48",
+      "value" : 1
+    }, {
+      "name" : "26",
+      "value" : 1
+    }, {
+      "name" : "28",
+      "value" : 1
+    }, {
+      "name" : "30",
+      "value" : 1
+    }, {
+      "name" : "55",
+      "value" : 1
+    }, {
+      "name" : "33",
+      "value" : 1
+    }, {
+      "name" : "35",
+      "value" : 1
+    }, {
+      "name" : "18",
+      "value" : 1
+    } ]
+  }
 }

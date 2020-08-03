@@ -1,6 +1,6 @@
 package frido.mvnrepo.downloader.report;
 
-import frido.mvnrepo.downloader.github.GithubRepoJson;
+import frido.mvnrepo.downloader.core.json.GithubRepoJson;
 
 import java.util.List;
 
