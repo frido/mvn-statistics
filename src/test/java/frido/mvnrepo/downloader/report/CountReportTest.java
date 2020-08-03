@@ -1,9 +1,7 @@
 package frido.mvnrepo.downloader.report;
 
-import frido.mvnrepo.downloader.stats.ValueList;
+import frido.mvnrepo.downloader.core.stats.ValueList;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class CountReportTest {
 

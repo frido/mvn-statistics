@@ -1,10 +1,13 @@
 {
   "max" : 17,
   "maxName" : "https://repo1.maven.org/maven2/com/dattack/parent/2/parent-2.pom",
-  "size" : 5147,
+  "size" : 229267,
   "nonZeros" : 4986,
   "sum" : 14936,
   "mode" : [ {
+    "name" : "0",
+    "value" : 224281
+  }, {
     "name" : "1",
     "value" : 2058
   }, {
@@ -28,9 +31,6 @@
   }, {
     "name" : "8",
     "value" : 168
-  }, {
-    "name" : "0",
-    "value" : 161
   }, {
     "name" : "10",
     "value" : 77
@@ -60,5 +60,5 @@
     "value" : 1
   } ],
   "average" : 3.00,
-  "nonZeroRatio" : 96.87
+  "nonZeroRatio" : 2.17
 }

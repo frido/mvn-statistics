@@ -1,13 +1,12 @@
 package frido.mvnrepo.downloader.pom;
 
 import frido.mvnrepo.downloader.core.*;
+import frido.mvnrepo.downloader.core.io.JsonWriter;
+import frido.mvnrepo.downloader.core.io.ListReader;
 import org.apache.maven.model.Developer;
 import org.apache.maven.model.*;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class PomReader implements ResponseHandler, StopHandler {
@@ -26,17 +25,16 @@ public class PomReader implements ResponseHandler, StopHandler {
         this.statistics = new Statistics();
         downloader = new Downloader(10);
         downloader.registerStopHandler(this);
-        try (BufferedReader buffer = Files.newBufferedReader(Paths.get("pom.txt"))) {
-            buffer.lines().forEach(l -> downloader.download(new Link(l), this));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        downloader.registerResponseHandler(this);
+        new ListReader("pom.txt").lines()
+            .map(Link::new)
+            .forEach(downloader::download);
     }
 
     @Override
     public void handleResponse(ResponseBody response) {
         PomBody body = new PomBody(response);
-        body.getModel().ifPresent(m -> saveStatistics(m, body.getBase().getUrl()));
+        body.getModel().ifPresent(model -> saveStatistics(model, body.getBase().getUrl()));
     }
 
     private void saveStatistics(Model model, String url) {
@@ -102,7 +100,8 @@ public class PomReader implements ResponseHandler, StopHandler {
         // scm -> connection
         Scm scm = model.getScm();
         if (scm != null) {
-            statistics.addScm(scm.getConnection());
+            String payload = url + "@@@" + model.getGroupId() + ":" + model.getArtifactId();
+            statistics.addScm(scm.getConnection(), payload);
         }
 
         // profiles -> name (count)
@@ -118,11 +117,8 @@ public class PomReader implements ResponseHandler, StopHandler {
     @Override
     public void stop() {
         System.out.println("Donwloaded poms: " + counter.get());
-        try(var file = new FileLogger("statistics.json")) {
-            file.append(statistics.toJson());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        // TODO: add base directory
+        new JsonWriter("statistics.json").write(statistics.toJson());
         downloader.shutdown();
     }
 }

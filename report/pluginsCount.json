@@ -1,10 +1,13 @@
 {
   "max" : 29,
   "maxName" : "https://repo1.maven.org/maven2/de/shadowhunt/subversion/4.0.0/subversion-4.0.0.pom",
-  "size" : 84702,
+  "size" : 229267,
   "nonZeros" : 77950,
   "sum" : 254427,
   "mode" : [ {
+    "name" : "0",
+    "value" : 151317
+  }, {
     "name" : "1",
     "value" : 24078
   }, {
@@ -19,9 +22,6 @@
   }, {
     "name" : "5",
     "value" : 7251
-  }, {
-    "name" : "0",
-    "value" : 6752
   }, {
     "name" : "6",
     "value" : 5105
@@ -96,5 +96,5 @@
     "value" : 1
   } ],
   "average" : 3.26,
-  "nonZeroRatio" : 92.03
+  "nonZeroRatio" : 34.00
 }

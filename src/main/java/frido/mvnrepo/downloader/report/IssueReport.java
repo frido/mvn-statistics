@@ -1,7 +1,8 @@
 package frido.mvnrepo.downloader.report;
 
-import frido.mvnrepo.downloader.stats.KeyValue;
-import frido.mvnrepo.downloader.stats.KeyValueGroupList;
+import frido.mvnrepo.downloader.core.json.DataJson;
+import frido.mvnrepo.downloader.core.stats.KeyValue;
+import frido.mvnrepo.downloader.core.stats.KeyValueGroupList;
 
 import java.util.List;
 
@@ -61,7 +62,7 @@ public class IssueReport {
     }
 
 
-    public KeyValueGroupList getData() {
-        return output;
+    public DataJson report() {
+        return new DataJson(output.toJson(Integer.MAX_VALUE, Integer.MAX_VALUE));
     }
 }

@@ -9,6 +9,7 @@ public class Downloader {
     private ScheduledExecutorService schedule;
     private HttpClient client;
     private LinkedBlockingQueue<Runnable> queue;
+    private ResponseHandler responseHandler;
 
     public Downloader (int nThreads) {
         queue = new LinkedBlockingQueue<Runnable>();
@@ -17,8 +18,9 @@ public class Downloader {
         client = HttpClient.newBuilder().build();
     }
 
-    public void download(Link link, ResponseHandler handler) {
-        executor.execute(new DownloadTask(client, link, handler));
+    // TODO: set ResponseHandler the same as stopHandler
+    public void download(Link link) {
+        executor.execute(new DownloadTask(client, link, responseHandler));
     }
 
     public void shutdown() {
@@ -28,5 +30,9 @@ public class Downloader {
 
     public void registerStopHandler(StopHandler handler) {
         schedule.scheduleAtFixedRate(new ScheduleEnd(queue, handler), 0, 1, TimeUnit.SECONDS);
+    }
+
+    public void registerResponseHandler(ResponseHandler responseHandler) {
+        this.responseHandler = responseHandler;
     }
 }

@@ -1,12 +1,11 @@
 package frido.mvnrepo.downloader.pom;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
-import frido.mvnrepo.downloader.stats.ValueList;
-import frido.mvnrepo.downloader.stats.KeyValueMap;
-import frido.mvnrepo.downloader.stats.StatisticsJson;
+import frido.mvnrepo.downloader.core.json.StatisticsJson;
+import frido.mvnrepo.downloader.core.stats.KeyValueGroupList;
+import frido.mvnrepo.downloader.core.stats.KeyValueMap;
+import frido.mvnrepo.downloader.core.stats.ValueList;
 
+// TODO: Reuse JsonWrapper
 public class Statistics {
 
     private KeyValueMap ciManagement = new KeyValueMap();
@@ -24,7 +23,7 @@ public class Statistics {
     private ValueList contributorsCount = new ValueList();
     private KeyValueMap contributors = new KeyValueMap();
     private KeyValueMap issueManagement = new KeyValueMap();
-    private KeyValueMap scm = new KeyValueMap();
+    private KeyValueGroupList scm = new KeyValueGroupList();
     private ValueList profilesCount = new ValueList();
     private KeyValueMap profiles = new KeyValueMap();
 
@@ -89,8 +88,8 @@ public class Statistics {
         issueManagement.add(system);
     }
 
-    public void addScm(String connection) {
-        scm.add(connection);
+    public void addScm(String connection, String pomLink) {
+        scm.add(connection, pomLink, 1);
     }
 
     public void addProfilesCount(String url, long count) {
@@ -101,10 +100,7 @@ public class Statistics {
         profiles.add(profile);
     }
 
-    public String toJson() throws JsonProcessingException {
-        ObjectMapper mapper = new ObjectMapper();
-        mapper.enable(SerializationFeature.INDENT_OUTPUT);
-
+    public StatisticsJson toJson() {
         StatisticsJson json = new StatisticsJson();
         json.setCiManagement(ciManagement.toList());
         json.setContributors(contributors.toList());
@@ -123,8 +119,7 @@ public class Statistics {
         json.setProfilesCount(profilesCount);
         json.setReportingPlugins(reportingPlugins.toList());
         json.setReportingPluginsCount(reportingPluginsCount);
-        json.setScm(scm.toList());
-
-        return mapper.writeValueAsString(json);
+        json.setScm(scm.toJson(Integer.MAX_VALUE, Integer.MAX_VALUE));
+        return json;
     }
 }

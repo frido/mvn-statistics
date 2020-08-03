@@ -2,23 +2,20 @@ package frido.mvnrepo.downloader.github;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
-import frido.mvnrepo.downloader.report.ScmReport;
-import frido.mvnrepo.downloader.stats.KeyValue;
-import frido.mvnrepo.downloader.stats.KeyValueGroup;
-import frido.mvnrepo.downloader.stats.StatisticsJson;
+import frido.mvnrepo.downloader.core.json.KeyValueGroupJson;
+import frido.mvnrepo.downloader.core.json.KeyValueGroupListJson;
+import frido.mvnrepo.downloader.core.stats.KeyValue;
+import frido.mvnrepo.downloader.core.json.StatisticsJson;
 
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class GitReader {
-
-    FileWriter fileWriter;
-    PrintWriter printWriter;
 
     public static void main(String[] args) throws IOException {
         GitReader reportMain = new GitReader();
@@ -26,23 +23,25 @@ public class GitReader {
     }
 
     public void start() throws IOException {
-        fileWriter = new FileWriter("github.list");
-        printWriter = new PrintWriter(fileWriter);
-
+        List<GithubJson> output = new ArrayList<>();
         StatisticsJson statisticsJson = readFile();
-        ScmReport report = new ScmReport(statisticsJson.getScm());
-        createReportDir();
-        getGithub(report).stream()
-            .map(KeyValue::getName)
-            .map(GithubLink::new)
-            .filter(GithubLink::isValid)
-            .forEach(this::print);
-
-        printWriter.close();
+        for (KeyValueGroupJson gitRepo : statisticsJson.getScm().getList()) {
+            String gitLink = gitRepo.getName().toLowerCase();
+            if (gitLink.contains("github.com")) {
+                GithubLink githubLink = new GithubLink(gitLink);
+                if (githubLink.isValid()) {
+                    GithubJson githubJsonItem = new GithubJson();
+                    githubJsonItem.setFullName(githubLink.toString());
+                    githubJsonItem.setPoms(gitRepo.getChilds().stream().map(s -> new GithubPomJson(s)).collect(Collectors.toList()));
+                    output.add(githubJsonItem);
+                }
+            }
+        }
+        print("github.json", new JsonWrapper(output));
     }
 
-    private List<KeyValue> getGithub(ScmReport report) {
-        for (KeyValueGroup x : report.getData().getList()) {
+    private List<KeyValue> getGithub(KeyValueGroupListJson report) {
+        for (KeyValueGroupJson x : report.getList()) {
             if (x.getName().equals("github.com")) {
                 return x.getChilds();
             }
@@ -50,13 +49,10 @@ public class GitReader {
         return Collections.EMPTY_LIST;
     }
 
-    private void createReportDir() {
-        Paths.get("report").toFile().mkdir();
-    }
-
-    private void print(GithubLink value) {
-        printWriter.println(value);
-        printWriter.flush();
+    private void print(String fileName, Object object) throws IOException {
+        ObjectMapper mapper = new ObjectMapper();
+        mapper.enable(SerializationFeature.INDENT_OUTPUT);
+        mapper.writeValue(Paths.get(fileName).toFile(), object);
     }
 
     private StatisticsJson readFile() throws IOException {

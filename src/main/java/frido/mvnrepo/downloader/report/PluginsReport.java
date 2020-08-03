@@ -1,8 +1,9 @@
 package frido.mvnrepo.downloader.report;
 
 import frido.mvnrepo.downloader.core.Artifact;
-import frido.mvnrepo.downloader.stats.KeyValue;
-import frido.mvnrepo.downloader.stats.KeyValueMap;
+import frido.mvnrepo.downloader.core.json.DataJson;
+import frido.mvnrepo.downloader.core.stats.KeyValue;
+import frido.mvnrepo.downloader.core.stats.KeyValueMap;
 
 import java.util.List;
 
@@ -23,7 +24,7 @@ public class PluginsReport {
         }
     }
 
-    public List<KeyValue> getData() {
-        return output.toList();
+    public DataJson report() {
+        return new DataJson(output.toList());
     }
 }

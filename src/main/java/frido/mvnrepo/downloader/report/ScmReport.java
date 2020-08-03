@@ -1,23 +1,23 @@
 package frido.mvnrepo.downloader.report;
 
-import frido.mvnrepo.downloader.stats.KeyValue;
-import frido.mvnrepo.downloader.stats.KeyValueGroupList;
-
-import java.util.List;
+import frido.mvnrepo.downloader.core.json.DataJson;
+import frido.mvnrepo.downloader.core.json.KeyValueGroupJson;
+import frido.mvnrepo.downloader.core.json.KeyValueGroupListJson;
+import frido.mvnrepo.downloader.core.stats.KeyValueGroupList;
 
 public class ScmReport {
 
-    List<KeyValue> data;
-    private KeyValueGroupList output = new KeyValueGroupList(Integer.MAX_VALUE);
+    KeyValueGroupListJson data;
+    private KeyValueGroupList output = new KeyValueGroupList();
 
-    public ScmReport(List<KeyValue> ciManagement) {
-        this.data = ciManagement;
+    public ScmReport(KeyValueGroupListJson scm) {
+        this.data = scm;
         process();
     }
 
     private void process() {
-        for (KeyValue item : data) {
-            output.add(getGroupId(item.getName()), item.getName(), item.getValue());
+        for (KeyValueGroupJson item : data.getList()) {
+            output.add(getGroupId(item.getName()), item.getName(), item.getValue()); // TODO: int or long for all project
         }
     }
 
@@ -40,7 +40,7 @@ public class ScmReport {
     }
 
 
-    public KeyValueGroupList getData() {
-        return output;
+    public DataJson report() {
+        return new DataJson(output.toJson(Integer.MAX_VALUE, Integer.MAX_VALUE));
     }
 }

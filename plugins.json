@@ -1,0 +1,3984 @@
+{
+  "data" : [ {
+    "name" : "org.apache.maven.plugins:maven-compiler-plugin",
+    "value" : 33183
+  }, {
+    "name" : "org.apache.maven.plugins:maven-source-plugin",
+    "value" : 25624
+  }, {
+    "name" : "org.apache.maven.plugins:maven-javadoc-plugin",
+    "value" : 24368
+  }, {
+    "name" : "org.apache.maven.plugins:maven-gpg-plugin",
+    "value" : 15076
+  }, {
+    "name" : "org.apache.maven.plugins:maven-surefire-plugin",
+    "value" : 14321
+  }, {
+    "name" : "org.sonatype.plugins:nexus-staging-maven-plugin",
+    "value" : 14278
+  }, {
+    "name" : "org.apache.maven.plugins:maven-jar-plugin",
+    "value" : 13530
+  }, {
+    "name" : "org.apache.maven.plugins:maven-release-plugin",
+    "value" : 10325
+  }, {
+    "name" : "org.apache.felix:maven-bundle-plugin",
+    "value" : 8689
+  }, {
+    "name" : "org.apache.maven.plugins:maven-assembly-plugin",
+    "value" : 6601
+  }, {
+    "name" : "org.apache.maven.plugins:maven-resources-plugin",
+    "value" : 5164
+  }, {
+    "name" : "org.apache.maven.plugins:maven-dependency-plugin",
+    "value" : 4938
+  }, {
+    "name" : "org.jacoco:jacoco-maven-plugin",
+    "value" : 4674
+  }, {
+    "name" : "org.apache.maven.plugins:maven-deploy-plugin",
+    "value" : 4051
+  }, {
+    "name" : "org.codehaus.mojo:build-helper-maven-plugin",
+    "value" : 3939
+  }, {
+    "name" : "org.apache.maven.plugins:maven-shade-plugin",
+    "value" : 3466
+  }, {
+    "name" : "org.apache.maven.plugins:maven-enforcer-plugin",
+    "value" : 3303
+  }, {
+    "name" : "org.apache.maven.plugins:maven-checkstyle-plugin",
+    "value" : 2791
+  }, {
+    "name" : "org.apache.maven.plugins:maven-antrun-plugin",
+    "value" : 2542
+  }, {
+    "name" : "org.apache.maven.plugins:maven-site-plugin",
+    "value" : 2362
+  }, {
+    "name" : "org.apache.maven.plugins:maven-failsafe-plugin",
+    "value" : 2330
+  }, {
+    "name" : "org.apache.maven.plugins:maven-clean-plugin",
+    "value" : 1679
+  }, {
+    "name" : "com.mycila:license-maven-plugin",
+    "value" : 1657
+  }, {
+    "name" : "org.codehaus.mojo:exec-maven-plugin",
+    "value" : 1581
+  }, {
+    "name" : "org.apache.maven.plugins:maven-war-plugin",
+    "value" : 1498
+  }, {
+    "name" : "org.springframework.boot:spring-boot-maven-plugin",
+    "value" : 1400
+  }, {
+    "name" : "org.eluder.coveralls:coveralls-maven-plugin",
+    "value" : 1319
+  }, {
+    "name" : "org.apache.maven.plugins:maven-eclipse-plugin",
+    "value" : 1240
+  }, {
+    "name" : "org.codehaus.mojo:cobertura-maven-plugin",
+    "value" : 1227
+  }, {
+    "name" : "org.codehaus.mojo:versions-maven-plugin",
+    "value" : 1175
+  }, {
+    "name" : "net.alchim31.maven:scala-maven-plugin",
+    "value" : 1123
+  }, {
+    "name" : "org.wso2.maven:carbon-p2-plugin",
+    "value" : 1087
+  }, {
+    "name" : "org.apache.maven.plugins:maven-install-plugin",
+    "value" : 949
+  }, {
+    "name" : "org.codehaus.mojo:findbugs-maven-plugin",
+    "value" : 929
+  }, {
+    "name" : "org.codehaus.mojo:buildnumber-maven-plugin",
+    "value" : 878
+  }, {
+    "name" : "com.mycila.maven-license-plugin:maven-license-plugin",
+    "value" : 791
+  }, {
+    "name" : "org.jetbrains.kotlin:kotlin-maven-plugin",
+    "value" : 789
+  }, {
+    "name" : "org.codehaus.mojo:license-maven-plugin",
+    "value" : 749
+  }, {
+    "name" : "org.apache.felix:maven-scr-plugin",
+    "value" : 740
+  }, {
+    "name" : "org.scalatest:scalatest-maven-plugin",
+    "value" : 616
+  }, {
+    "name" : "org.apache.maven.plugins:maven-pmd-plugin",
+    "value" : 614
+  }, {
+    "name" : "org.apache.maven.plugins:maven-scm-plugin",
+    "value" : 584
+  }, {
+    "name" : "org.codehaus.mojo:animal-sniffer-maven-plugin",
+    "value" : 467
+  }, {
+    "name" : "com.github.spotbugs:spotbugs-maven-plugin",
+    "value" : 434
+  }, {
+    "name" : "org.codehaus.mojo:nbm-maven-plugin",
+    "value" : 433
+  }, {
+    "name" : "pl.project13.maven:git-commit-id-plugin",
+    "value" : 409
+  }, {
+    "name" : "org.scala-tools:maven-scala-plugin",
+    "value" : 405
+  }, {
+    "name" : "org.jvnet.jaxb2.maven2:maven-jaxb2-plugin",
+    "value" : 400
+  }, {
+    "name" : "com.github.github:site-maven-plugin",
+    "value" : 397
+  }, {
+    "name" : "org.apache.maven.plugins:maven-project-info-reports-plugin",
+    "value" : 359
+  }, {
+    "name" : "org.apache.rat:apache-rat-plugin",
+    "value" : 347
+  }, {
+    "name" : "org.jetbrains.dokka:dokka-maven-plugin",
+    "value" : 340
+  }, {
+    "name" : "com.jayway.maven.plugins.android.generation2:android-maven-plugin",
+    "value" : 323
+  }, {
+    "name" : "org.codehaus.mojo:clirr-maven-plugin",
+    "value" : 300
+  }, {
+    "name" : "org.eclipse.jetty:jetty-maven-plugin",
+    "value" : 275
+  }, {
+    "name" : "org.codehaus.mojo:aspectj-maven-plugin",
+    "value" : 274
+  }, {
+    "name" : "org.codehaus.gmavenplus:gmavenplus-plugin",
+    "value" : 269
+  }, {
+    "name" : "org.codehaus.mojo:gwt-maven-plugin",
+    "value" : 260
+  }, {
+    "name" : "org.apache.cxf:cxf-codegen-plugin",
+    "value" : 247
+  }, {
+    "name" : "org.apache.maven.plugins:maven-remote-resources-plugin",
+    "value" : 236
+  }, {
+    "name" : "org.projectlombok:lombok-maven-plugin",
+    "value" : 233
+  }, {
+    "name" : "org.scalastyle:scalastyle-maven-plugin",
+    "value" : 228
+  }, {
+    "name" : "org.xolstice.maven.plugins:protobuf-maven-plugin",
+    "value" : 215
+  }, {
+    "name" : "org.asciidoctor:asciidoctor-maven-plugin",
+    "value" : 214
+  }, {
+    "name" : "org.antlr:antlr4-maven-plugin",
+    "value" : 211
+  }, {
+    "name" : "org.mortbay.jetty:jetty-maven-plugin",
+    "value" : 205
+  }, {
+    "name" : "org.pitest:pitest-maven",
+    "value" : 202
+  }, {
+    "name" : "org.codehaus.mojo:appassembler-maven-plugin",
+    "value" : 195
+  }, {
+    "name" : "com.github.eirslett:frontend-maven-plugin",
+    "value" : 195
+  }, {
+    "name" : "biz.aqute.bnd:bnd-maven-plugin",
+    "value" : 194
+  }, {
+    "name" : "org.codehaus.mojo:jaxb2-maven-plugin",
+    "value" : 193
+  }, {
+    "name" : "org.mortbay.jetty:maven-jetty-plugin",
+    "value" : 187
+  }, {
+    "name" : "org.apache.maven.plugins:maven-archetype-plugin",
+    "value" : 183
+  }, {
+    "name" : "com.google.code.maven-license-plugin:maven-license-plugin",
+    "value" : 182
+  }, {
+    "name" : "io.repaint.maven:tiles-maven-plugin",
+    "value" : 182
+  }, {
+    "name" : "org.apache.maven.plugins:maven-surefire-report-plugin",
+    "value" : 181
+  }, {
+    "name" : "io.fabric8:docker-maven-plugin",
+    "value" : 180
+  }, {
+    "name" : "org.wso2.carbon.maven:carbon-feature-plugin",
+    "value" : 177
+  }, {
+    "name" : "external.atlassian.jgitflow:jgitflow-maven-plugin",
+    "value" : 176
+  }, {
+    "name" : "org.codehaus.plexus:plexus-component-metadata",
+    "value" : 170
+  }, {
+    "name" : "net.ltgt.gwt.maven:gwt-maven-plugin",
+    "value" : 169
+  }, {
+    "name" : "org.codehaus.gmaven:gmaven-plugin",
+    "value" : 164
+  }, {
+    "name" : "org.apache.maven.plugins:maven-scm-publish-plugin",
+    "value" : 162
+  }, {
+    "name" : "org.apache.maven.plugins:surefire",
+    "value" : 161
+  }, {
+    "name" : "org.apache.felix:maven-ipojo-plugin",
+    "value" : 158
+  }, {
+    "name" : "com.google.code.maven-replacer-plugin:replacer",
+    "value" : 156
+  }, {
+    "name" : "com.spotify:docker-maven-plugin",
+    "value" : 154
+  }, {
+    "name" : "org.owasp:dependency-check-maven",
+    "value" : 151
+  }, {
+    "name" : "org.apache.servicemix.tooling:depends-maven-plugin",
+    "value" : 150
+  }, {
+    "name" : "org.codehaus.mojo:xml-maven-plugin",
+    "value" : 147
+  }, {
+    "name" : "org.codehaus.mojo:flatten-maven-plugin",
+    "value" : 145
+  }, {
+    "name" : "org.codehaus.mojo:templating-maven-plugin",
+    "value" : 143
+  }, {
+    "name" : "org.sonarsource.scanner.maven:sonar-maven-plugin",
+    "value" : 140
+  }, {
+    "name" : "com.googlecode.maven-java-formatter-plugin:maven-java-formatter-plugin",
+    "value" : 139
+  }, {
+    "name" : "org.apache.maven.plugins:maven-toolchains-plugin",
+    "value" : 136
+  }, {
+    "name" : "org.codehaus.mojo:xmlbeans-maven-plugin",
+    "value" : 132
+  }, {
+    "name" : "org.eclipse.xtend:xtend-maven-plugin",
+    "value" : 131
+  }, {
+    "name" : "org.codehaus.mojo:properties-maven-plugin",
+    "value" : 131
+  }, {
+    "name" : "org.apache.karaf.tooling:karaf-maven-plugin",
+    "value" : 128
+  }, {
+    "name" : "org.apache.tomcat.maven:tomcat7-maven-plugin",
+    "value" : 126
+  }, {
+    "name" : "net.revelc.code.formatter:formatter-maven-plugin",
+    "value" : 126
+  }, {
+    "name" : "org.jasig.maven:maven-notice-plugin",
+    "value" : 124
+  }, {
+    "name" : "com.mysema.maven:apt-maven-plugin",
+    "value" : 123
+  }, {
+    "name" : "org.eclipse.tycho:tycho-maven-plugin",
+    "value" : 122
+  }, {
+    "name" : "org.codehaus.mojo:javacc-maven-plugin",
+    "value" : 119
+  }, {
+    "name" : "org.apache.aries.blueprint:blueprint-maven-plugin",
+    "value" : 116
+  }, {
+    "name" : "org.codehaus.cargo:cargo-maven2-plugin",
+    "value" : 113
+  }, {
+    "name" : "org.apache.maven.plugins:maven-invoker-plugin",
+    "value" : 113
+  }, {
+    "name" : "com.googlecode.maven-download-plugin:download-maven-plugin",
+    "value" : 109
+  }, {
+    "name" : "org.jvnet.maven.incrementalbuild:incremental-build-plugin",
+    "value" : 109
+  }, {
+    "name" : "org.codehaus.mojo:truezip-maven-plugin",
+    "value" : 104
+  }, {
+    "name" : "com.coveo:fmt-maven-plugin",
+    "value" : 104
+  }, {
+    "name" : "de.thetaphi:forbiddenapis",
+    "value" : 101
+  }, {
+    "name" : "org.codehaus.mojo:sonar-maven-plugin",
+    "value" : 97
+  }, {
+    "name" : "org.apache.avro:avro-maven-plugin",
+    "value" : 96
+  }, {
+    "name" : "org.apache.maven.plugins:maven-jxr-plugin",
+    "value" : 96
+  }, {
+    "name" : "com.theoryinpractise:clojure-maven-plugin",
+    "value" : 96
+  }, {
+    "name" : "org.bsc.maven:maven-processor-plugin",
+    "value" : 95
+  }, {
+    "name" : "org.apache.maven.plugins:maven-ejb-plugin",
+    "value" : 94
+  }, {
+    "name" : "com.day.jcr.vault:content-package-maven-plugin",
+    "value" : 93
+  }, {
+    "name" : "org.sonatype.flexmojos:flexmojos-maven-plugin",
+    "value" : 93
+  }, {
+    "name" : "com.github.odavid.maven.plugins:mixin-maven-plugin",
+    "value" : 93
+  }, {
+    "name" : "com.amashchenko.maven.plugin:gitflow-maven-plugin",
+    "value" : 92
+  }, {
+    "name" : "org.opendaylight.yangtools:yang-maven-plugin",
+    "value" : 92
+  }, {
+    "name" : "org.mule.tools:maven-mule-plugin",
+    "value" : 89
+  }, {
+    "name" : "com.github.ekryd.sortpom:sortpom-maven-plugin",
+    "value" : 87
+  }, {
+    "name" : "com.simpligility.maven.plugins:android-maven-plugin",
+    "value" : 86
+  }, {
+    "name" : "org.moditect:moditect-maven-plugin",
+    "value" : 85
+  }, {
+    "name" : "org.antlr:antlr3-maven-plugin",
+    "value" : 81
+  }, {
+    "name" : "org.eclipse.tycho:target-platform-configuration",
+    "value" : 81
+  }, {
+    "name" : "eu.somatik.serviceloader-maven-plugin:serviceloader-maven-plugin",
+    "value" : 81
+  }, {
+    "name" : "org.apache.maven.plugins:maven-help-plugin",
+    "value" : 81
+  }, {
+    "name" : "com.github.siom79.japicmp:japicmp-maven-plugin",
+    "value" : 79
+  }, {
+    "name" : "org.apache.maven.plugins:maven-plugin-plugin",
+    "value" : 78
+  }, {
+    "name" : "io.zipkin.centralsync-maven-plugin:centralsync-maven-plugin",
+    "value" : 78
+  }, {
+    "name" : "org.codehaus.mojo:wagon-maven-plugin",
+    "value" : 78
+  }, {
+    "name" : "com.github.os72:protoc-jar-maven-plugin",
+    "value" : 78
+  }, {
+    "name" : "org.apache.maven.plugins:maven-idea-plugin",
+    "value" : 77
+  }, {
+    "name" : "org.apache.camel:camel-maven-plugin",
+    "value" : 77
+  }, {
+    "name" : "de.jutzig:github-release-plugin",
+    "value" : 76
+  }, {
+    "name" : "org.jvnet.jax-ws-commons:jaxws-maven-plugin",
+    "value" : 76
+  }, {
+    "name" : "org.wildfly.plugins:wildfly-maven-plugin",
+    "value" : 75
+  }, {
+    "name" : "org.eclipse.sisu:sisu-maven-plugin",
+    "value" : 74
+  }, {
+    "name" : "com.samaxes.maven:minify-maven-plugin",
+    "value" : 74
+  }, {
+    "name" : "org.zeroturnaround:jrebel-maven-plugin",
+    "value" : 72
+  }, {
+    "name" : "com.github.maven-nar:nar-maven-plugin",
+    "value" : 71
+  }, {
+    "name" : "io.takari.maven.plugins:takari-lifecycle-plugin",
+    "value" : 71
+  }, {
+    "name" : "org.apache.maven.plugins:maven-jarsigner-plugin",
+    "value" : 71
+  }, {
+    "name" : "org.apache.maven.plugins:maven-ear-plugin",
+    "value" : 71
+  }, {
+    "name" : "com.bluetrainsoftware.maven:groovydoc-maven-plugin",
+    "value" : 70
+  }, {
+    "name" : "com.agilejava.docbkx:docbkx-maven-plugin",
+    "value" : 67
+  }, {
+    "name" : "org.revapi:revapi-maven-plugin",
+    "value" : 67
+  }, {
+    "name" : "org.apache.sling:maven-sling-plugin",
+    "value" : 66
+  }, {
+    "name" : "org.codehaus.groovy.maven:gmaven-plugin",
+    "value" : 66
+  }, {
+    "name" : "com.spotify:dockerfile-maven-plugin",
+    "value" : 65
+  }, {
+    "name" : "org.apache.maven.plugins:maven-changes-plugin",
+    "value" : 63
+  }, {
+    "name" : "net.alchim31.maven:yuicompressor-maven-plugin",
+    "value" : 63
+  }, {
+    "name" : "org.jboss.jandex:jandex-maven-plugin",
+    "value" : 61
+  }, {
+    "name" : "io.vertx:vertx-maven-plugin",
+    "value" : 60
+  }, {
+    "name" : "com.io7m.jstructural:io7m-jstructural-maven-plugin",
+    "value" : 59
+  }, {
+    "name" : "com.carrotsearch.randomizedtesting:junit4-maven-plugin",
+    "value" : 57
+  }, {
+    "name" : "com.vaadin:vaadin-maven-plugin",
+    "value" : 56
+  }, {
+    "name" : "org.basepom.maven:duplicate-finder-maven-plugin",
+    "value" : 56
+  }, {
+    "name" : "net.orfjackal.retrolambda:retrolambda-maven-plugin",
+    "value" : 55
+  }, {
+    "name" : "org.jsonschema2pojo:jsonschema2pojo-maven-plugin",
+    "value" : 54
+  }, {
+    "name" : "com.io7m.minisite:com.io7m.minisite.maven_plugin",
+    "value" : 52
+  }, {
+    "name" : "org.apache.uima:jcasgen-maven-plugin",
+    "value" : 52
+  }, {
+    "name" : "biz.aqute.bnd:bnd-baseline-maven-plugin",
+    "value" : 51
+  }, {
+    "name" : "org.scoverage:scoverage-maven-plugin",
+    "value" : 51
+  }, {
+    "name" : "org.eclipse.hudson.tools:maven-hpi-plugin",
+    "value" : 50
+  }, {
+    "name" : "com.atlassian.maven.plugins:maven-clover2-plugin",
+    "value" : 50
+  }, {
+    "name" : "org.codehaus.groovy:groovy-eclipse-compiler",
+    "value" : 49
+  }, {
+    "name" : "org.glassfish.build:spec-version-maven-plugin",
+    "value" : 49
+  }, {
+    "name" : "org.codehaus.mojo:idlj-maven-plugin",
+    "value" : 48
+  }, {
+    "name" : "io.swagger:swagger-codegen-maven-plugin",
+    "value" : 48
+  }, {
+    "name" : "com.coderplus.maven.plugins:copy-rename-maven-plugin",
+    "value" : 47
+  }, {
+    "name" : "org.codehaus.mojo:tomcat-maven-plugin",
+    "value" : 46
+  }, {
+    "name" : "com.github.kongchen:swagger-maven-plugin",
+    "value" : 46
+  }, {
+    "name" : "org.apache.jackrabbit:filevault-package-maven-plugin",
+    "value" : 45
+  }, {
+    "name" : "ru.concerteza.buildnumber:maven-jgit-buildnumber-plugin",
+    "value" : 44
+  }, {
+    "name" : "geronimo:geronimo-packaging-plugin",
+    "value" : 43
+  }, {
+    "name" : "net.israfil.mojo:maven-flex2-plugin",
+    "value" : 42
+  }, {
+    "name" : "com.github.wvengen:proguard-maven-plugin",
+    "value" : 42
+  }, {
+    "name" : "org.bluestemsoftware.open.maven.plugin:maven-eoa-plugin",
+    "value" : 42
+  }, {
+    "name" : "org.jvnet.maven-antrun-extended-plugin:maven-antrun-extended-plugin",
+    "value" : 42
+  }, {
+    "name" : "org.mobicents.tools:maven-eclipse-plugin",
+    "value" : 42
+  }, {
+    "name" : "org.codehaus.mojo:hibernate3-maven-plugin",
+    "value" : 41
+  }, {
+    "name" : "io.siddhi:siddhi-doc-gen",
+    "value" : 41
+  }, {
+    "name" : "org.sonarsource.sonar-packaging-maven-plugin:sonar-packaging-maven-plugin",
+    "value" : 40
+  }, {
+    "name" : "org.codehaus.mojo:native-maven-plugin",
+    "value" : 39
+  }, {
+    "name" : "org.codehaus.mojo:rpm-maven-plugin",
+    "value" : 39
+  }, {
+    "name" : "org.codehaus.gmaven:groovy-maven-plugin",
+    "value" : 38
+  }, {
+    "name" : "org.sonatype.plugins:jarjar-maven-plugin",
+    "value" : 37
+  }, {
+    "name" : "org.eclipse.tycho:tycho-source-plugin",
+    "value" : 36
+  }, {
+    "name" : "org.scalariform:scalariform-maven-plugin",
+    "value" : 36
+  }, {
+    "name" : "org.vafer:jdeb",
+    "value" : 36
+  }, {
+    "name" : "io.quarkus:quarkus-bootstrap-maven-plugin",
+    "value" : 36
+  }, {
+    "name" : "io.wcm.devops.maven.plugins:eclipse-maven-plugin",
+    "value" : 36
+  }, {
+    "name" : "org.codehaus.modello:modello-maven-plugin",
+    "value" : 36
+  }, {
+    "name" : "com.google.code.maven-replacer-plugin:maven-replacer-plugin",
+    "value" : 35
+  }, {
+    "name" : "com.diffplug.spotless:spotless-maven-plugin",
+    "value" : 35
+  }, {
+    "name" : "org.glassfish.copyright:glassfish-copyright-maven-plugin",
+    "value" : 35
+  }, {
+    "name" : "net.ju-n.maven.plugins:checksum-maven-plugin",
+    "value" : 35
+  }, {
+    "name" : "com.google.cloud.tools:jib-maven-plugin",
+    "value" : 35
+  }, {
+    "name" : "com.ning.maven.plugins:maven-duplicate-finder-plugin",
+    "value" : 35
+  }, {
+    "name" : "de.empulse.eclipselink:staticweave-maven-plugin",
+    "value" : 34
+  }, {
+    "name" : "com.ea.async:ea-async-maven-plugin",
+    "value" : 34
+  }, {
+    "name" : "org.honton.chas:exists-maven-plugin",
+    "value" : 33
+  }, {
+    "name" : "org.apache.maven.plugins:maven-repository-plugin",
+    "value" : 33
+  }, {
+    "name" : "io.quarkus:quarkus-maven-plugin",
+    "value" : 33
+  }, {
+    "name" : "org.codehaus.plexus:plexus-maven-plugin",
+    "value" : 33
+  }, {
+    "name" : "org.gaul:modernizer-maven-plugin",
+    "value" : 33
+  }, {
+    "name" : "com.code54.mojo:buildversion-plugin",
+    "value" : 33
+  }, {
+    "name" : "org.eclipse.m2e:lifecycle-mapping",
+    "value" : 33
+  }, {
+    "name" : "com.rimerosolutions.maven.plugins:wrapper-maven-plugin",
+    "value" : 33
+  }, {
+    "name" : "com.github.jeluard:plantuml-maven-plugin",
+    "value" : 32
+  }, {
+    "name" : "com.helger.maven:ph-jscompress-maven-plugin",
+    "value" : 32
+  }, {
+    "name" : "com.helger.maven:ph-csscompress-maven-plugin",
+    "value" : 32
+  }, {
+    "name" : "org.apache.maven.plugins:maven-verifier-plugin",
+    "value" : 32
+  }, {
+    "name" : "org.ow2.frascati.mojo:frascati-compiler-plugin",
+    "value" : 31
+  }, {
+    "name" : "org.ops4j.pax.exam:maven-paxexam-plugin",
+    "value" : 31
+  }, {
+    "name" : "com.jolira:onejar-maven-plugin",
+    "value" : 31
+  }, {
+    "name" : "org.skife.maven:really-executable-jar-maven-plugin",
+    "value" : 30
+  }, {
+    "name" : "org.commonjava.maven.plugins:directory-maven-plugin",
+    "value" : 30
+  }, {
+    "name" : "org.wildfly.build:wildfly-feature-pack-build-maven-plugin",
+    "value" : 29
+  }, {
+    "name" : "org.jdtaus.mojo:jdtaus-container-mojo",
+    "value" : 29
+  }, {
+    "name" : "eu.openminted.share.annotations:omtd-share-annotations-maven-plugin",
+    "value" : 29
+  }, {
+    "name" : "com.github.ferstl:depgraph-maven-plugin",
+    "value" : 29
+  }, {
+    "name" : "org.eclipse.tycho:tycho-p2-plugin",
+    "value" : 29
+  }, {
+    "name" : "org.wildfly.build:wildfly-server-provisioning-maven-plugin",
+    "value" : 28
+  }, {
+    "name" : "org.assertj:assertj-assertions-generator-maven-plugin",
+    "value" : 28
+  }, {
+    "name" : "org.codehaus.mojo:jaxws-maven-plugin",
+    "value" : 28
+  }, {
+    "name" : "com.google.code.sortpom:maven-sortpom-plugin",
+    "value" : 27
+  }, {
+    "name" : "org.liquibase:liquibase-maven-plugin",
+    "value" : 27
+  }, {
+    "name" : "org.apache.maven.plugins:maven-clover-plugin",
+    "value" : 27
+  }, {
+    "name" : "org.codehaus.mojo:sql-maven-plugin",
+    "value" : 27
+  }, {
+    "name" : "org.ow2.util.maven:jbuilding-maven-plugin",
+    "value" : 27
+  }, {
+    "name" : "org.pustefixframework.maven.plugins:pustefix-statuscode-plugin",
+    "value" : 26
+  }, {
+    "name" : "net.revelc.code:formatter-maven-plugin",
+    "value" : 26
+  }, {
+    "name" : "org.eclipse.tycho:tycho-surefire-plugin",
+    "value" : 26
+  }, {
+    "name" : "org.eclipse.tycho:tycho-packaging-plugin",
+    "value" : 26
+  }, {
+    "name" : "org.objectweb.fractal.juliac:maven-juliac-plugin",
+    "value" : 25
+  }, {
+    "name" : "org.apache.sling:htl-maven-plugin",
+    "value" : 25
+  }, {
+    "name" : "com.akathist.maven.plugins.launch4j:launch4j-maven-plugin",
+    "value" : 25
+  }, {
+    "name" : "com.pyx4me:proguard-maven-plugin",
+    "value" : 25
+  }, {
+    "name" : "org.jolokia:docker-maven-plugin",
+    "value" : 25
+  }, {
+    "name" : "org.codingmatters.rest:cdm-rest-maven-plugin",
+    "value" : 25
+  }, {
+    "name" : "com.atlassian.maven.plugins:maven-jgitflow-plugin",
+    "value" : 25
+  }, {
+    "name" : "org.apache.maven.plugins:maven-artifact-plugin",
+    "value" : 25
+  }, {
+    "name" : "org.eclipse.tycho.extras:tycho-source-feature-plugin",
+    "value" : 25
+  }, {
+    "name" : "org.wso2.carbon.config:org.wso2.carbon.config.maven.plugin",
+    "value" : 25
+  }, {
+    "name" : "com.versioneye:versioneye-maven-plugin",
+    "value" : 24
+  }, {
+    "name" : "org.apache.cxf:cxf-xjc-plugin",
+    "value" : 24
+  }, {
+    "name" : "io.qameta.allure:allure-maven",
+    "value" : 24
+  }, {
+    "name" : "com.github.github:downloads-maven-plugin",
+    "value" : 23
+  }, {
+    "name" : "com.redhat.rcm.maven.plugin:buildmetadata-maven-plugin",
+    "value" : 23
+  }, {
+    "name" : "org.jszip.maven:jszip-maven-plugin",
+    "value" : 23
+  }, {
+    "name" : "org.codehaus.sonar:sonar-packaging-maven-plugin",
+    "value" : 23
+  }, {
+    "name" : "de.dentrassi.maven:osgi-dp",
+    "value" : 23
+  }, {
+    "name" : "org.apache.maven.plugins:maven-pdf-plugin",
+    "value" : 23
+  }, {
+    "name" : "org.apache.netbeans.utilities:nbm-maven-plugin",
+    "value" : 22
+  }, {
+    "name" : "org.apache.camel:camel-package-maven-plugin",
+    "value" : 22
+  }, {
+    "name" : "org.fusesource.hawtjni:maven-hawtjni-plugin",
+    "value" : 22
+  }, {
+    "name" : "com.helger.maven:ph-javacc-maven-plugin",
+    "value" : 22
+  }, {
+    "name" : "org.apache.cxf:cxf-java2ws-plugin",
+    "value" : 22
+  }, {
+    "name" : "io.github.zlika:reproducible-build-maven-plugin",
+    "value" : 22
+  }, {
+    "name" : "com.nickwongdev:aspectj-maven-plugin",
+    "value" : 21
+  }, {
+    "name" : "org.eclipse.tycho:tycho-p2-repository-plugin",
+    "value" : 21
+  }, {
+    "name" : "org.andromda.maven.plugins:andromda-maven-plugin",
+    "value" : 21
+  }, {
+    "name" : "org.wso2.siddhi:siddhi-doc-gen",
+    "value" : 21
+  }, {
+    "name" : "org.apache.maven.plugin:maven-compiler-plugin",
+    "value" : 21
+  }, {
+    "name" : "org.eclipse.xtext:xtext-maven-plugin",
+    "value" : 21
+  }, {
+    "name" : "com.ning.maven.plugins:maven-dependency-versions-check-plugin",
+    "value" : 21
+  }, {
+    "name" : "com.atlassian.maven.plugins:maven-confluence-plugin",
+    "value" : 21
+  }, {
+    "name" : "org.openapitools:openapi-generator-maven-plugin",
+    "value" : 21
+  }, {
+    "name" : "org.sonatype.plugins:sisu-maven-plugin",
+    "value" : 20
+  }, {
+    "name" : "org.eclipse.che.core:che-core-api-dto-maven-plugin",
+    "value" : 20
+  }, {
+    "name" : "org.codehaus.izpack:izpack-maven-plugin",
+    "value" : 20
+  }, {
+    "name" : "org.onosproject:onos-maven-plugin",
+    "value" : 20
+  }, {
+    "name" : "com.springsource.bundlor:com.springsource.bundlor.maven",
+    "value" : 20
+  }, {
+    "name" : "org.jboss.maven.plugins:maven-jdocbook-plugin",
+    "value" : 20
+  }, {
+    "name" : "org.codehaus.mojo:tidy-maven-plugin",
+    "value" : 19
+  }, {
+    "name" : "org.pustefixframework.maven.plugins:pustefix-iwrapper-plugin",
+    "value" : 19
+  }, {
+    "name" : "org.kantega.reststop:reststop-maven-plugin",
+    "value" : 19
+  }, {
+    "name" : "maven-plugins:maven-findbugs-plugin",
+    "value" : 19
+  }, {
+    "name" : "com.github.searls:jasmine-maven-plugin",
+    "value" : 19
+  }, {
+    "name" : "de.saumya.mojo:gem-maven-plugin",
+    "value" : 19
+  }, {
+    "name" : "org.jvnet.jaxb2.maven2:maven-jaxb22-plugin",
+    "value" : 19
+  }, {
+    "name" : "de.jflex:maven-jflex-plugin",
+    "value" : 19
+  }, {
+    "name" : "org.mybatis.generator:mybatis-generator-maven-plugin",
+    "value" : 19
+  }, {
+    "name" : "com.github.danielflower.mavenplugins:multi-module-maven-release-plugin",
+    "value" : 18
+  }, {
+    "name" : "org.ow2.util.maven:deploymentplan-maven-plugin",
+    "value" : 18
+  }, {
+    "name" : "org.apache.nifi:nifi-nar-maven-plugin",
+    "value" : 18
+  }, {
+    "name" : "org.codehaus.mojo:native2ascii-maven-plugin",
+    "value" : 18
+  }, {
+    "name" : "com.blackducksoftware.integration:hub-maven-plugin",
+    "value" : 18
+  }, {
+    "name" : "com.googlecode.mavennatives:maven-nativedependencies-plugin",
+    "value" : 18
+  }, {
+    "name" : "com.googlecode.fmpp-maven-plugin:fmpp-maven-plugin",
+    "value" : 18
+  }, {
+    "name" : "org.zanata:zanata-maven-plugin",
+    "value" : 17
+  }, {
+    "name" : "org.sonatype.ossindex.maven:ossindex-maven-plugin",
+    "value" : 17
+  }, {
+    "name" : "org.andromda.maven.plugins:andromdapp-maven-plugin",
+    "value" : 17
+  }, {
+    "name" : "org.eclipse.tycho:tycho-compiler-plugin",
+    "value" : 17
+  }, {
+    "name" : "com.google.code.sbt-compiler-maven-plugin:sbt-compiler-maven-plugin",
+    "value" : 17
+  }, {
+    "name" : "net.sourceforge.maven-taglib:maven-taglib-plugin",
+    "value" : 17
+  }, {
+    "name" : "org.apache.openjpa:openjpa-maven-plugin",
+    "value" : 17
+  }, {
+    "name" : "com.io7m.kstructural:io7m-kstructural-maven-plugin",
+    "value" : 16
+  }, {
+    "name" : "org.codehaus.mojo:ianal-maven-plugin",
+    "value" : 16
+  }, {
+    "name" : "net.xp-forge.maven.plugins:xp-maven-plugin",
+    "value" : 16
+  }, {
+    "name" : "org.apache.maven.plugins:maven-multiproject-plugin",
+    "value" : 16
+  }, {
+    "name" : "org.andromda.maven.plugins:andromda-cartridge-plugin",
+    "value" : 16
+  }, {
+    "name" : "org.cloudhoist.plugin:zi",
+    "value" : 16
+  }, {
+    "name" : "org.ops4j:maven-pax-plugin",
+    "value" : 16
+  }, {
+    "name" : "net.distilledcode.maven:baselining-maven-plugin",
+    "value" : 16
+  }, {
+    "name" : "com.googlecode.maven-download-plugin:maven-download-plugin",
+    "value" : 16
+  }, {
+    "name" : "org.apache.maven.plugins:maven-changelog-plugin",
+    "value" : 16
+  }, {
+    "name" : "org.lesscss:lesscss-maven-plugin",
+    "value" : 16
+  }, {
+    "name" : "org.apache.karaf.tooling:karaf-services-maven-plugin",
+    "value" : 16
+  }, {
+    "name" : "io.gravitee.maven.plugins:json-schema-generator-maven-plugin",
+    "value" : 15
+  }, {
+    "name" : "statcvs:maven-statcvs-plugin",
+    "value" : 15
+  }, {
+    "name" : "com.github.koraktor:mavanagaiata",
+    "value" : 15
+  }, {
+    "name" : "org.apache.maven.plugins:maven-rar-plugin",
+    "value" : 15
+  }, {
+    "name" : "org.apache.axis2:axis2-aar-maven-plugin",
+    "value" : 15
+  }, {
+    "name" : "org.sonatype.plugins:nexus-maven-plugin",
+    "value" : 15
+  }, {
+    "name" : "org.codehaus.enunciate:maven-enunciate-plugin",
+    "value" : 15
+  }, {
+    "name" : "net.nicoulaj.maven.plugins:checksum-maven-plugin",
+    "value" : 15
+  }, {
+    "name" : "com.helger.maven:ph-schematron-maven-plugin",
+    "value" : 15
+  }, {
+    "name" : "org.openclover:clover-maven-plugin",
+    "value" : 15
+  }, {
+    "name" : "com.github.klieber:phantomjs-maven-plugin",
+    "value" : 15
+  }, {
+    "name" : "net.revelc.code:impsort-maven-plugin",
+    "value" : 14
+  }, {
+    "name" : "org.jboss.galleon:galleon-maven-plugin",
+    "value" : 14
+  }, {
+    "name" : "org.codehaus.mojo:rat-maven-plugin",
+    "value" : 14
+  }, {
+    "name" : "org.jfrog.buildinfo:artifactory-maven-plugin",
+    "value" : 14
+  }, {
+    "name" : "com.liferay.maven.plugins:liferay-maven-plugin",
+    "value" : 14
+  }, {
+    "name" : "org.netbeans.html:html4j-maven-plugin",
+    "value" : 14
+  }, {
+    "name" : "io.swagger.codegen.v3:swagger-codegen-maven-plugin",
+    "value" : 14
+  }, {
+    "name" : "org.apache.thrift.tools:maven-thrift-plugin",
+    "value" : 14
+  }, {
+    "name" : "org.jboss.as.plugins:jboss-as-maven-plugin",
+    "value" : 14
+  }, {
+    "name" : "io.gatling:gatling-maven-plugin",
+    "value" : 14
+  }, {
+    "name" : "org.apache.karaf.tooling:features-maven-plugin",
+    "value" : 14
+  }, {
+    "name" : "org.apache.thrift:thrift-maven-plugin",
+    "value" : 13
+  }, {
+    "name" : "org.jvnet.localizer:maven-localizer-plugin",
+    "value" : 13
+  }, {
+    "name" : "org.codehaus.mojo:rmic-maven-plugin",
+    "value" : 13
+  }, {
+    "name" : "com.itemis.maven.plugins:artifact-spy-plugin",
+    "value" : 13
+  }, {
+    "name" : "xmlbeans:xmlbeans-maven-plugin",
+    "value" : 13
+  }, {
+    "name" : "org.nanoko.playframework:play2-maven-plugin",
+    "value" : 13
+  }, {
+    "name" : "org.apache.tomcat.maven:tomcat6-maven-plugin",
+    "value" : 13
+  }, {
+    "name" : "com.lewisd:lint-maven-plugin",
+    "value" : 13
+  }, {
+    "name" : "org.jooq:jooq-codegen-maven",
+    "value" : 13
+  }, {
+    "name" : "org.objectweb.fractal.cecilia.toolchain:maven-ceciliaadl-plugin",
+    "value" : 13
+  }, {
+    "name" : "com.googlecode.japi-checker:japi-checker-maven-plugin",
+    "value" : 13
+  }, {
+    "name" : "org.alfresco.maven.plugin:alfresco-maven-plugin",
+    "value" : 12
+  }, {
+    "name" : "org.codehaus.mojo:javancss-maven-plugin",
+    "value" : 12
+  }, {
+    "name" : "org.robotframework:robotframework-maven-plugin",
+    "value" : 12
+  }, {
+    "name" : "com.googlecode.gettext-commons:gettext-maven-plugin",
+    "value" : 12
+  }, {
+    "name" : "com.nativelibs4java:maven-jnaerator-plugin",
+    "value" : 12
+  }, {
+    "name" : "org.wso2.carbon.uuf.maven:carbon-uuf-maven-plugin",
+    "value" : 12
+  }, {
+    "name" : "org.codehaus.mojo:axistools-maven-plugin",
+    "value" : 12
+  }, {
+    "name" : "de.jflex:jflex-maven-plugin",
+    "value" : 12
+  }, {
+    "name" : "org.nutz.boot:nutzboot-maven-plugin",
+    "value" : 12
+  }, {
+    "name" : "com.google.protobuf:protoc",
+    "value" : 12
+  }, {
+    "name" : "org.flywaydb:flyway-maven-plugin",
+    "value" : 12
+  }, {
+    "name" : "org.reflections:reflections-maven",
+    "value" : 12
+  }, {
+    "name" : "org.codehaus.sonar:sonar-maven3-plugin",
+    "value" : 12
+  }, {
+    "name" : "com.jayway.maven.plugins.android.generation2:maven-android-plugin",
+    "value" : 12
+  }, {
+    "name" : "io.spring.javaformat:spring-javaformat-maven-plugin",
+    "value" : 12
+  }, {
+    "name" : "com.google.protobuf.tools:maven-protoc-plugin",
+    "value" : 12
+  }, {
+    "name" : "com.carrotgarden.maven:carrot-maven-scr-plugin",
+    "value" : 12
+  }, {
+    "name" : "org.mock-server:mockserver-maven-plugin",
+    "value" : 11
+  }, {
+    "name" : "com.github.joelittlejohn.embedmongo:embedmongo-maven-plugin",
+    "value" : 11
+  }, {
+    "name" : "com.puresoltechnologies.maven.plugins:license-maven-plugin",
+    "value" : 11
+  }, {
+    "name" : "org.wildfly.galleon-plugins:wildfly-galleon-maven-plugin",
+    "value" : 11
+  }, {
+    "name" : "org.codehaus.mojo:failsafe-maven-plugin",
+    "value" : 11
+  }, {
+    "name" : "org.codehaus.mojo:apt-maven-plugin",
+    "value" : 11
+  }, {
+    "name" : "com.igormaznitsa:jcp",
+    "value" : 11
+  }, {
+    "name" : "org.everit.osgi.dev:lqmg-maven-plugin",
+    "value" : 10
+  }, {
+    "name" : "org.codehaus.mojo:shell-maven-plugin",
+    "value" : 10
+  }, {
+    "name" : "org.apache.maven.plugins:maven-ant-plugin",
+    "value" : 10
+  }, {
+    "name" : "au.com.acegi:xml-format-maven-plugin",
+    "value" : 10
+  }, {
+    "name" : "org.codehaus.mojo:dependency-maven-plugin",
+    "value" : 10
+  }, {
+    "name" : "org.codehaus.mojo:surefire-report-maven-plugin",
+    "value" : 10
+  }, {
+    "name" : "com.jcabi:jcabi-dynamodb-maven-plugin",
+    "value" : 10
+  }, {
+    "name" : "org.immutables.tools:maven-shade-plugin",
+    "value" : 10
+  }, {
+    "name" : "org.apache.maven.plugins:maven-doap-plugin",
+    "value" : 10
+  }, {
+    "name" : "org.eclipse.tycho:tycho-versions-plugin",
+    "value" : 10
+  }, {
+    "name" : "com.zenjava:javafx-maven-plugin",
+    "value" : 10
+  }, {
+    "name" : "org.codehaus.mojo:retrotranslator-maven-plugin",
+    "value" : 10
+  }, {
+    "name" : "org.apache.maven.plugins:maven-jdeps-plugin",
+    "value" : 10
+  }, {
+    "name" : "org.codehaus.mojo.groovy:groovy-maven-plugin",
+    "value" : 10
+  }, {
+    "name" : "uk.ac.soton.ecs.jsh2:jtemp-maven-plugin",
+    "value" : 10
+  }, {
+    "name" : "de.mhus.apache.karaf.tooling:karaf-services-maven-plugin",
+    "value" : 10
+  }, {
+    "name" : "org.sonatype.maven.plugins:maven-sisu-assembler-plugin",
+    "value" : 10
+  }, {
+    "name" : "org.kohsuke:pgp-maven-plugin",
+    "value" : 10
+  }, {
+    "name" : "org.daisy.pipeline.build:ds-to-spi-maven-plugin",
+    "value" : 10
+  }, {
+    "name" : "org.wildfly.plugins:wildfly-bom-builder-plugin",
+    "value" : 10
+  }, {
+    "name" : "org.iru.maven.plugins:jaxbgenser-maven-plugin",
+    "value" : 9
+  }, {
+    "name" : "biz.aqute.bnd:bnd-indexer-maven-plugin",
+    "value" : 9
+  }, {
+    "name" : "nl.geodienstencentrum.maven:sass-maven-plugin",
+    "value" : 9
+  }, {
+    "name" : "com.helger.maven:maven-jaxb2-plugin",
+    "value" : 9
+  }, {
+    "name" : "org.codehaus.mojo:keytool-maven-plugin",
+    "value" : 9
+  }, {
+    "name" : "com.sun.tools.xjc.maven2:maven-jaxb-plugin",
+    "value" : 9
+  }, {
+    "name" : "org.andromda.maven.plugins:andromda-model-archiver-plugin",
+    "value" : 9
+  }, {
+    "name" : "org.codehaus.xsite:xsite-maven-plugin",
+    "value" : 9
+  }, {
+    "name" : "com.soebes.maven.plugins:iterator-maven-plugin",
+    "value" : 9
+  }, {
+    "name" : "org.ow2.util.maven:maven-jbuilding-plugin",
+    "value" : 9
+  }, {
+    "name" : "com.atlassian.maven.plugins:maven-refapp-plugin",
+    "value" : 9
+  }, {
+    "name" : "org.netbeans.tools:sigtest-maven-plugin",
+    "value" : 9
+  }, {
+    "name" : "org.andromda.maven.plugins:andromda-bootstrap-install-plugin",
+    "value" : 9
+  }, {
+    "name" : "org.eclipse.tycho:tycho-p2-director-plugin",
+    "value" : 9
+  }, {
+    "name" : "com.atlassian.maven.plugins:clover-maven-plugin",
+    "value" : 9
+  }, {
+    "name" : "org.codehaus.mojo:emma-maven-plugin",
+    "value" : 9
+  }, {
+    "name" : "org.pustefixframework.maven.plugins:pustefix-webapp-plugin",
+    "value" : 9
+  }, {
+    "name" : "org.codehaus.mojo:antlr-maven-plugin",
+    "value" : 9
+  }, {
+    "name" : "com.keyboardsamurais.maven:maven-timestamp-plugin",
+    "value" : 9
+  }, {
+    "name" : "org.jdtaus.mojo:jdtaus-resource-mojo",
+    "value" : 9
+  }, {
+    "name" : "org.sonatype.maven.plugin:emma-maven-plugin",
+    "value" : 9
+  }, {
+    "name" : "com.github.shyiko.usage-maven-plugin:usage-maven-plugin",
+    "value" : 9
+  }, {
+    "name" : "org.datanucleus:maven-datanucleus-plugin",
+    "value" : 9
+  }, {
+    "name" : "pl.allegro:grunt-maven-plugin",
+    "value" : 9
+  }, {
+    "name" : "com.atlassian.maven.plugins:maven-jira-plugin",
+    "value" : 9
+  }, {
+    "name" : "org.codehaus.mojo.webstart:webstart-maven-plugin",
+    "value" : 9
+  }, {
+    "name" : "org.nuiton:nuiton-config-maven-plugin",
+    "value" : 8
+  }, {
+    "name" : "com.github.webdriverextensions:webdriverextensions-maven-plugin",
+    "value" : 8
+  }, {
+    "name" : "org.wikbook:wikbook.maven",
+    "value" : 8
+  }, {
+    "name" : "net.sf.mardao:mardao-maven-plugin",
+    "value" : 8
+  }, {
+    "name" : "io.confluent:kafka-connect-maven-plugin",
+    "value" : 8
+  }, {
+    "name" : "com.thoughtworks.paranamer:paranamer-maven-plugin",
+    "value" : 8
+  }, {
+    "name" : "com.google.appengine:appengine-maven-plugin",
+    "value" : 8
+  }, {
+    "name" : "org.apache.maven.plugins:maven-xdoc-plugin",
+    "value" : 8
+  }, {
+    "name" : "com.sun.enterprise:hk2-maven-plugin",
+    "value" : 8
+  }, {
+    "name" : "ro.isdc.wro4j:wro4j-maven-plugin",
+    "value" : 8
+  }, {
+    "name" : "org.openjfx:javafx-maven-plugin",
+    "value" : 8
+  }, {
+    "name" : "com.googlecode.maven-gcu-plugin:maven-gcu-plugin",
+    "value" : 8
+  }, {
+    "name" : "org.wildfly.swarm:wildfly-swarm-fraction-plugin",
+    "value" : 8
+  }, {
+    "name" : "org.ow2.util:util-maven-plugin-antrmic",
+    "value" : 8
+  }, {
+    "name" : "org.eclipse.virgo.bundlor:org.eclipse.virgo.bundlor.maven",
+    "value" : 8
+  }, {
+    "name" : "org.daisy.pipeline.build:modules-build-helper",
+    "value" : 8
+  }, {
+    "name" : "org.mule.tools.maven:mule-module-maven-plugin",
+    "value" : 8
+  }, {
+    "name" : "org.apache.npanday.plugins:custom-lifecycle-maven-plugin",
+    "value" : 8
+  }, {
+    "name" : "org.codingmatters.value.objects:cdm-value-objects-maven-plugin",
+    "value" : 8
+  }, {
+    "name" : "org.mobicents.tools:maven-library-plugin",
+    "value" : 8
+  }, {
+    "name" : "com.marvinformatics.formatter:formatter-maven-plugin",
+    "value" : 8
+  }, {
+    "name" : "com.atlassian.maven.plugins:maven-bamboo-plugin",
+    "value" : 8
+  }, {
+    "name" : "com.heroku.sdk:heroku-maven-plugin",
+    "value" : 8
+  }, {
+    "name" : "se.bjurr.gitchangelog:git-changelog-maven-plugin",
+    "value" : 8
+  }, {
+    "name" : "net.masterthought:maven-cucumber-reporting",
+    "value" : 8
+  }, {
+    "name" : "org.sonatype.tycho:target-platform-configuration",
+    "value" : 7
+  }, {
+    "name" : "org.eclipse.microprofile.maven:microprofile-maven-build-extension",
+    "value" : 7
+  }, {
+    "name" : "com.twitter:scrooge-maven-plugin",
+    "value" : 7
+  }, {
+    "name" : "org.bytedeco:javacpp",
+    "value" : 7
+  }, {
+    "name" : "org.codehaus.mojo:webstart-maven-plugin",
+    "value" : 7
+  }, {
+    "name" : "net.kindleit:maven-gae-plugin",
+    "value" : 7
+  }, {
+    "name" : "org.apache.maven.plugins:maven-developer-activity-plugin",
+    "value" : 7
+  }, {
+    "name" : "com.atlassian.plugin:atlassian-spring-scanner-maven-plugin",
+    "value" : 7
+  }, {
+    "name" : "org.codehaus.mojo:openjpa-maven-plugin",
+    "value" : 7
+  }, {
+    "name" : "org.fusesource.scalate:maven-scalate-plugin",
+    "value" : 7
+  }, {
+    "name" : "de.smartics.maven.plugin:smartics-jboss-modules-maven-plugin",
+    "value" : 7
+  }, {
+    "name" : "org.apache.maven.plugins:maven-tasklist-plugin",
+    "value" : 7
+  }, {
+    "name" : "org.jvnet.jaxb2.maven2:maven-jaxb21-plugin",
+    "value" : 7
+  }, {
+    "name" : "org.bytemechanics.maven:copysource-maven-plugin",
+    "value" : 7
+  }, {
+    "name" : "net.anwiba.commons.tools:anwiba-tools-definition-schema-json",
+    "value" : 7
+  }, {
+    "name" : "de.acosix.maven:jshint-maven-plugin",
+    "value" : 7
+  }, {
+    "name" : "org.apache.openejb.maven:tomee-maven-plugin",
+    "value" : 7
+  }, {
+    "name" : "org.apache.maven.plugins:maven-file-activity-plugin",
+    "value" : 7
+  }, {
+    "name" : "com.sun.tools.jxc.maven2:maven-jaxb-schemagen-plugin",
+    "value" : 7
+  }, {
+    "name" : "com.tngtech.jgiven:jgiven-maven-plugin",
+    "value" : 7
+  }, {
+    "name" : "org.carlspring.maven:derby-maven-plugin",
+    "value" : 7
+  }, {
+    "name" : "org.apache.uima:uimafit-maven-plugin",
+    "value" : 7
+  }, {
+    "name" : "sh.tak.appbundler:appbundle-maven-plugin",
+    "value" : 7
+  }, {
+    "name" : "org.codehaus.mojo:taglist-maven-plugin",
+    "value" : 7
+  }, {
+    "name" : "org.codehaus.mojo:mrm-maven-plugin",
+    "value" : 7
+  }, {
+    "name" : "org.junithelper:maven-junithelper-plugin",
+    "value" : 7
+  }, {
+    "name" : "org.jboss.maven.plugins:maven-injection-plugin",
+    "value" : 7
+  }, {
+    "name" : "org.kurento:kurento-maven-plugin",
+    "value" : 7
+  }, {
+    "name" : "org.wildfly.swarm:wildfly-swarm-plugin",
+    "value" : 7
+  }, {
+    "name" : "org.sonatype.plugins:port-allocator-maven-plugin",
+    "value" : 7
+  }, {
+    "name" : "pw.krejci:multi-release-jar-maven-plugin",
+    "value" : 7
+  }, {
+    "name" : "org.jenkins-ci.tools:maven-hpi-plugin",
+    "value" : 7
+  }, {
+    "name" : "com.hubspot.maven.plugins:dependency-scope-maven-plugin",
+    "value" : 7
+  }, {
+    "name" : "com.gavinmogan:codacy-maven-plugin",
+    "value" : 7
+  }, {
+    "name" : "io.thorntail:thorntail-maven-plugin",
+    "value" : 7
+  }, {
+    "name" : "org.avaje.ebeanorm:avaje-ebeanorm-mavenenhancer",
+    "value" : 7
+  }, {
+    "name" : "org.mule.tools:mule-assembly-verifier",
+    "value" : 7
+  }, {
+    "name" : "net.thucydides.maven.plugins:maven-thucydides-plugin",
+    "value" : 7
+  }, {
+    "name" : "org.neo4j.build.plugins:licensing-maven-plugin",
+    "value" : 7
+  }, {
+    "name" : "org.andromda.maven.plugins:andromda-bootstrap-plugin",
+    "value" : 7
+  }, {
+    "name" : "cz.habarta.typescript-generator:typescript-generator-maven-plugin",
+    "value" : 7
+  }, {
+    "name" : "net.sf.jour:jour-maven-plugin",
+    "value" : 7
+  }, {
+    "name" : "io.fabric8:fabric8-maven-plugin",
+    "value" : 7
+  }, {
+    "name" : "org.apidesign.bck2brwsr:bck2brwsr-maven-plugin",
+    "value" : 7
+  }, {
+    "name" : "org.dbflute:dbflute-maven-plugin",
+    "value" : 6
+  }, {
+    "name" : "org.codehaus.mojo:jdepend-maven-plugin",
+    "value" : 6
+  }, {
+    "name" : "org.openjax.xml:xml-maven-plugin",
+    "value" : 6
+  }, {
+    "name" : "com.github.vongosling:dependency-mediator-maven-plugin",
+    "value" : 6
+  }, {
+    "name" : "null:maven-compiler-plugin",
+    "value" : 6
+  }, {
+    "name" : "org.jboss.maven.plugins:maven-qstools-plugin",
+    "value" : 6
+  }, {
+    "name" : "biz.aqute.bnd:bnd-export-maven-plugin",
+    "value" : 6
+  }, {
+    "name" : "org.glassfish.hk2:hk2-inhabitant-generator",
+    "value" : 6
+  }, {
+    "name" : "org.everit.persistence:lqmg-maven-plugin",
+    "value" : 6
+  }, {
+    "name" : "com.theoryinpractise:googleformatter-maven-plugin",
+    "value" : 6
+  }, {
+    "name" : "com.github.ozsie:detekt-maven-plugin",
+    "value" : 6
+  }, {
+    "name" : "org.jvnet.hudson.tools:maven-hpi-plugin",
+    "value" : 6
+  }, {
+    "name" : "org.fusesource.mvnplugins:maven-graph-plugin",
+    "value" : 6
+  }, {
+    "name" : "geronimo:geronimo-dependency-plugin",
+    "value" : 6
+  }, {
+    "name" : "org.daisy.maven:xspec-maven-plugin",
+    "value" : 6
+  }, {
+    "name" : "org.antipathy:mvn-scalafmt_2.12",
+    "value" : 6
+  }, {
+    "name" : "org.apache.maven.doxia:doxia-maven-plugin",
+    "value" : 6
+  }, {
+    "name" : "com.github.z3d1k:ktlint-maven-plugin",
+    "value" : 6
+  }, {
+    "name" : "com.inocybe.api:sdndocs-maven-plugin",
+    "value" : 6
+  }, {
+    "name" : "io.reformanda.semper:dependencyversion-maven-plugin",
+    "value" : 6
+  }, {
+    "name" : "org.sakaiproject.maven.plugins:sakai",
+    "value" : 6
+  }, {
+    "name" : "org.codehaus.mojo:selenium-maven-plugin",
+    "value" : 6
+  }, {
+    "name" : "biz.aqute.bnd:bnd-resolver-maven-plugin",
+    "value" : 6
+  }, {
+    "name" : "org.jvnet.hyperjaxb3:maven-hyperjaxb3-plugin",
+    "value" : 6
+  }, {
+    "name" : "se.eris:notnull-instrumenter-maven-plugin",
+    "value" : 6
+  }, {
+    "name" : "com.mysema.maven:maven-apt-plugin",
+    "value" : 6
+  }, {
+    "name" : "li.rudin.mavenjs:mavenjs-maven-plugin",
+    "value" : 6
+  }, {
+    "name" : "com.bluetrainsoftware.bathe.web:bathe-jetty-jspc-maven-plugin",
+    "value" : 6
+  }, {
+    "name" : "com.jamesward:unsnapshot-maven-plugin",
+    "value" : 6
+  }, {
+    "name" : "org.tinyjee.dim:doxia-include-macro",
+    "value" : 6
+  }, {
+    "name" : "org.iru.maven.plugins:jaxbdeps-maven-plugin",
+    "value" : 6
+  }, {
+    "name" : "de.lightful.maven.plugins:maven-drools-plugin",
+    "value" : 6
+  }, {
+    "name" : "com.cosium.code:maven-git-code-format",
+    "value" : 6
+  }, {
+    "name" : "org.apache.maven.plugins:maven-patch-plugin",
+    "value" : 6
+  }, {
+    "name" : "org.semweb4j:rdfreactor-maven-plugin",
+    "value" : 6
+  }, {
+    "name" : "maven:maven-surefire-plugin",
+    "value" : 6
+  }, {
+    "name" : "org.wso2.carbon:org.wso2.carbon.extensions.configuration.maven.plugin",
+    "value" : 5
+  }, {
+    "name" : "org.datanucleus:datanucleus-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "org.codehaus.mojo:cassandra-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "org.jasig.maven:sass-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "com.cognifide.maven.plugins:maven-crx-plugin",
+    "value" : 5
+  }, {
+    "name" : "org.glassfish.build:glassfishbuild-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "org.jbehave:jbehave-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "io.swagger.core.v3:swagger-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "null:maven-bundle-plugin",
+    "value" : 5
+  }, {
+    "name" : "org.apache.geronimo.genesis.plugins:tools-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "org.fusesource.mvnplugins:maven-uberize-plugin",
+    "value" : 5
+  }, {
+    "name" : "de.acosix.alfresco.maven:de.acosix.alfresco.maven.plugins",
+    "value" : 5
+  }, {
+    "name" : "net.wasdev.wlp.maven.plugins:liberty-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "com.ruleoftech:markdown-page-generator-plugin",
+    "value" : 5
+  }, {
+    "name" : "com.github.gantsign.maven:ktlint-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "io.sarl.maven:sarl-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "com.qulice:qulice-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "org.wso2.maven:maven-bpel-plugin",
+    "value" : 5
+  }, {
+    "name" : "org.kuali.maven.plugins:spring-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "org.codehaus.mojo:changelog-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "org.jboss.bridger:bridger",
+    "value" : 5
+  }, {
+    "name" : "io.ebean:ebean-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "com.googlecode.maven-overview-plugin:maven-overview-plugin",
+    "value" : 5
+  }, {
+    "name" : "com.comoyo.maven.plugins:protoc-bundled-plugin",
+    "value" : 5
+  }, {
+    "name" : "com.cj.jshintmojo:jshint-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "org.wikbook:wikbook.html2pdf",
+    "value" : 5
+  }, {
+    "name" : "org.glassfish.embedded:maven-embedded-glassfish-plugin",
+    "value" : 5
+  }, {
+    "name" : "com.buschmais.jqassistant:jqassistant-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "com.github.wajda:scala-cross-build-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "org.apache.sling:sling-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "org.kuali.maven.plugins:graph-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "org.mule.runtime.plugins:mule-plugin-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "it.tidalwave.fork.com.jayway.maven.plugins.android.generation2:maven-android-plugin",
+    "value" : 5
+  }, {
+    "name" : "org.xerial.maven:maven-antlr-plugin",
+    "value" : 5
+  }, {
+    "name" : "org.apache.felix:maven-junit4osgi-plugin",
+    "value" : 5
+  }, {
+    "name" : "ch.elca.el4j.maven.plugins:maven-depgraph-plugin",
+    "value" : 5
+  }, {
+    "name" : "org.hibernate.orm.tooling:hibernate-enhance-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "org.apache.uima:pearpackagingmavenplugin",
+    "value" : 5
+  }, {
+    "name" : "org.antipathy:mvn-scalafmt_${scala.binary.version}",
+    "value" : 5
+  }, {
+    "name" : "com.webguys:string-template-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "org.hudsonci.stapler:maven-stapler-plugin",
+    "value" : 5
+  }, {
+    "name" : "org.jboss.tattletale:tattletale-maven",
+    "value" : 5
+  }, {
+    "name" : "com.stratio.crossdata:crossdata-connector-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "org.grails:grails-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "de.sormuras.junit:junit-platform-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "org.glassfish.hk2:osgiversion-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "com.sebastian-daschner:jaxrs-analyzer-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "org.bitstrings.maven.plugins:dependencypath-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "org.codehaus.mojo:jalopy-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "org.ops4j.pax.exam:exam-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "com.github.m50d:aspectj-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "org.daisy.maven:xproc-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "io.github.phillipuniverse:githook-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "io.sundr:sundr-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "com.github.igor-petruk.protobuf:protobuf-maven-plugin",
+    "value" : 5
+  }, {
+    "name" : "org.zkoss.maven:yuicompressor-maven-plugin-zk",
+    "value" : 5
+  }, {
+    "name" : "eu.stamp-project:pitmp-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "com.trivago.rta:cluecumber-report-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.mule.runtime.plugins:mule-service-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.wildfly.plugins:wildfly-extension-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.solovyev.external.com.electriccloud:org.solovyev.external.javac2-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.jruby.plugins:jruby-rake-plugin",
+    "value" : 4
+  }, {
+    "name" : "com.alexecollins.maven.plugin:script-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.mybatis.maven:maven-migration-plugin",
+    "value" : 4
+  }, {
+    "name" : "emma:maven-emma-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.kohsuke.stapler:maven-stapler-plugin",
+    "value" : 4
+  }, {
+    "name" : "net.oneandone.maven.plugins:application",
+    "value" : 4
+  }, {
+    "name" : "org.codehaus.mojo:jpox-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.jvnet:animal-sniffer",
+    "value" : 4
+  }, {
+    "name" : "com.google.cloud.tools:appengine-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.fusesource.mvnplugins:maven-fab-plugin",
+    "value" : 4
+  }, {
+    "name" : "com.io7m.jpra:io7m-jpra-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.apache.felix:osgicheck-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.eclipse.che.core:che-core-dynamodule-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.apache.myfaces.tobago:maven-apt-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.apache.hadoop:hadoop-maven-plugins",
+    "value" : 4
+  }, {
+    "name" : "net.adamcin.oakpal:oakpal-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "io.takari.maven.plugins:provisio-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "com.google.code.play2-maven-plugin:play2-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.openmrs.maven.plugins:openmrs-packager-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.fornax.toolsupport:fornax-oaw-m2-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.unidal.maven.plugins:plexus-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.eclipse.jetty:jetty-jspc-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.apache.maven.plugins:maven-antlr-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.sonatype.tycho:tycho-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.apache.drill.tools:drill-fmpp-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "com.github.chrisdchristo:capsule-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "io.starter:aspectj-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "net.trajano.mojo:m2e-codestyle-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.codehaus.sonar:sonar-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.avaje.ebean:querybean-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.apache.aries.versioning:org.apache.aries.versioning.plugin",
+    "value" : 4
+  }, {
+    "name" : "org.codehaus.mojo:jboss-packaging-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "com.github.goldin:copy-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.apache.xbean:maven-xbean-plugin",
+    "value" : 4
+  }, {
+    "name" : "de.m3y.maven:inject-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.apache.portals.jetspeed-2:jetspeed-unpack-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.kie:kie-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.bluestemsoftware.open.maven.plugin:install-plugin",
+    "value" : 4
+  }, {
+    "name" : "com.github.dantwining.whitespace-maven-plugin:whitespace-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.ninjaframework:ninja-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.codehaus.mojo:dashboard-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "com.github.warmuuh:libsass-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.coosproject.build-tools.org.apache.felix:maven-bundle-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.terracotta:maven-forge-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.simplify4u.plugins:pgpverify-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.fortasoft:gradle-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.lorislab.maven:semver-release-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.mule.runtime.plugins:mule-app-plugins-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.reficio:p2-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.unidal.maven.plugins:codegen-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "net.sf.alchim:yuicompressor-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "com.lazerycode.jmeter:jmeter-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "io.wcm.maven.plugins:i18n-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.apache.uima:ruta-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.objectweb.proactive:proactive-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.codehaus.mojo:dbunit-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "com.smartbear.soapui:soapui-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "com.jcabi:jcabi-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.glassfish.maven.plugin:maven-glassfish-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.codehaus.mojo:jslint-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "org.jnario:jnario-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "com.vlkan:quasar-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "io.github.jeffskj.cdversions:cd-versions-maven-plugin",
+    "value" : 4
+  }, {
+    "name" : "net.anwiba.commons.tools:anwiba-tools-icons",
+    "value" : 4
+  }, {
+    "name" : "org.apache.maven.plugins:maven-docck-plugin",
+    "value" : 4
+  }, {
+    "name" : "com.bluetrainsoftware.maven:release-pom",
+    "value" : 4
+  }, {
+    "name" : "org.jvnet.hudson.tools:maven-hudson-dev-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.seanshubin.detangler:detangler-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.github.ekryd.echo-maven-plugin:echo-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "nanocontainer:nanodist-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.squareup.wire:wire-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.atlassian.maven.plugins:maven-amps-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.andromda.maven.plugins.site:andromda-site-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.anc.maven.plugins:anc-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "io.takari:maven",
+    "value" : 3
+  }, {
+    "name" : "org.apache.maven.plugins:maven-nar-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.apache.db.torque:torque-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "null:maven-surefire-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.ethlo.persistence.tools:eclipselink-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.stratio.mojo:scala-cross-build-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.fuin.esmp:es-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.commonjava.maven.plugins:qarqas-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "maven-taglib:maven-taglib-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "xdoclet:maven2-xdoclet2-plugin",
+    "value" : 3
+  }, {
+    "name" : "io.github.miracelwhipp.net.nuget.plugin:nuget-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "null:jetty-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.springframework.cloud:spring-cloud-contract-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.googlecode.flyway:flyway-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.citytechinc.maven.plugins:cq-package-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.apache.sling:slingstart-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "io.takari.polyglot:polyglot-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.glassfish:maven-glassfish-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.codehaus.mojo:antlr3-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.kathrynhuxtable.maven.plugins:htmlfilter-site-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.google.code.maven-svn-revision-number-plugin:maven-svn-revision-number-plugin",
+    "value" : 3
+  }, {
+    "name" : "io.fabric8:vertx-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.arpnetworking.commons:javassist-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.ec4j.maven:editorconfig-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.kuali.maven.plugins:properties-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.kuali.maven.plugins:maven-cloudfront-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.tunnelvisionlabs:antlr4-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.khubla.antlr:antlr4test-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.github.bringking:requirejs-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "io.wcm.maven.plugins:nodejs-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.dstovall:onejar-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.github.chrischristo:capsule-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "biz.aqute.bnd:bnd-testing-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.b3dgs.radialencapsulation:radial-encapsulation-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "timezra.maven:jacoco-scala-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.codehaus.mojo:jboss-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "null:jaxws-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.seasar.dbflute:dbflute-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.querydsl:querydsl-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.io7m.saxon-plugin:io7m-saxon-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.mobicents.tools:maven-du-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.antipathy:mvn-scalafmt",
+    "value" : 3
+  }, {
+    "name" : "com.kryshchuk.maven.plugins:umlet-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.github.hazendaz.spotbugs:spotbugs-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "io.airlift.maven.plugins:sphinx-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "de.juplo:hibernate4-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.phloc.maven:csscompress-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.sonatype.plugins:app-lifecycle-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "io.wcm.maven.plugins:wcmio-content-package-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.github.veithen.phos:enforcer-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.github.timurstrekalov:saga-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.objectweb.fractal.cecilia:maven-car-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.itsallcode:openfasttrace-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.phloc.maven:closure-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.glassfish:maven-embedded-glassfish-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.phloc.maven:phlocjavacc-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "net.trajano.mojo:cleanpom-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.github.alexcojocaru:elasticsearch-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "int.esa.ccsds.mo:stubgenerator",
+    "value" : 3
+  }, {
+    "name" : "org.codehaus.mojo:groovy-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.github.vbmacher:cup-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.fortify.ps.maven.plugin:sca-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "net.sf.smc:smc-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.javalite:activejdbc-instrumentation",
+    "value" : 3
+  }, {
+    "name" : "null:gwt-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.codehaus.mojo:osxappbundle-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.codehaus.mojo:ideauidesigner-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.tomdz.maven:sphinx-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "de.shadowhunt.maven.plugins:package-info-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.eclipse.tycho.extras:tycho-p2-extras-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.apache.meecrowave:meecrowave-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "null:cobertura-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.googlecode.jslint4java:jslint4java-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.consol.citrus.mvn:citrus-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.ow2.util:util-maven-plugin-propertyeditor",
+    "value" : 3
+  }, {
+    "name" : "de.saumya.mojo:rspec-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.jvnet.jaxb2.maven2:maven-jaxb23-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.dkanejs.maven.plugins:docker-compose-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.googlecode.cmake-maven-project:cmake-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.pitest:highwheel-maven",
+    "value" : 3
+  }, {
+    "name" : "org.coosproject.build-tools.org.ops4j:maven-pax-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.andromda.maven.plugins.site:andromda-site-cartridge-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.icfolson.maven.plugins:aem-package-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.sonatype.clm:clm-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.codehaus.mojo:xdoclet-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.papoose.plugins:version-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.wildfly.maven.plugins:licenses-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.bazaarvoice.maven.plugins:process-exec-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.jboss.forge.furnace:furnace-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.google.code.maven-svn-revision-number-plugin:svn-revision-number-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "com.excelsiorjet:excelsior-jet-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.jbundle.app.program:org.jbundle.app.program.plugin",
+    "value" : 3
+  }, {
+    "name" : "org.eclipse.che.core:che-core-api-languageserver-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.openjax.jaxb:jaxb-maven-plugin",
+    "value" : 3
+  }, {
+    "name" : "org.nuiton:helper-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.cosium.code:git-code-format-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "io.lanau.framework.tools.eclipselinkstaticweavemavenplugin:eclipselink-staticweave-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.requs:requs-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "fr.jcgay.maven.plugins:buildplan-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.kuali.maven.cloudfront:maven-cloudfront-plugin",
+    "value" : 2
+  }, {
+    "name" : "me.normanmaurer.maven.autobahntestsuite:autobahntestsuite-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "io.github.borisnaguet:solr-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.antwerkz.github:issues-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.agilejava.docbkx:docbkx-fop-support",
+    "value" : 2
+  }, {
+    "name" : "ca.vanzyl.provisio.maven.plugins:provisio-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "null:build-plugins",
+    "value" : 2
+  }, {
+    "name" : "org.pustefixframework.maven.plugins:pustefix-pagelist-plugin",
+    "value" : 2
+  }, {
+    "name" : "net.sf.jbg.mojo:jbg-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "null:maven-jar-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.ow2.util.maven.osgi:osgiframework-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "io.codekontor.slizaa.mojos:ecoregenerator-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.teamtter.mavennatives:nativedependencies-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "null:tycho-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.terracotta.maven.plugins:tc-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "io.openapitools.swagger:swagger-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.codefx.maven.plugin:jdeps-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "se.natusoft.tools.doc.markdowndoc:markdowndoc-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "io.ultreia.java4all.jgitflow:jgitflow-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "uk.co.deliverymind:wiremock-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "io.tesla.maven.plugins:tesla-license-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.openjax.codegen:codegen-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.apache.maven.plugins:maven-rsf-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.sonatype.plugins:munge-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.codehaus.mojo:jspc-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.openmrs.maven.plugins:maven-openmrs-plugin",
+    "value" : 2
+  }, {
+    "name" : "nl.windgazer:jsdoctk-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.springdoc:springdoc-openapi-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.apache.cxf:cxf-wadl2java-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.twitter:maven-finagle-thrift-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.mortbay.jetty.toolchain:unix-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.jboss.errai:jacoco-gwt-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "io.fabric8.jube:jube-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.citytechinc.cq.cq-component-plugin:cq-component-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.bluestemsoftware.open.maven.plugin:launch4j-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.github.matinh.vdldoc:vdldoc-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "ch.mfrey.maven.plugin:copy-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.codehaus.mojo:castor-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "io.tesla.jettyconsole:jetty-console-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.github.fracpete:latex-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.liferay:com.liferay.source.formatter",
+    "value" : 2
+  }, {
+    "name" : "org.eclipse.tycho:tycho-p2-publisher-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.powsybl:powsybl-itools-packager-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.github.veithen.maven:jacoco-report-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.jboss.seven2six:seven2six",
+    "value" : 2
+  }, {
+    "name" : "net.disy.legato:legato-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "net.maritimecloud.msdl:mc-msdl-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "null:target-platform-configuration",
+    "value" : 2
+  }, {
+    "name" : "org.wikbook:wikbook.docbkxstyle",
+    "value" : 2
+  }, {
+    "name" : "org.apache.axis2:axis2-java2wsdl-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.io7m.jpra:com.io7m.jpra.maven.plugin",
+    "value" : 2
+  }, {
+    "name" : "de.qaware.maven:go-offline-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "net.sf.xsltmp:xslt-generator-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.mmakowski:maven-specs2-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.zalando.maven.plugins:swagger-codegen-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.github.s4u.plugins:sitemapxml-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "torque:maven-torque-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.eclipse.che.core:che-core-dyna-provider-generator-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.ragedunicorn.tools.maven:github-release-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.codehaus.cjcook:docbook-plugin",
+    "value" : 2
+  }, {
+    "name" : "net.hydromatic:hydromatic-resource-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "de.smartics.maven.plugin:buildmetadata-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "se.natusoft.tools.codelicmgr:codelicensemanager-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.objectweb.dream.dreamadl:maven-check-adl-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.infrastructurebuilder.modello:modello-maven-plugin-usurped",
+    "value" : 2
+  }, {
+    "name" : "org.codehaus.mojo:webminifier-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "cuke4duke:cuke4duke-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "ro.kuberam.maven.plugins:kuberam-expath-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.apache.tomcat.maven:tomcat8-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.omnifaces:renderkitdoc-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.evosuite.plugins:evosuite-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.thoughtworks.gauge.maven:gauge-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.jboss.byteman:byteman-rulecheck-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "io.joynr.tools.generator:joynr-generator-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "de.plushnikov.maven.plugin:intellij-plugin-modul-importer-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.codehaus.mojo:netbeans-freeform-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.citytechinc.maven.plugins:osgi-bundle-status-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "maven-plugins:maven-javaapp-plugin",
+    "value" : 2
+  }, {
+    "name" : "de.berlios.jsunit:jsunit-maven2-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.jetbrains.kotlin:kdoc-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "geronimo:geronimo-deployment-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.atlassian.maven.plugins:confluence-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.groupon.maven.plugin.json:json-schema-validator",
+    "value" : 2
+  }, {
+    "name" : "org.codehaus.mojo:jasperreports-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.jasig.mojo.jspc:jspc-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.codehaus.sonar:sonar-dev-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.github.temyers:cucumber-jvm-parallel-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.liferay:com.liferay.css.builder",
+    "value" : 2
+  }, {
+    "name" : "org.web3j:web3j-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.simplify4u.plugins:sitemapxml-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.fusesource.hawtbuf:hawtbuf-protoc",
+    "value" : 2
+  }, {
+    "name" : "de.dentrassi.maven:rpm",
+    "value" : 2
+  }, {
+    "name" : "com.github.veithen.alta:alta-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "de.akquinet.maven:maven-latex-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.spurint.maven.plugins:scala-cross-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.appfuse:maven-warpath-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.graalvm.nativeimage:native-image-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.codehaus.mojo.jspc:jspc-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.jomc:maven-jomc-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.qunix:structure-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.bitbucket.bradleysmithllc.regular-expression-proxy-compiler:regular-expression-proxy-compiler",
+    "value" : 2
+  }, {
+    "name" : "org.codehaus.mojo:rspec-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.alexnederlof:jasperreports-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.apache.axis2:axis2-wsdl2code-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "net.sf.tacos:tapdoc-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "io.ultreia.java4all.http:http-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "io.github.divinespear:jpa-schema-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.apache.activemq.tooling:activemq-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.jvnet.hudson.tools:maven-encoding-plugin",
+    "value" : 2
+  }, {
+    "name" : "io.teecube.t3:t3-site-enhancer",
+    "value" : 2
+  }, {
+    "name" : "org.jboss.maven.plugins:maven-jdocbook-style-plugin",
+    "value" : 2
+  }, {
+    "name" : "net.serenity-bdd.maven.plugins:serenity-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.github.jinnovations:attribution-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "de.mhus.lib:constgenerator-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.riedelcastro:gcupload-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "tv.hd3g.mvnplugin:setupdb",
+    "value" : 2
+  }, {
+    "name" : "com.github.taxone.plugins:classpath-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.xnap.commons:maven-gettext-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.jcabi:jcabi-mysql-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.jboss.ironjacamar:ironjacamar-validator-maven",
+    "value" : 2
+  }, {
+    "name" : "com.github.genthaler:beanshell-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.jwtk.coveralls:coveralls-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "net.rumati.maven.plugins:velocity-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "io.prestosql:presto-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.codehaus.mojo:js-import-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.codehaus.mojo:sablecc-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "dna:maven-dna-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.jboss.narayana.blacktie.plugins:blacktie-cpp-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.oneops.maven.plugins:really-executable-jar-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.adobe.sharedcloud:tessa-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "jpox:maven-jpox-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.easyb:maven-easyb-plugin",
+    "value" : 2
+  }, {
+    "name" : "kr.motd.maven:os-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "io.github.robwin:swagger2markup-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.alipay.sofa:sofa-ark-plugin-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.mycore.plugins:solr-runner-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.cruxframework.plugin:crux-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.codehaus.enunciate:maven-enunciate-slim-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.mycore.plugins:datamodel-plugin",
+    "value" : 2
+  }, {
+    "name" : "ru.trylogic.maven.plugins:redis-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.sonatype.maven.plugins:maven-p2-publisher-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.icfolson.maven.plugins:osgi-bundle-status-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.simplericity.jettyconsole:jetty-console-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.camunda.bpm.extension.swagger.maven:camunda-bpm-swagger-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.samaxes.maven:maven-minify-plugin",
+    "value" : 2
+  }, {
+    "name" : "de.derklaro:dependency-list-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.goldmansachs:gs-collections-code-generator-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.kuali.maven.plugins:maven-ksite-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.sonatype.plugins:modello-plugin-upgrade",
+    "value" : 2
+  }, {
+    "name" : "net.sf.seaf.mojo:seaf-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.ow2.util.maven:maven-deploymentplan-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.objectweb.fractal.cecilia:maven-cecilia-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.infrastructurebuilder.maven:ibversions-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.mule.runtime.plugins:mule-extensions-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.neo4j.build.plugins:license-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "net.sf.alchim:spoon-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "de.saumya.mojo:jruby-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.apache.maven:maven-compiler-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.codehaus.mojo.javascript:javascript-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "jboss.maven-plugins:jboss-deploy-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.apache.jena:jena-maven-tools",
+    "value" : 2
+  }, {
+    "name" : "org.mule.tools.devkit:mule-devkit-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.github.davidmoten:jax-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.atlassian.maven.plugins:crowd-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "com.googlecode.addjars-maven-plugin:addjars-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.shredzone.maven:mkdocs-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "us.bryon:relaxng-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.codehaus.mojo:smc-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.eclipse.collections:eclipse-collections-code-generator-maven-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.fusesource.mvnplugins:maven-notices-plugin",
+    "value" : 2
+  }, {
+    "name" : "org.ow2.fractal.juliac:juliac-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.codehaus.mojo:nsis-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.apache.maven.plugins:maven-buildinfo-plugin",
+    "value" : 1
+  }, {
+    "name" : "de.saumya.mojo:bundler-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.oracle.substratevm:native-image-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.codehaus.mojo:cobertura-it-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "maven-plugins:maven-sourceforge-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.jvnet.mcvp:maven-css-validator-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.technicalsoftwareconfigurationmanagement.maven-plugin:tscm-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "maven:maven-checkstyle-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.ow2.util.maven:maven-osgi-plugin-launcher-core",
+    "value" : 1
+  }, {
+    "name" : "com.airlenet.yang:yang-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.github.fommil.netlib:generator",
+    "value" : 1
+  }, {
+    "name" : "org.codehaus.mojo:jxr-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.d4iot.oss.plugin.packager:jar-manifest-builder-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.github.napp-com:resource-minifier",
+    "value" : 1
+  }, {
+    "name" : "com.evolvedbinary.appbundler:appbundler-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.atlassian.maven.plugins:maven-amps-dispatcher-plugin",
+    "value" : 1
+  }, {
+    "name" : "de.shadowhunt.maven.plugins:sonarignore-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.commonjava.maven:restdoc-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "es.ucm.fdi.grasia.faerie.thirdparty:maven-junit4osgi-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.openehealth.ipf.labs.maven:maven-dsldoc-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.mule.apache.cxf:cxf-codegen-plugin",
+    "value" : 1
+  }, {
+    "name" : "io.airlift.drift:drift-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.swisspush.maven.plugins:apikana-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.commonjava.maven.plugins:build-migration-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "io.ultreia.java4all.eugene:eugene-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "io.wcm.devops.conga:conga-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.joda:joda-beans-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.internetitem:write-properties-file-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.github.sparow199:apollo-client-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "mevenide:maven-mevenide-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.dyuproject.protostuff:protostuff-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.kuali.maven.plugins:maven-kualisite-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.github.maven-hadoop.plugin:maven-hadoop-plugin",
+    "value" : 1
+  }, {
+    "name" : "eu.unicore:maven-bugsreporter-plugin",
+    "value" : 1
+  }, {
+    "name" : "fish.payara.maven.plugins:payara-micro-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "maven:maven-scm-plugin",
+    "value" : 1
+  }, {
+    "name" : "findbugs:findbugs",
+    "value" : 1
+  }, {
+    "name" : "eu.numberfour.maven.plugins:file-list-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.cloudfoundry:cf-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.googlecode.mavenfilesync:maven-filesync-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.e-gineering:gitflow-helper-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.mortbay.jetty:maven-jetty6-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.github.stephenc.nonmavenjar:non-maven-jar-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.mortbay.jetty:maven-jetty-jspc-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.neo4j.build.plugins:docs-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.apache.maven.plugins:maven-resource-plugin",
+    "value" : 1
+  }, {
+    "name" : "fr.jetoile.hadoop:hadoop-unit-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.holoeverywhere:resbuilder",
+    "value" : 1
+  }, {
+    "name" : "org.pustefixframework.maven.plugins:pustefix-webservice-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.alexecollins.docker:docker-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.carrotgarden.maven:bintray-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "commons-attributes:commons-attributes-plugin",
+    "value" : 1
+  }, {
+    "name" : "de.crowdcode.kissmda.maven:kissmda-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.jvnet.com4j:maven-com4j-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.sun.wts.tools.ant:package-rename-task",
+    "value" : 1
+  }, {
+    "name" : "com.manoelcampos:javadoc-coverage",
+    "value" : 1
+  }, {
+    "name" : "org.codehaus.mojo:macker-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.apache.maven:maven-archiver",
+    "value" : 1
+  }, {
+    "name" : "org.appfuse.plugins:warpath-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "net.unit8.amagicman:amagicman-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "io.tesla.maven.plugins:provisio-tesla-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.sonatype.tycho:tycho-p2-extras-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.buschmais.jqassistant.maven:jqassistant-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.rodiontsev.maven.plugins:build-info-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.baidu:jprotobuf-precompile-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.scoverage:maven-scoverage-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.lukegb.mojo:gitdescribe-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "potes.java8.currying:java8-currying-generator",
+    "value" : 1
+  }, {
+    "name" : "io.fabric8:hawt-app-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.github.stephenc.continuous:git-timestamp-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.github.iarellano:iad-j2y2j-converter-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.atlassian.maven.plugins:refapp-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.opoo.press.maven.plugins:theme-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "null:exec-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "edu.tum.cs:cup-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.github.veithen.maven:hermetic-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "kr.motd.maven:sphinx-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.walkmod.maven.plugins:walkmod-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.apache.maven.plugins:maven-modello-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.alibaba.org.apache.maven.plugins:maven-eclipse-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.apache.maven.plugins:nar-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.helger.maven:ph-buildinfo-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.liferay:com.liferay.portal.tools.service.builder",
+    "value" : 1
+  }, {
+    "name" : "net.unit8.maven.plugins:staticweave-nopu-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.bluestemsoftware.open.maven.plugin:system-plugin",
+    "value" : 1
+  }, {
+    "name" : "de.akquinet.gomobile:maven-dp-plugin",
+    "value" : 1
+  }, {
+    "name" : "nl.fizzit.maven.plugins:maven-tstamp-plugin",
+    "value" : 1
+  }, {
+    "name" : "eu.lindenbaum:maven-erlang-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.kevoree.modeling:org.kevoree.modeling.kotlin.generator.mavenplugin",
+    "value" : 1
+  }, {
+    "name" : "org.sonatype.plugins:maven-runtime-assembler-g2-plugin",
+    "value" : 1
+  }, {
+    "name" : "net.sf.sido:sido-pojo-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.jadira.maven:fmpp-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "net.sf.mavenjython:jython-compile-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.apache.cayenne.plugins:maven-cayenne-modeler-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.sonatype.tycho:maven-osgi-source-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.zkoss.maven:zkless-engine-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "kr.motd.maven:exec-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.fusesource.coffeebar:brew",
+    "value" : 1
+  }, {
+    "name" : "org.iru.maven.plugins:maven-jaxbgenser-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.googlecode.t7mp:maven-t7-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.raml.plugins:jaxrs-raml-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "de.jplanets.maven:jplanets-frontpage-report",
+    "value" : 1
+  }, {
+    "name" : "org.jboss:mibgen-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.facebook.presto:presto-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.atlassian.maven.plugins:bitbucket-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.atlassian.maven.plugins:jira-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.symqle.tools:symqle-compiler-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.objectledge.maven.plugins:jsc-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.symphony.oss.canon:canon-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.hbakkum.maven.plugins:resolve-parent-version-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.apache.maven.shared:maven-shared-utils",
+    "value" : 1
+  }, {
+    "name" : "org.ow2.util.maven:osgi-plugin-frameworks-launcher",
+    "value" : 1
+  }, {
+    "name" : "org.l2x6.maven.srcdeps:srcdeps-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "me.nqkdev.plugins:hamcrest-proto-plugin",
+    "value" : 1
+  }, {
+    "name" : "net.ericaro:diezel-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "mevenide:maven-nbm-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.amashchenko.maven.plugins:gitflow-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.codehaus.mojo:maven-springbeandoc-plugin",
+    "value" : 1
+  }, {
+    "name" : "net.jlehtinen.portlet:portlet-prototyping-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.apache.maven.surefire:maven-surefire-common",
+    "value" : 1
+  }, {
+    "name" : "org.apache.maven.surefire:surefire",
+    "value" : 1
+  }, {
+    "name" : "com.bstek.urule:urule-pro-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "null:swagger-codegen-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.eclipse.ebr:ebr-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "edu.illinois:nondex-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.bitbucket.bradleysmithllc.etlunit:module-signer",
+    "value" : 1
+  }, {
+    "name" : "de.cubeisland.maven.plugins:githead-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.github.wshackle:java2slice-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "hu.advancedweb:scott-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.sonatype.tycho:tycho-p2-repository-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.github.madgnome:h2spec-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.koekiebox:git-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.apache.camel.maven:camel-salesforce-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.github.ansell.rdf4j-schema-generator:schema-generator-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.pitest:classycle-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.atlassian.maven.plugins:maven-crowd-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.googlecode.velocity-maven-plugin:velocity-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.apache.maven.plugins:maven-jmod-plugin",
+    "value" : 1
+  }, {
+    "name" : "net.md-5:scriptus",
+    "value" : 1
+  }, {
+    "name" : "org.acplt.remotetea:remotetea-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "io.thorntail:thorntail-fraction-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.andromda.maven.plugins:andromda-distribution-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.kathrynhuxtable.maven.plugins:imagegenerator-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.btmatthews.maven.plugins:emailserver-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "software.amazon.awssdk:codegen-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.jakewharton.twirl:twirl-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.kathrynhuxtable.maven.plugins:docbkx-wrapper-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.jamon:jamon-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.github.zetten:xvfb-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "maven-validator:maven-xhtml-plugin",
+    "value" : 1
+  }, {
+    "name" : "name.valery1707.kaitai:kaitai-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.wildfly.plugins:wildfly-component-matrix-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.glassfish.hk2:hk2-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.pyx4me:j2me-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "cactus:cactus-maven",
+    "value" : 1
+  }, {
+    "name" : "com.helger.maven:jaxws-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "berlin.yuna:deployment-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.alibaba.citrus.tool:maven-springext-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.github.danielflower.mavenplugins:gitlog-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.quickfixj:quickfixj-codegenerator",
+    "value" : 1
+  }, {
+    "name" : "io.timeandspace:jpsg-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.texry:texry-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "de.softwareforge.mojo:maven-protoc-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.metaborg:spoofax-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "de.fau.cs.osr.maven.plugins:maven-rats-plugin",
+    "value" : 1
+  }, {
+    "name" : "jp.igapyon.diary.igapyonv3.plugin:igapyonv3-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.bsc.maven:confluence-reporting-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "de.dentrassi.maven:jacoco-extras",
+    "value" : 1
+  }, {
+    "name" : "com.simpligility.maven.plugins:android-ndk-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.codehaus.mojo:sysdeo-tomcat-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.yahoo.vespa:bundle-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.sun.japex:japex-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "no.arktekk.unix:unix-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.geotoolkit.project:geotk-resource-compiler",
+    "value" : 1
+  }, {
+    "name" : "com.bluetrainsoftware.maven:bathe-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.github.blutorange:closure-compiler-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "io.takari.jenkins:jenkins-lifecycle-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.apache.maven.plugins:maven-releaase-plugin",
+    "value" : 1
+  }, {
+    "name" : "io.helidon.build-tools.archetype:helidon-archetype-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.terrameta:plasma-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "metaclass:maven-metaclass-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.webcohesion.enunciate:enunciate-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "loom:maven-loom-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.alibaba.citrus.tool:springext-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.buildobjects:j-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.github.wolf480pl.maven-plugins:template-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.codehaus.mojo:appbundler-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.getperka.flatpack:flatpack-fast-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.apache.uima:uima-build-helper-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.pustefixframework.maven.plugins:pustefix-validator-plugin",
+    "value" : 1
+  }, {
+    "name" : "sg.enixsoft:capsule-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.onfido:generate-models-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.stratio.mojo.unix:unix-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.github.tkurz.sesame:vocab-builder-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "it.unife.endif.ml:manpagegenerator-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.antwerkz.sofia:sofia-maven",
+    "value" : 1
+  }, {
+    "name" : "net.kemitix:digraph-dependency-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.glowroot:glowroot-agent-dist-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.kuali.maven.plugins:maven-kscontractdoc-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.bekioui.maven.plugin:merge-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.symphonyoss.s2.canon:canon-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.apache.cxf:cxf-corbatools-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.github.ulisesbocchio:jasypt-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.lazerycode.selenium:driver-binary-downloader-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.sonatype.plugins:maven-versions-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.projectlombok:maven-lombok-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.aksw.maven.plugin:gitflow-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.cthul.api4j:api4j-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.scalatest:maven-scalatest-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.theoryinpractise:coffee-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "ch.qos.logback:logback-classic",
+    "value" : 1
+  }, {
+    "name" : "com.kelveden:maven-karma-plugin",
+    "value" : 1
+  }, {
+    "name" : "cargo:cargo-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.alfresco.maven.plugin:maven-amp-plugin",
+    "value" : 1
+  }, {
+    "name" : "net.ju-n.maven.plugins:maven-checksum-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.richfaces.cdk:richfaces-cdk-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.nanoko.coffee-mill:coffee-mill-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "fr.inria.gforge.spoon:spoon-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.goldin.plugins:maven-copy-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.sonatype.tycho:tycho-p2-plugin",
+    "value" : 1
+  }, {
+    "name" : "net.sf.exlp:exlp-maven",
+    "value" : 1
+  }, {
+    "name" : "org.codehaus.cjcook:pdf-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.apache.commons:commons-build-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.torstling.intellij:notnull-instrumenter-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.teradata:redlinerpm-maven-plugin-td",
+    "value" : 1
+  }, {
+    "name" : "org.codehaus.sonar:sonar-dev-mojo",
+    "value" : 1
+  }, {
+    "name" : "org.kuali.maven.plugins:maven-scm-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.facebook.drift:drift-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.mule.tools.maven:mule-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.spockframework:spock-maven",
+    "value" : 1
+  }, {
+    "name" : "com.reedoei:testrunner-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.jcabi:jcabi-latex-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.substeps:substeps-glossary-builder",
+    "value" : 1
+  }, {
+    "name" : "com.github.tashoyan:scalariform-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "net.sf.staccatocommons:staccatissimo-restrictions-instrument-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.qmino:miredot-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "io.flexio.io:flexio-mongo-io-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "ch.sourcepond.maven.plugins:multi-module-release-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.github.s4u.plugins:pgpverify-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "cz.softeu.svn-info:maven-svn-info-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.xowl.toolkit:xowl-packaging-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.mmbase.maven:mmbase-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.pogofish.jadt:jadt-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.microsoft.office:mail-calendar-contact-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "io.zerocopy.maven.plugins:resources-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.jaxsb:jaxsb-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.technophobia.substeps:substeps-glossary-builder",
+    "value" : 1
+  }, {
+    "name" : "org.knowm.konfig:konfig-dox",
+    "value" : 1
+  }, {
+    "name" : "com.salesforce.servicelibs:canteen-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.sun.jersey.contribs:maven-wadl-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.ovirt.maven.plugins:ovirt-jboss-modules-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.atlassian.maven.plugins:maven-repository-bundle-plugin",
+    "value" : 1
+  }, {
+    "name" : "findbugs:maven-findbugs-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.basepom.maven:property-helper-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.pentaho.maven.plugins:license-helper-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.github.jcustenborder.maven.plugins:wits-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.googlecode.etl-unit:regular-expression-compiler",
+    "value" : 1
+  }, {
+    "name" : "xdoclet:maven-xdoclet-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.pitest:pitest",
+    "value" : 1
+  }, {
+    "name" : "org.commonjava.maven.plugins:project-sources-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.electriccloud:javac2-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.hudsonci.plugins:maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.sonatype.plugins:maven-runtime-assembler-plugin",
+    "value" : 1
+  }, {
+    "name" : "de.pentabyte.tools:i18n-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.nativelibs4java:maven-javacl-plugin",
+    "value" : 1
+  }, {
+    "name" : "ch.fortysix:maven-postman-plugin",
+    "value" : 1
+  }, {
+    "name" : "picocontainer:picodocs-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.sonatype.tycho:maven-osgi-compiler-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.societegenerale.commons:arch-unit-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "net.sf.alchim:winstone-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "de.monticore.mojo:monticore-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "de.ntcomputer:executable-packer-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.bitstrings.maven.plugins:nbm-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.tkit.maven:tkit-mp-restclient-plugin",
+    "value" : 1
+  }, {
+    "name" : "ch.filecloud:version-bump-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.phasebash.jsdoc:jsdoc3-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "edu.umass.cs.iesl:jflex-scala-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.camunda.bpm.extension.swagger.maven:camunda-bpm-swagger-plugin-rest-docs",
+    "value" : 1
+  }, {
+    "name" : "io.helidon.build-tools:snakeyaml-codegen-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.st-js:stjs-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "io.codekontor.mojos:copydependencies-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.javolution:colapi",
+    "value" : 1
+  }, {
+    "name" : "null:maven-assembly-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.apache.maven:maven-release-plugin",
+    "value" : 1
+  }, {
+    "name" : "directory:maven-directory-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.apache.clerezza:maven-ontologies-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.github.shalousun:smart-doc-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "net.sf.jnati:jnati-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.jvnet.maven-jellydoc-plugin:maven-jellydoc-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.terracotta.maven.plugins:tc-build-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.ow2.util.maven:antrmic-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.alexkasko.maven:jni-headers-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.soebes.maven.plugins:maven-echo-plugin",
+    "value" : 1
+  }, {
+    "name" : "net.sf.beezle.maven.plugins:application",
+    "value" : 1
+  }, {
+    "name" : "io.github.kobylynskyi:graphql-codegen-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "de.sonia.maven:sonia-maven-native2utf8-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.coverity:ondemand-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "in.virit.vwscdn:vwscdn-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.vmlens:interleave",
+    "value" : 1
+  }, {
+    "name" : "io.snyk:snyk-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.atlassian.maven.plugins:atlassian-pdk",
+    "value" : 1
+  }, {
+    "name" : "com.pragmaticobjects.oo.equivalence:equivalence-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.pvsstudio:pvsstudio-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.microsoft.azure:azure-webapp-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.fizzed:fizzed-watcher-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "uk.co.automatictester:wiremock-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.apache.maven.surefire:maven-surefire-plugin",
+    "value" : 1
+  }, {
+    "name" : "gr.abiss.mvn.plugins:maven-jstools-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.hubspot.maven.plugins:dependency-management-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.soebes.maven.plugins.mlv:maven-license-verifier-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.xwiki.commons:xwiki-commons-tool-xar-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.apache.aries:esa-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "de.mhus.mvn.plugin:gpg-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.kuali.maven.plugins:guice-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.manamind.jgitflow:jgitflow-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.mule.tools.maven:mule-app-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.fizzed:stork-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.codehaus.mojo:springide-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "info.magnolia:maven-setproperty-plugin",
+    "value" : 1
+  }, {
+    "name" : "de.cubeisland.maven.plugins:messageextractor-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "net.sf.staccatocommons:commons-restrictions-instrument-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.jetbrains.teamcity:teamcity-sdk-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.nuxeo.build:ant-assembly-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.apache.portals.pluto:maven-pluto-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.atlassian.maven.plugins:bamboo-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.soitoolkit.tools.generator:soitoolkit-generator-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "ru.yaal.maven:write-text-files-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "ro.kuberam.maven.plugins:kuberam-i18n-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.sonatype.plugins:maven-version-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.infradna.tool:bridge-method-injector",
+    "value" : 1
+  }, {
+    "name" : "org.apache.axis2:axis2-mar-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.phloc.maven:dirindex-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.camunda.bpm.extension.swagger.maven:camunda-bpm-swagger-plugin-spoon",
+    "value" : 1
+  }, {
+    "name" : "org.xwiki.commons:xwiki-commons-tool-remote-resource-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.kuali.maven.plugins:ant-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.sonatype.tycho:maven-osgi-packaging-plugin",
+    "value" : 1
+  }, {
+    "name" : "net.revelc.code:warbucks-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "io.github.swagger2markup:swagger2markup-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.sigpwned:jacoco-badge-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "biz.gabrys.maven.plugins:lesscss-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.wadpam.gimple:gimple-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.mobilvox.ossi.mojo:maven-js-plugin",
+    "value" : 1
+  }, {
+    "name" : "net.jonathangiles.tools:dependencychecker-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.soebes.itf.jupiter.extension:itf-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "null:nar-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.eduworks:levr-codegen-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "net.intelie.maven:maven-shade-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.apache.cocoon:cocoon-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.deliver8r:servicewrapper-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.sun.istack:maven-istack-commons-plugin",
+    "value" : 1
+  }, {
+    "name" : "io.airlift.maven.plugins:redlinerpm-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.antlr:maven-gunit-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.savage7.maven.plugins:maven-external-dependency-plugin",
+    "value" : 1
+  }, {
+    "name" : "net.sf.buildbox.maven:installer",
+    "value" : 1
+  }, {
+    "name" : "org.codehaus.xfire.plugins:maven-bundle-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.codehaus.mojo:codenarc-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "de.faktorzehn.doc:jade-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "tv.bodil:maven-testlol-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.github.lynzabo:codegen-mavenplugin",
+    "value" : 1
+  }, {
+    "name" : "org.ow2.util.maven:mergeproperties-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.smoope.utils:j2objc-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.helger.maven:ph-dirindex-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.github.monkeywie:copy-rename-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "co.enear.maven.plugins:keepachangelog-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "de.saumya.mojo:rake-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.codehaus.mojo:batik-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.soebes.maven.plugins:doxygen-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.apache.sling:maven-launchpad-plugin",
+    "value" : 1
+  }, {
+    "name" : "net.sf.ahtutils:ahtutils-maven",
+    "value" : 1
+  }, {
+    "name" : "io.hawt:hawtio-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "io.github.yas99en:script-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "net.trajano.mojo:batik-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.ow2.frascati.mojo:frascati-contribution-plugin",
+    "value" : 1
+  }, {
+    "name" : "se.jiderhamn:promote-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.jboss.tools.tycho-plugins:repository-utils",
+    "value" : 1
+  }, {
+    "name" : "com.fizzed:rocker-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.openwms.plugins:maven-properties-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.decembrist:decembrist-jar-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.ow2.util.maven:maven-merge-properties-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.codehaus.mojo:latex-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.mmbase.maven:maven-mmbase-plugin",
+    "value" : 1
+  }, {
+    "name" : "net.objectlab:mvn-qalab-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.google.code.sbtrun-maven-plugin:sbtrun-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.sonatype.plugins:sisu-maven-bridge-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.apahce.maven.plugins:maven-surefire-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.pragmaticobjects.oo.atom:atom-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.geotoolkit.project:geotk-jar-collector",
+    "value" : 1
+  }, {
+    "name" : "com.github.yracnet.maven:qualitycode-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "ch.digitalfondue.stampo:stampo-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.github.damage-control.report:damage-control-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.github.calmking:smart-doc-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.bluestemsoftware.open.maven.plugin:aspect-plugin",
+    "value" : 1
+  }, {
+    "name" : "com.github.veithen.maven:eclipse-settings-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.exist-db.maven.plugins:public-xar-repo-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.ballerinalang:docerina-maven-plugin",
+    "value" : 1
+  }, {
+    "name" : "org.kuali.maven.plugins:maven-impex-plugin",
+    "value" : 1
+  } ]
+}

@@ -1,5 +1,6 @@
 {
   "data" : {
+    "sum" : 16995,
     "list" : [ {
       "name" : "github",
       "value" : 13966,
@@ -679,7 +680,6 @@
       "name" : "other",
       "value" : 0,
       "childs" : [ ]
-    } ],
-    "sum" : 16995
+    } ]
   }
 }

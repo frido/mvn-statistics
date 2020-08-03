@@ -29,6 +29,7 @@ public class PomBody extends ResponseBody {
             model = reader.read(new ByteArrayInputStream(body.getBytes(StandardCharsets.UTF_8)));
         } catch (IOException | XmlPullParserException | org.codehaus.plexus.util.xml.pull.XmlPullParserException e) {
             Exception ex = new Exception(base.getUrl(), e);
+            // TODO: ignored?
 //            ex.printStackTrace();
         }
     }

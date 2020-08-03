@@ -1,0 +1,156 @@
+{
+  "data" : {
+    "max" : 938,
+    "maxName" : "https://repo1.maven.org/maven2/org/citationstyles/styles/2.0.0/styles-2.0.0.pom",
+    "size" : 229267,
+    "nonZeros" : 2130,
+    "sum" : 17875,
+    "nonZeroRatio" : 0.93,
+    "average" : 8.39,
+    "mode" : [ {
+      "name" : "0",
+      "value" : 227137
+    }, {
+      "name" : "1",
+      "value" : 677
+    }, {
+      "name" : "13",
+      "value" : 499
+    }, {
+      "name" : "2",
+      "value" : 275
+    }, {
+      "name" : "3",
+      "value" : 128
+    }, {
+      "name" : "9",
+      "value" : 128
+    }, {
+      "name" : "4",
+      "value" : 64
+    }, {
+      "name" : "7",
+      "value" : 49
+    }, {
+      "name" : "6",
+      "value" : 33
+    }, {
+      "name" : "11",
+      "value" : 29
+    }, {
+      "name" : "5",
+      "value" : 27
+    }, {
+      "name" : "14",
+      "value" : 23
+    }, {
+      "name" : "21",
+      "value" : 22
+    }, {
+      "name" : "15",
+      "value" : 20
+    }, {
+      "name" : "10",
+      "value" : 18
+    }, {
+      "name" : "8",
+      "value" : 18
+    }, {
+      "name" : "43",
+      "value" : 18
+    }, {
+      "name" : "16",
+      "value" : 16
+    }, {
+      "name" : "18",
+      "value" : 16
+    }, {
+      "name" : "12",
+      "value" : 13
+    }, {
+      "name" : "19",
+      "value" : 6
+    }, {
+      "name" : "190",
+      "value" : 5
+    }, {
+      "name" : "17",
+      "value" : 5
+    }, {
+      "name" : "20",
+      "value" : 5
+    }, {
+      "name" : "33",
+      "value" : 3
+    }, {
+      "name" : "101",
+      "value" : 3
+    }, {
+      "name" : "123",
+      "value" : 3
+    }, {
+      "name" : "23",
+      "value" : 2
+    }, {
+      "name" : "26",
+      "value" : 2
+    }, {
+      "name" : "27",
+      "value" : 2
+    }, {
+      "name" : "97",
+      "value" : 2
+    }, {
+      "name" : "108",
+      "value" : 2
+    }, {
+      "name" : "42",
+      "value" : 2
+    }, {
+      "name" : "88",
+      "value" : 1
+    }, {
+      "name" : "22",
+      "value" : 1
+    }, {
+      "name" : "48",
+      "value" : 1
+    }, {
+      "name" : "171",
+      "value" : 1
+    }, {
+      "name" : "74",
+      "value" : 1
+    }, {
+      "name" : "938",
+      "value" : 1
+    }, {
+      "name" : "31",
+      "value" : 1
+    }, {
+      "name" : "53",
+      "value" : 1
+    }, {
+      "name" : "76",
+      "value" : 1
+    }, {
+      "name" : "54",
+      "value" : 1
+    }, {
+      "name" : "34",
+      "value" : 1
+    }, {
+      "name" : "35",
+      "value" : 1
+    }, {
+      "name" : "38",
+      "value" : 1
+    }, {
+      "name" : "103",
+      "value" : 1
+    }, {
+      "name" : "61",
+      "value" : 1
+    } ]
+  }
+}

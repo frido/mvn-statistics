@@ -1,5 +1,6 @@
 {
   "data" : {
+    "sum" : 3532,
     "list" : [ {
       "name" : "travis",
       "value" : 1839,
@@ -288,7 +289,6 @@
       "name" : "other",
       "value" : 0,
       "childs" : [ ]
-    } ],
-    "sum" : 3532
+    } ]
   }
 }
