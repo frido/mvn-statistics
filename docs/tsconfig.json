@@ -1,8 +1,9 @@
 {
     "compilerOptions": {
         "lib": ["ES2020"],
-        "downlevelIteration": true
+        "downlevelIteration": true,
+        "resolveJsonModule": true
     },
-    "include": ["generate.ts"],
+    "include": ["*.ts"],
     "exclude": ["node_modules"]
 }

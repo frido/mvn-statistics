@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="sk">
+
+    <head>
+        <title>The State of Maven ecosystem</title>
+        <meta charset="utf-8">
+        <meta name="Description" content="Petržalka, investičný plán, projekty, rozpočet, štúdie, zámery">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="language" content="sk">
+        <meta name="robots" content="index,follow"/>
+        <meta name="googlebot" content="index,follow"/>
+        <meta name="keywords" content="Petržalka, investičný plán, projekty, rozpočet, štúdie, zámery"/>
+
+        <meta property="og:url" content=""/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="Projekty v Petržalke"/>
+        <meta property="og:description" content="Petržalka, investičný plán, projekty, rozpočet, štúdie, zámery"/>
+        <meta property="og:image" content="Petržalka, investičný plán, projekty, rozpočet, štúdie, zámery"/>
+        <meta property="fb:app_id" content="294839814987467"/>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="container">
+
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-4">The State of Maven ecosystem</h1>
+                    <p class="lead">Analysis of 229 267 pom.xml files from Maven central repository</p>
+                </div>
+            </div>
+
+{{#data}}
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">{{full_name}}</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Starts: {{stargazers_count}}</h6>
+    <p class="card-text">{{description}}</p>
+  </div>
+</div>
+{{/data}}
+
+        </div>
+
+    </body>
+</html>
