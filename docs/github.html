@@ -35,9 +35,23 @@
 {{#data}}
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title">{{full_name}}</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Starts: {{stargazers_count}}</h6>
+    <a href="https://github.com/{{full_name}}" target="blank">
+        <h5 class="card-title">{{full_name}}</h5>
+    </a>
+    <span class="card-subtitle mr-2 text-muted">
+        Stars: {{stargazers_count}}
+    </span>
+    <span class="card-subtitle mr-2 text-muted">
+        Usages: {{usages}}
+    </span>
     <p class="card-text">{{description}}</p>
+    {{#poms}}
+        <a href="https://mvnrepository.com/artifact/{{groupId}}" class="card-link" target="blank">{{groupId}}</a>
+
+        {{! <a href="https://mvnrepository.com/artifact/groupId" target="blank" type="button" class="btn btn-primary">
+            groupId <span class="badge badge-light">value</span>
+        </a> }}
+    {{/poms}}
   </div>
 </div>
 {{/data}}

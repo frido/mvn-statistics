@@ -1,6 +1,6 @@
-import * as markdownIt from "markdown-it";
+import markdownIt from "markdown-it";
 import {readFileSync, writeFileSync} from 'fs';
-import * as Mustache from 'mustache'
+import Mustache from 'mustache'
 
 let mdContent = readFileSync('../README.md', 'utf-8');
 let htmlBase = readFileSync('main.html', 'utf-8');

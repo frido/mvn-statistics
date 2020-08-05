@@ -2,7 +2,11 @@
     "compilerOptions": {
         "lib": ["ES2020"],
         "downlevelIteration": true,
-        "resolveJsonModule": true
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "module": "commonjs",
+        "strict": true,
+        "moduleResolution": "node",
     },
     "include": ["*.ts"],
     "exclude": ["node_modules"]
