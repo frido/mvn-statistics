@@ -19,6 +19,9 @@
         <meta property="fb:app_id" content="294839814987467"/>
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        {{! <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> }}
+        <script src="https://kit.fontawesome.com/c507f75284.js" crossorigin="anonymous"></script>
+
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -32,27 +35,51 @@
                 </div>
             </div>
 
-{{#data}}
-<div class="card">
-  <div class="card-body">
-    <a href="https://github.com/{{full_name}}" target="blank">
-        <h5 class="card-title">{{full_name}}</h5>
-    </a>
-    <span class="card-subtitle mr-2 text-muted">
-        Stars: {{stargazers_count}}
-    </span>
-    <span class="card-subtitle mr-2 text-muted">
-        Usages: {{usages}}
-    </span>
-    <p class="card-text">{{description}}</p>
-    {{#poms}}
-        <a href="https://mvnrepository.com/artifact/{{groupId}}" class="card-link" target="blank">{{groupId}}</a>
+            
 
-        {{! <a href="https://mvnrepository.com/artifact/groupId" target="blank" type="button" class="btn btn-primary">
-            groupId <span class="badge badge-light">value</span>
-        </a> }}
-    {{/poms}}
-  </div>
+{{#data}}
+<div class="card mb-3">
+  <div class="card-body">
+    <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-8">
+            <a href="https://github.com/{{full_name}}" target="blank">
+                <h5 class="card-title">{{full_name}}</h5>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-2">
+            <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                <div class="input-group-text"><i class="far fa-star"></i></div>
+                </div>
+                <span class="form-control">{{stargazers_count}}</span>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-2">
+            <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                <div class="input-group-text"><i class="fab fa-codepen"></i></i></div>
+                </div>
+                <span class="form-control">{{usages}}</span>
+            </div>
+        </div>
+    </div>
+    <p class="card-text">{{description}}</p>
+    {{#groups}}
+        <a href="https://mvnrepository.com/artifact/{{groupId}}" class="card-link" target="blank">{{groupId}}</a>
+    {{/groups}}
+    </div>
+    <ul class="list-group list-group-flush">
+        {{#poms}}
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            <a href="{{pomLink}}" class="card-link" target="blank">
+                {{groupId}}:{{artifactId}}
+            </a>
+             <span class="badge badge-primary badge-pill">{{value}}</span>
+        </li>
+        {{/poms}}
+    </ul>
+    
+  
 </div>
 {{/data}}
 

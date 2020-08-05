@@ -12,9 +12,11 @@ export interface GithubRepoItem {
     forks_count?: number | null;
     network_count?: number | null;
     subscribers_count?: number | null;
-    poms?: GithubRepoItemPom[],
-    usages: number;
-    score: number;
+    groups?: GithubRepoItemGroup[],
+    poms?: GithubRepoItemPom[]
+    usages?: number;
+    score?: number;
+    pomCount?: number;
 }
 
 export interface GithubList {
@@ -33,6 +35,13 @@ export interface GithubListItemPom {
 }
 
 export interface GithubRepoItemPom {
+    pomLink?: String | null;
+    groupId?: String | null;
+    artifactId?: String | null;
+    value?: number | null;
+}
+
+export interface GithubRepoItemGroup {
     groupId?: String | null;
     value?: number | null;
 }

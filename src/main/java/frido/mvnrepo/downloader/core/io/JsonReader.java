@@ -14,6 +14,10 @@ public class JsonReader {
         file = Paths.get(fileName);
     }
 
+    public JsonReader(String reportFolder, String fileName) {
+        file = Paths.get(reportFolder, fileName);
+    }
+
     public <T> T read(Class<T> clazz) {
         ObjectMapper mapper = new ObjectMapper();
         mapper.enable(SerializationFeature.INDENT_OUTPUT);

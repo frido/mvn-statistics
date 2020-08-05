@@ -1,17 +1,15 @@
 package frido.mvnrepo.downloader.github;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
-import frido.mvnrepo.downloader.core.json.*;
-import frido.mvnrepo.downloader.core.stats.KeyValue;
+import frido.mvnrepo.downloader.core.io.JsonReader;
+import frido.mvnrepo.downloader.core.io.JsonWriter;
+import frido.mvnrepo.downloader.core.json.GithubJson;
+import frido.mvnrepo.downloader.core.json.GithubPomJson;
+import frido.mvnrepo.downloader.core.json.KeyValueGroupJson;
+import frido.mvnrepo.downloader.core.json.StatisticsJson;
 
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.stream.Collectors;
+import java.util.HashMap;
+import java.util.Map;
 
 public class GitReader {
 
@@ -21,44 +19,21 @@ public class GitReader {
     }
 
     public void start() throws IOException {
-        List<GithubJson> output = new ArrayList<>();
-        StatisticsJson statisticsJson = readFile();
+        StatisticsJson statisticsJson = new JsonReader("data", "statistics.json").read(StatisticsJson.class);
+
+        Map<String, GithubJson> outputMap = new HashMap<>();
         for (KeyValueGroupJson gitRepo : statisticsJson.getScm().getList()) {
             String gitLink = gitRepo.getName().toLowerCase();
             if (gitLink.contains("github.com")) {
                 GithubLink githubLink = new GithubLink(gitLink);
                 if (githubLink.isValid()) {
-                    GithubJson githubJsonItem = new GithubJson();
-                    githubJsonItem.setFullName(githubLink.toString());
-                    githubJsonItem.setPoms(gitRepo.getChilds().stream().map(s -> new GithubPomJson(s)).collect(Collectors.toList()));
-                    output.add(githubJsonItem);
+                    GithubJson githubJsonItem = outputMap.getOrDefault(githubLink.toString(), new GithubJson(githubLink.toString()));
+                    gitRepo.getChilds().stream().map(GithubPomJson::new).forEach(githubJsonItem::add);
+                    outputMap.put(githubLink.toString(), githubJsonItem);
                 }
             }
         }
-        print("github.json", new JsonWrapper(output));
-    }
 
-    private List<KeyValue> getGithub(KeyValueGroupListJson report) {
-        for (KeyValueGroupJson x : report.getList()) {
-            if (x.getName().equals("github.com")) {
-                return x.getChilds();
-            }
-        }
-        return Collections.EMPTY_LIST;
-    }
-
-    // TODO: Object Writer
-    private void print(String fileName, Object object) throws IOException {
-        ObjectMapper mapper = new ObjectMapper();
-        mapper.enable(SerializationFeature.INDENT_OUTPUT);
-        mapper.writeValue(Paths.get(fileName).toFile(), object);
-    }
-
-    // TODO: Object Reader
-    private StatisticsJson readFile() throws IOException {
-        String inputString = Files.readString(Paths.get("statistics.json"));
-        ObjectMapper mapper = new ObjectMapper();
-        mapper.enable(SerializationFeature.INDENT_OUTPUT);
-        return mapper.readValue(inputString, StatisticsJson.class);
+        new JsonWriter("data","github.json").write(new JsonWrapper(outputMap.values()));
     }
 }
