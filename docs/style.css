@@ -1,6 +1,36 @@
+:root {
+    --primary-bg-color: #333399;
+    --secondary-bg-color: #ff00cc;
+
+    --primary-bg-color: #004d7a;
+    --secondary-bg-color: #008793;
+  }
+
 img {
     width: 804px;
     margin: auto;
     display: block;
     margin-top: 2rem;
+}
+
+a:hover {
+    color: var(--secondary-bg-color);
+}
+
+h4.card-title {
+    color: var(--primary-bg-color);
+}
+
+.jumbotron {
+    
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+a.badge {
+    background: linear-gradient(to right, var(--primary-bg-color), var(--secondary-bg-color));
+}
+
+.display-4 {
+    font-weight: 900;
 }

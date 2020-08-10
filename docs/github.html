@@ -38,48 +38,29 @@
             
 
 {{#data}}
-<div class="card mb-3">
+<div class="card mb-3 border-0">
   <div class="card-body">
-    <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-8">
-            <a href="https://github.com/{{full_name}}" target="blank">
-                <h5 class="card-title">{{full_name}}</h5>
-            </a>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-2">
-            <div class="input-group mb-2">
-                <div class="input-group-prepend">
-                <div class="input-group-text"><i class="far fa-star"></i></div>
-                </div>
-                <span class="form-control">{{stargazers_count}}</span>
-            </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-2">
-            <div class="input-group mb-2">
-                <div class="input-group-prepend">
-                <div class="input-group-text"><i class="fab fa-codepen"></i></i></div>
-                </div>
-                <span class="form-control">{{usages}}</span>
-            </div>
-        </div>
-    </div>
-    <p class="card-text">{{description}}</p>
+    <a href="https://github.com/{{full_name}}" target="blank">
+        <h4 class="card-title">{{full_name}}</h4>
+    </a>
+    <p class="card-subtitle text-muted mb-2 mt-1">
+        <span class="mr-4">
+            <i class="far fa-star"></i><span class="ml-1">{{stargazers_count}}</span>
+        </span>
+        <span class="mr-4">
+            <i class="fab fa-codepen"></i><span class="ml-1">{{usages}}</span>
+        </span>
+    </p>
+    <p class="card-text mb-1">{{description}}</p>
     {{#groups}}
         <a href="https://mvnrepository.com/artifact/{{groupId}}" class="card-link" target="blank">{{groupId}}</a>
     {{/groups}}
+    {{#poms}}
+        {{#value}}
+            <a href="https://mvnrepository.com/artifact/{{groupId}}/{{artifactId}}" class="badge badge-secondary"  target="blank">{{groupId}}:{{artifactId}}</a>
+        {{/value}}
+    {{/poms}}
     </div>
-    <ul class="list-group list-group-flush">
-        {{#poms}}
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-            <a href="{{pomLink}}" class="card-link" target="blank">
-                {{groupId}}:{{artifactId}}
-            </a>
-             <span class="badge badge-primary badge-pill">{{value}}</span>
-        </li>
-        {{/poms}}
-    </ul>
-    
-  
 </div>
 {{/data}}
 
