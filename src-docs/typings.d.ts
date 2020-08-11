@@ -1,4 +1,10 @@
 
+export interface SiSiGeConfig {
+    layout: string;
+    view: any;
+    output: string;
+}
+
 export interface GithubRepo {
     data?: GithubRepoItem[];
 }

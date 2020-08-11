@@ -4,11 +4,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 var _a, _b, _c, _d;
 exports.__esModule = true;
-var fs_1 = require("fs");
-var mustache_1 = __importDefault(require("mustache"));
-var github_json_1 = __importDefault(require("../github/github.json"));
-var github_json_2 = __importDefault(require("../data/github.json"));
-var dependencyGroup_json_1 = __importDefault(require("../report/dependencyGroup.json"));
+exports.config = void 0;
+var github_json_1 = __importDefault(require("../../github/github.json"));
+var github_json_2 = __importDefault(require("../../data/github.json"));
+var dependencyGroup_json_1 = __importDefault(require("../../report/dependencyGroup.json"));
 var githubRepo = github_json_1["default"];
 // Get top of github
 var sorter = function (a, b) { var _a, _b; return ((_a = b.score) !== null && _a !== void 0 ? _a : 0) - ((_b = a.score) !== null && _b !== void 0 ? _b : 0); };
@@ -83,26 +82,26 @@ view === null || view === void 0 ? void 0 : view.forEach(function (githubRepoIte
     // console.log(githubRepoItem.pomCount); 
     // console.log(githubRepoItem.score); 
 });
-var htmlBase = fs_1.readFileSync('github.html', 'utf-8');
 view = view === null || view === void 0 ? void 0 : view.sort(sorter).slice(0, 500);
-var output = mustache_1["default"].render(htmlBase, { data: view });
-fs_1.writeFileSync('github-out.html', output);
-function pomGroupToMap(githubRepoItem) {
-    var _a, _b, _c;
-    var githubListItem = githubListMap.get((_b = (_a = githubRepoItem.full_name) === null || _a === void 0 ? void 0 : _a.toLowerCase()) !== null && _b !== void 0 ? _b : '');
-    var pomGroupMap = new Map();
-    (_c = githubListItem === null || githubListItem === void 0 ? void 0 : githubListItem.poms) === null || _c === void 0 ? void 0 : _c.forEach(function (p) {
-        var _a, _b;
-        var key = (_b = (_a = p.groupId) === null || _a === void 0 ? void 0 : _a.toLowerCase()) !== null && _b !== void 0 ? _b : '';
-        var valueList = pomGroupMap.get(key);
-        if (valueList) {
-            valueList.push(p);
-        }
-        else {
-            valueList = [];
-            valueList.push(p);
-        }
-        pomGroupMap.set(key, valueList);
-    });
-    return pomGroupMap;
-}
+// function pomGroupToMap(githubRepoItem: GithubRepoItem) {
+//     const githubListItem = githubListMap.get(githubRepoItem.full_name?.toLowerCase() ?? '');
+//     const pomGroupMap: Map<String, GithubListItemPom[]> = new Map();
+//     githubListItem?.poms?.forEach(p => {
+//         const key = p.groupId?.toLowerCase() ?? '';
+//         let valueList = pomGroupMap.get(key);
+//         if (valueList) {
+//             valueList.push(p);
+//         }
+//         else {
+//             valueList = [];
+//             valueList.push(p);
+//         }
+//         pomGroupMap.set(key, valueList);
+//     });
+//     return pomGroupMap;
+// }
+exports.config = {
+    layout: 'github/github.html',
+    view: { data: view },
+    output: '../docs/github.html'
+};
