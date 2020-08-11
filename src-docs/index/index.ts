@@ -1,15 +1,12 @@
-import markdownIt from "markdown-it";
-import {readFileSync} from 'fs';
 import { SiSiGeConfig } from "../typings";
 
-let mdContent = readFileSync('../README.md', 'utf-8');
-let htmlContent = markdownIt().render(mdContent);
-let view: any = {
-    'content': htmlContent
-}
+let view: any = null
 
+// TODO: dont need to write all, just current dir is enought
+// I can search files in current dir and do actions according to file names and extensions
 export const config: SiSiGeConfig =  {
     layout: 'index/main.html',
-    view: view,
-    output: '../docs/index.html'
+    view: null,
+    output: '../docs/index.html',
+    static: ['index/static']
 }

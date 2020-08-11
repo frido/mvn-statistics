@@ -2,8 +2,8 @@
     --primary-bg-color: #333399;
     --secondary-bg-color: #ff00cc;
 
-    --primary-bg-color: #004d7a;
-    --secondary-bg-color: #008793;
+    --primary-bg-color: #6002EE ;
+    --secondary-bg-color: #BA00E5;
   }
 
 img {
@@ -23,7 +23,7 @@ h4.card-title {
 
 .jumbotron {
     
-    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: linear-gradient(to right top, #1C00DB, #5C00D2, #8B00DD, #A200E0, #BA00E5, #CD00EA);
     color: white;
 }
 

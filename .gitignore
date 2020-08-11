@@ -1,3 +1,4 @@
 target
+node_modules
 src-docs/node_modules
-src-docs/*.js
+src-docs/**/*.js

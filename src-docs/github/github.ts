@@ -61,5 +61,6 @@ view = view?.sort(sorter).slice(0, 500);
 export const config: SiSiGeConfig =  {
     layout: 'github/github.html',
     view: {data: view},
-    output: '../docs/github.html'
+    output: '../docs/github.html',
+    static: ['github/static']
 }
