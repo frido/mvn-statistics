@@ -31,16 +31,9 @@ dependencyGroup.data?.list?.forEach((g: DependencyGroupItem) => {
     })
 })
 
-
 view?.forEach((githubRepoItem: GithubRepoItem) => {
     githubRepoItem.poms = [];
     githubRepoItem.usages = 0;
-    
-
-    // const pomGroupMap: Map<String, GithubListItemPom[]> = pomGroupToMap(githubRepoItem);
-
-    // console.log(githubRepoItem.full_name);
-    // console.log(pomGroupMap.keys());
 
     const githubListItem = githubListMap.get(githubRepoItem.full_name?.toLowerCase() ?? '');
     githubRepoItem.pomCount = githubListItem?.poms?.length;
@@ -59,55 +52,11 @@ view?.forEach((githubRepoItem: GithubRepoItem) => {
         }).slice(0,3);
     })
 
-    
-    // for(let groupId of pomGroupMap.keys()) {
-    //     let value = 0;
-    //     let debug: number[] = []
-    //     pomGroupMap.get(groupId)?.forEach(i => {
-    //         const key = i.groupId?.toLowerCase() + ":" + i.artifactId?.toLowerCase();
-    //         const addon = (dependencyGroupMap.get(key) ?? 0);
-    //         value = value + addon;
-    //         githubRepoItem.pomCount = (githubRepoItem.pomCount ?? 0) + 1;
-    //         // debug.push(addon);
-    //     });
-    //     githubRepoItem.poms?.push({groupId: groupId, value: value});
-    //     githubRepoItem.usages = githubRepoItem.usages + value;
-    //     // console.log(groupId); 
-    //     // console.log(debug); 
-    //     // console.log(pomGroupMap.get(groupId)?.length); 
-    //     // const githubListItem = githubListMap.get(githubRepoItem.full_name?.toLowerCase() ?? '');
-    //     // console.log(githubListItem?.poms?.length); 
-    // }
-
     githubRepoItem.score = (((githubRepoItem.stargazers_count ?? 0) * 0) + (githubRepoItem.usages / (githubRepoItem.pomCount ?? 1)));
-
-// console.log(githubRepoItem.full_name);
-// console.log(githubRepoItem.poms); 
-// console.log(githubRepoItem.usages); 
-// console.log(githubRepoItem.pomCount); 
-// console.log(githubRepoItem.score); 
 })
 
 
 view = view?.sort(sorter).slice(0, 500);
-
-// function pomGroupToMap(githubRepoItem: GithubRepoItem) {
-//     const githubListItem = githubListMap.get(githubRepoItem.full_name?.toLowerCase() ?? '');
-//     const pomGroupMap: Map<String, GithubListItemPom[]> = new Map();
-//     githubListItem?.poms?.forEach(p => {
-//         const key = p.groupId?.toLowerCase() ?? '';
-//         let valueList = pomGroupMap.get(key);
-//         if (valueList) {
-//             valueList.push(p);
-//         }
-//         else {
-//             valueList = [];
-//             valueList.push(p);
-//         }
-//         pomGroupMap.set(key, valueList);
-//     });
-//     return pomGroupMap;
-// }
 
 export const config: SiSiGeConfig =  {
     layout: 'github/github.html',
