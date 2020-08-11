@@ -2,8 +2,8 @@
     --primary-bg-color: #333399;
     --secondary-bg-color: #ff00cc;
 
-    --primary-bg-color: #6002EE ;
-    --secondary-bg-color: #BA00E5;
+    --primary-bg-color: #1C00DB;
+    --secondary-bg-color: #CD00EA;
   }
 
 img {
@@ -23,7 +23,7 @@ h4.card-title {
 
 .jumbotron {
     
-    background-image: linear-gradient(to right top, #1C00DB, #5C00D2, #8B00DD, #A200E0, #BA00E5, #CD00EA);
+    background-image: linear-gradient(to right top, #1C00DB, 35%, #5C00D2, #8B00DD, #A200E0, #BA00E5, #CD00EA);
     color: white;
 }
 
@@ -33,4 +33,10 @@ a.badge {
 
 .display-4 {
     font-weight: 900;
+}
+
+.jumbotron a.btn.btn-secondary {
+    color: #fff;
+    background-color: var(--secondary-bg-color);
+    border-color: var(--secondary-bg-color);
 }
