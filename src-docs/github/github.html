@@ -26,45 +26,45 @@
     </head>
     <body>
 
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="display-4">The State of Maven ecosystem</h1>
+                <p class="lead">Analysis of 229 267 pom.xml files from Maven central repository</p>
+                <a class="btn btn-secondary btn-lg" href="index.html" role="button">Maven</a>
+                <a class="btn btn-secondary btn-lg" href="github.html" role="button">Github</a>
+            </div>
+        </div>
+
         <div class="container">
 
-            <div class="jumbotron">
-                <div class="container">
-                    <h1 class="display-4">The State of Maven ecosystem</h1>
-                    <p class="lead">Analysis of 229 267 pom.xml files from Maven central repository</p>
-                    <a class="btn btn-secondary btn-lg" href="index.html" role="button">Maven</a>
-                    <a class="btn btn-secondary btn-lg" href="github.html" role="button">Github</a>
+            {{#data}}
+                <div class="card mb-3 border-0">
+                    <div class="card-body">
+                        <a href="https://github.com/{{full_name}}" target="blank">
+                            <h4 class="card-title">{{full_name}}</h4>
+                        </a>
+                        <p class="card-subtitle text-muted mb-2 mt-1">
+                            <span class="mr-4">
+                                <i class="far fa-star"></i>
+                                <span class="ml-1">{{stargazers_count}}</span>
+                            </span>
+                            <span class="mr-4">
+                                <i class="fab fa-codepen"></i>
+                                <span class="ml-1">{{usages}}</span>
+                            </span>
+                        </p>
+                        <p class="card-text mb-1">{{description}}</p>
+                        {{#groups}}
+                            <a href="https://mvnrepository.com/artifact/{{groupId}}" class="card-link" target="blank">{{groupId}}</a>
+                        {{/groups}}
+                        {{#poms}}
+                            {{#value}}
+                                <a href="https://mvnrepository.com/artifact/{{groupId}}/{{artifactId}}" class="badge badge-secondary"  target="blank">{{groupId}}:{{artifactId}}</a>
+                            {{/value}}
+                        {{/poms}}
+                    </div>
                 </div>
-            </div>
-
-            
-
-{{#data}}
-<div class="card mb-3 border-0">
-  <div class="card-body">
-    <a href="https://github.com/{{full_name}}" target="blank">
-        <h4 class="card-title">{{full_name}}</h4>
-    </a>
-    <p class="card-subtitle text-muted mb-2 mt-1">
-        <span class="mr-4">
-            <i class="far fa-star"></i><span class="ml-1">{{stargazers_count}}</span>
-        </span>
-        <span class="mr-4">
-            <i class="fab fa-codepen"></i><span class="ml-1">{{usages}}</span>
-        </span>
-    </p>
-    <p class="card-text mb-1">{{description}}</p>
-    {{#groups}}
-        <a href="https://mvnrepository.com/artifact/{{groupId}}" class="card-link" target="blank">{{groupId}}</a>
-    {{/groups}}
-    {{#poms}}
-        {{#value}}
-            <a href="https://mvnrepository.com/artifact/{{groupId}}/{{artifactId}}" class="badge badge-secondary"  target="blank">{{groupId}}:{{artifactId}}</a>
-        {{/value}}
-    {{/poms}}
-    </div>
-</div>
-{{/data}}
+            {{/data}}
 
         </div>
 
