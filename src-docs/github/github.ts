@@ -5,6 +5,18 @@ import dependencyGroupJson from '../../report/dependencyGroup.json'
 import { GithubRepo, GithubRepoItem, GithubList, DependencyGroup, GithubListItem, GithubListItemPom, GithubRepoItemPom } from "../typings";
 import { SiSiGeConfig, DependencyGroupItem } from '../typings';
 
+const calcScore = (repo: GithubRepoItem) => {
+    const stargazers_count = (repo.stargazers_count ?? 0);
+    const usage = ((repo.usages ?? 0) / (repo.pomCount ?? 1));
+    const stars = stargazers_count * 0.01;
+    const forks = (repo.forks_count ?? 0) * 0.1;
+    const subscribers = (repo.subscribers_count ?? 0) * 0.5;
+
+    const factor = usage;
+    
+    return (stars + forks + subscribers) * factor;
+}
+
 const githubRepo: GithubRepo = githubRepoJson;
 
 // Get top of github
@@ -52,7 +64,7 @@ view?.forEach((githubRepoItem: GithubRepoItem) => {
         }).slice(0,3);
     })
 
-    githubRepoItem.score = (((githubRepoItem.stargazers_count ?? 0) * 0) + (githubRepoItem.usages / (githubRepoItem.pomCount ?? 1)));
+    githubRepoItem.score = calcScore(githubRepoItem);
 })
 
 
