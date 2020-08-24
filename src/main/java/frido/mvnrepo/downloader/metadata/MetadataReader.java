@@ -17,6 +17,7 @@ public class MetadataReader implements ResponseHandler, StopHandler {
     }
 
     public MetadataReader() throws IOException {
+        // TODO: should be data/pom.list
         file = new ListWriter("pom.txt");
         downloader = new Downloader(10);
         downloader.registerStopHandler(this);
@@ -24,6 +25,7 @@ public class MetadataReader implements ResponseHandler, StopHandler {
     }
 
     public void start() {
+        // TODO: accept "data" dir as parameter
         new ListReader("metadata.list")
             .lines()
             .map(Link::new)

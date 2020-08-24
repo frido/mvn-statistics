@@ -26,6 +26,7 @@ public class PomReader implements ResponseHandler, StopHandler {
         downloader = new Downloader(10);
         downloader.registerStopHandler(this);
         downloader.registerResponseHandler(this);
+        // TODO: should be data/pom.list
         new ListReader("pom.txt").lines()
             .map(Link::new)
             .forEach(downloader::download);

@@ -1,29 +1,35 @@
-# Maven Statistics
+# The State of Maven ecosystem 2020.
 
-The State of Maven ecosystem.
+Java multithreaded application that aims to analyze pom files from the maven central repository. It analyzed 229267 `pom.xml` files from the latest version of each maven project in the repository. 
 
-Analysis and statistic from all `pom.xml` files from [maven central repository](https://repo1.maven.org/maven2/).
+The result is statistics that you can find in [github pages](http://petrzalka.info/mvn-statistics/).
 
 ## Collector
 
-Java source is located in `src`. It can be imported to `InteliJ` as maven project.
+Java source is located in `src` as maven project.
 
-Build executable `jar` file *TODO*
+Build executable `jar` file
 ```
 mvn clean package
 ```
 
 Run java file
 ```
-java -jar <<CLASS>>
+java -cp target\statistics-1.0.jar <<CLASS>>
 ```
 
 There is a list of `<<CLASS>>` options.
 
 | name | class | input | output |
 | --- | --- | --- | --- |
-| Crawler | TODO | | `data/metadata.list`
-TODO
+| Crawler | frido.mvnrepo.downloader.repo.RepoCrawler | | `data/metadata.list`
+| MetadataReader | frido.mvnrepo.downloader.metadata.MetadataReader | `data/metadata.list` | `data/pom.list`
+| PomReader | frido.mvnrepo.downloader.pom.PomReader | `data/pom.list` | `data/statistics.json`
+| StatisticsReader | frido.mvnrepo.downloader.report.StatisticsReader | `data/statistics.json` | `report/*.json`
+| GitReader | frido.mvnrepo.downloader.github.GitReader | `data/statistics.json` | `data/github.json`
+| GithubReader | frido.mvnrepo.downloader.github.GitHubReader | `github.list` | `github/github.json`
+
+*TODO: GithubReader input `github.list` should be `data/github.json`*
 
 ## Presenter
 

@@ -16,6 +16,7 @@ public class RepoCrawler implements ResponseHandler, StopHandler {
         repoCrawler.start(repoLink);
     }
 
+    // TODO: accept "data" folder as parameter
     public RepoCrawler() throws IOException {
         downloader = new Downloader(10);
         file = new ListWriter("metadata.list");
