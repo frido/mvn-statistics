@@ -17,6 +17,7 @@ public class PomBody extends ResponseBody {
     private static Pattern p = Pattern.compile(LINK_PATTERN);
 
     private Model model;
+    private Exception error;
 
     public PomBody(ResponseBody responseBody) {
         super(responseBody.getBase(), responseBody.getBody());
@@ -28,13 +29,15 @@ public class PomBody extends ResponseBody {
         try {
             model = reader.read(new ByteArrayInputStream(body.getBytes(StandardCharsets.UTF_8)));
         } catch (IOException | XmlPullParserException | org.codehaus.plexus.util.xml.pull.XmlPullParserException e) {
-            Exception ex = new Exception(base.getUrl(), e);
-            // TODO: ignored?
-//            ex.printStackTrace();
+            error = new Exception(base.getUrl(), e);
         }
     }
 
     public Optional<Model> getModel() {
         return Optional.ofNullable(model);
+    }
+
+    public Exception getError() {
+        return error;
     }
 }

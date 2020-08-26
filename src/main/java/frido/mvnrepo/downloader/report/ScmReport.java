@@ -17,7 +17,7 @@ public class ScmReport {
 
     private void process() {
         for (KeyValueGroupJson item : data.getList()) {
-            output.add(getGroupId(item.getName()), item.getName(), item.getValue()); // TODO: int or long for all project
+            output.add(getGroupId(item.getName()), item.getName(), item.getValue());
         }
     }
 

@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-// TODO: move list files to data folder
+// TODO: Join with ObjectWriter
 public class JsonWriter {
     private final Path file;
 

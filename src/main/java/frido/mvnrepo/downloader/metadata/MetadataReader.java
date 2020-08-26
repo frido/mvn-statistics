@@ -5,28 +5,29 @@ import frido.mvnrepo.downloader.core.io.ListReader;
 import frido.mvnrepo.downloader.core.io.ListWriter;
 
 import java.io.IOException;
+import java.util.concurrent.LinkedBlockingQueue;
 
-public class MetadataReader implements ResponseHandler, StopHandler {
+public class MetadataReader implements ResponseHandler, StopHandler, TickHandler {
 
+    private final Config config;
     private ListWriter file;
     private Downloader downloader;
 
     public static void main(String[] args) throws IOException {
-        MetadataReader reader = new MetadataReader();
+        MetadataReader reader = new MetadataReader(new Config());
         reader.start();
     }
 
-    public MetadataReader() throws IOException {
-        // TODO: should be data/pom.list
-        file = new ListWriter("pom.txt");
+    public MetadataReader(Config config) throws IOException {
+        this.config = config;
+        file = new ListWriter(config.getDataFolder(), "pom.txt");
         downloader = new Downloader(10);
-        downloader.registerStopHandler(this);
+        downloader.registerStopHandler(this, this);
         downloader.registerResponseHandler(this);
     }
 
     public void start() {
-        // TODO: accept "data" dir as parameter
-        new ListReader("metadata.list")
+        new ListReader(config.getDataFolder(), "metadata.list")
             .lines()
             .map(Link::new)
             .forEach(downloader::download);
@@ -45,5 +46,10 @@ public class MetadataReader implements ResponseHandler, StopHandler {
     public void stop() {
         downloader.shutdown();
         file.close();
+    }
+
+    @Override
+    public void tick(LinkedBlockingQueue<Runnable> queue) {
+        System.out.printf("%d\n", queue.size());
     }
 }

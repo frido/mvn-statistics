@@ -10,9 +10,7 @@ public class GithubPomJson {
     public GithubPomJson() {
     }
 
-    // TODO: use also in creation of string
     public GithubPomJson(KeyValue s) {
-        // TODO: continue
         String[] parts = s.getName().split("@@@");
         pomLink = parts[0];
         String[] subParts = parts[1].split(":");

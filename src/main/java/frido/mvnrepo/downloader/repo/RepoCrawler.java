@@ -4,26 +4,26 @@ import frido.mvnrepo.downloader.core.*;
 import frido.mvnrepo.downloader.core.io.ListWriter;
 
 import java.io.IOException;
+import java.util.concurrent.LinkedBlockingQueue;
 
-public class RepoCrawler implements ResponseHandler, StopHandler {
+public class RepoCrawler implements ResponseHandler, StopHandler, TickHandler {
 
     private Downloader downloader;
     private ListWriter file;
 
     public static void main(String[] args) throws IOException {
         var repoLink = "https://repo1.maven.org/maven2/";
-        RepoCrawler repoCrawler = new RepoCrawler();
+        RepoCrawler repoCrawler = new RepoCrawler(new Config());
         repoCrawler.start(repoLink);
     }
 
-    // TODO: accept "data" folder as parameter
-    public RepoCrawler() throws IOException {
+    public RepoCrawler(Config config) throws IOException {
         downloader = new Downloader(10);
-        file = new ListWriter("metadata.list");
+        file = new ListWriter(config.getDataFolder(), "metadata.list");
     }
 
     public void start(String repoLink) {
-        downloader.registerStopHandler(this);
+        downloader.registerStopHandler(this, this);
         downloader.registerResponseHandler(this);
         downloader.download(new Link(repoLink));
     }
@@ -40,5 +40,10 @@ public class RepoCrawler implements ResponseHandler, StopHandler {
     public void stop() {
         downloader.shutdown();
         file.close();
+    }
+
+    @Override
+    public void tick(LinkedBlockingQueue<Runnable> queue) {
+        System.out.printf("%d\n", queue.size());
     }
 }

@@ -5,7 +5,6 @@ import frido.mvnrepo.downloader.core.stats.KeyValueGroupList;
 import frido.mvnrepo.downloader.core.stats.KeyValueMap;
 import frido.mvnrepo.downloader.core.stats.ValueList;
 
-// TODO: Reuse JsonWrapper
 public class Statistics {
 
     private KeyValueMap ciManagement = new KeyValueMap();

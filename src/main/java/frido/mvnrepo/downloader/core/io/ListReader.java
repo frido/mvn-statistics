@@ -9,8 +9,8 @@ import java.util.stream.Stream;
 public class ListReader {
     private final Path file;
 
-    public ListReader(String fileName) {
-        file = Paths.get("metadata.list");
+    public ListReader(String folder, String fileName) {
+        file = Paths.get(folder, fileName);
     }
 
     public Stream<String> lines() {

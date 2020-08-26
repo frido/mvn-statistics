@@ -18,7 +18,6 @@ public class Downloader {
         client = HttpClient.newBuilder().build();
     }
 
-    // TODO: set ResponseHandler the same as stopHandler
     public void download(Link link) {
         executor.execute(new DownloadTask(client, link, responseHandler));
     }
@@ -28,8 +27,8 @@ public class Downloader {
         schedule.shutdown();
     }
 
-    public void registerStopHandler(StopHandler handler) {
-        schedule.scheduleAtFixedRate(new ScheduleEnd(queue, handler), 0, 1, TimeUnit.SECONDS);
+    public void registerStopHandler(TickHandler tickHandler, StopHandler stopHandler) {
+        schedule.scheduleAtFixedRate(new ScheduleEnd(queue, tickHandler, stopHandler), 0, 1, TimeUnit.SECONDS);
     }
 
     public void registerResponseHandler(ResponseHandler responseHandler) {

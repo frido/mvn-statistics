@@ -1,5 +1,7 @@
 package frido.mvnrepo.downloader.github;
 
+import frido.mvnrepo.downloader.core.io.ObjectWriter;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;

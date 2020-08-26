@@ -7,27 +7,32 @@ import org.apache.maven.model.Developer;
 import org.apache.maven.model.*;
 
 import java.io.IOException;
+import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class PomReader implements ResponseHandler, StopHandler {
+public class PomReader implements ResponseHandler, StopHandler, TickHandler {
 
+    private final Config config;
     private Downloader downloader;
     private Statistics statistics;
 
     private AtomicInteger counter = new AtomicInteger(0);
 
+    public PomReader(Config config) {
+        this.config = config;
+    }
+
     public static void main(String[] args) throws IOException {
-        PomReader reader = new PomReader();
+        PomReader reader = new PomReader(new Config());
         reader.start();
     }
 
     public void start() throws IOException {
         this.statistics = new Statistics();
         downloader = new Downloader(10);
-        downloader.registerStopHandler(this);
+        downloader.registerStopHandler(this, this);
         downloader.registerResponseHandler(this);
-        // TODO: should be data/pom.list
-        new ListReader("pom.txt").lines()
+        new ListReader(config.getDataFolder(), "pom.txt").lines()
             .map(Link::new)
             .forEach(downloader::download);
     }
@@ -118,8 +123,12 @@ public class PomReader implements ResponseHandler, StopHandler {
     @Override
     public void stop() {
         System.out.println("Donwloaded poms: " + counter.get());
-        // TODO: add base directory
-        new JsonWriter("statistics.json").write(statistics.toJson());
+        new JsonWriter(config.getDataFolder(), "statistics.json").write(statistics.toJson());
         downloader.shutdown();
+    }
+
+    @Override
+    public void tick(LinkedBlockingQueue<Runnable> queue) {
+        System.out.printf("%d\n", queue.size());
     }
 }

@@ -4,7 +4,6 @@ import frido.mvnrepo.downloader.core.stats.KeyValue;
 
 import java.util.List;
 
-// TODO: use JSON in all storing
 public class KeyValueGroupJson {
     private String name;
     private int value;

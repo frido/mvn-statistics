@@ -1,16 +1,15 @@
-package frido.mvnrepo.downloader.github;
+package frido.mvnrepo.downloader.core.io;
+
+import frido.mvnrepo.downloader.github.JsonWrapper;
 
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-// TODO: extends Writer
-// Create better writer like Object/List Writer
 public class ObjectWriter implements AutoCloseable {
 
     private final PrintWriter printWriter;
 
-    // TODO: static create/open
     public ObjectWriter(String fileName, boolean append) throws IOException {
         FileWriter fileWriter = new FileWriter(fileName, append);
         printWriter = new PrintWriter(fileWriter);
@@ -28,7 +27,6 @@ public class ObjectWriter implements AutoCloseable {
     public void printPart(JsonWrapper jsonWrapper) {
         println(jsonWrapper);
         println(",");
-        printWriter.flush();
     }
 
     @Override

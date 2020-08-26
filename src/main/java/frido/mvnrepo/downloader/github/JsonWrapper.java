@@ -4,8 +4,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 
-// TODO: move to ObjectWriter
-// delete
+// TODO: toString move to ObjectWriter, JsonWrapper replaced by DataJson
 public class JsonWrapper {
 
     private Object data;
@@ -28,8 +27,4 @@ public class JsonWrapper {
     public Object getData() {
         return data;
     }
-
-    // TODO: writeToFile
-
-    // TODO: appendToFile
 }

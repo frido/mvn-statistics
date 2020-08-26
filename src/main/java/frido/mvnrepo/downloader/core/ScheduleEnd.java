@@ -5,21 +5,23 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class ScheduleEnd implements Runnable {
 
-    private StopHandler handler;
+    private final TickHandler tickHandler;
+    private StopHandler stopHandler;
     private AtomicInteger nInactive = new AtomicInteger();
     private LinkedBlockingQueue<Runnable> queue;
 
-    public ScheduleEnd(LinkedBlockingQueue<Runnable> queue, StopHandler handler) {
+    public ScheduleEnd(LinkedBlockingQueue<Runnable> queue, TickHandler tickHandler, StopHandler stopHandler) {
         this.queue = queue;
-        this.handler = handler;
+        this.stopHandler = stopHandler;
+        this.tickHandler = tickHandler;
         nInactive.set(0);
     }
 
     @Override
     public void run() {
-        System.out.printf("%d\n", queue.size());
+        tickHandler.tick(queue);
         if (nInactive.get() > 5) {
-            handler.stop();
+            stopHandler.stop();
         }
         refreshInactiveCount();
     }

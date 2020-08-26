@@ -1,5 +1,7 @@
 package frido.mvnrepo.downloader.core.json;
 
+// TODO: I dont need data at the beginning of json
+@Deprecated
 public class DataJson {
     private Object data;
 

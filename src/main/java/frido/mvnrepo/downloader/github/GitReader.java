@@ -1,5 +1,6 @@
 package frido.mvnrepo.downloader.github;
 
+import frido.mvnrepo.downloader.core.Config;
 import frido.mvnrepo.downloader.core.io.JsonReader;
 import frido.mvnrepo.downloader.core.io.JsonWriter;
 import frido.mvnrepo.downloader.core.json.GithubJson;
@@ -13,13 +14,19 @@ import java.util.Map;
 
 public class GitReader {
 
+    private final Config config;
+
+    public GitReader(Config config) {
+        this.config = config;
+    }
+
     public static void main(String[] args) throws IOException {
-        GitReader reportMain = new GitReader();
+        GitReader reportMain = new GitReader(new Config());
         reportMain.start();
     }
 
     public void start() throws IOException {
-        StatisticsJson statisticsJson = new JsonReader("data", "statistics.json").read(StatisticsJson.class);
+        StatisticsJson statisticsJson = new JsonReader(config.getDataFolder(), "statistics.json").read(StatisticsJson.class); // config
 
         Map<String, GithubJson> outputMap = new HashMap<>();
         for (KeyValueGroupJson gitRepo : statisticsJson.getScm().getList()) {
@@ -34,6 +41,6 @@ public class GitReader {
             }
         }
 
-        new JsonWriter("data","github.json").write(new JsonWrapper(outputMap.values()));
+        new JsonWriter(config.getDataFolder(),"github.json").write(new JsonWrapper(outputMap.values()));
     }
 }

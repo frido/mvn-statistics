@@ -10,10 +10,6 @@ import java.nio.file.Paths;
 public class JsonReader {
     private final Path file;
 
-    public JsonReader(String fileName) {
-        file = Paths.get(fileName);
-    }
-
     public JsonReader(String reportFolder, String fileName) {
         file = Paths.get(reportFolder, fileName);
     }
@@ -24,8 +20,7 @@ public class JsonReader {
         try {
             return mapper.readValue(file.toFile(), clazz);
         } catch (IOException e) {
-            e.printStackTrace();
+            throw new RuntimeException(e);
         }
-        return null; // TODO: return null???
     }
 }
