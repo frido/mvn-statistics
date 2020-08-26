@@ -1,8 +1,10 @@
 # The State of Maven ecosystem 2020.
 
-Java multithreaded application that aims to analyze pom files from the maven central repository. It analyzed 229267 `pom.xml` files from the latest version of each maven project in the repository. 
+Java multithreaded application that aims to analyze pom files from the central maven repository
 
-The result is statistics that you can find in [github pages](http://petrzalka.info/mvn-statistics/).
+It analyze 229,267 pom.xml files for the latest version of each maven project in the central maven repository.
+
+You can find the resulting statistics on the [github pages](http://petrzalka.info/mvn-statistics/).
 
 ## Collector
 
