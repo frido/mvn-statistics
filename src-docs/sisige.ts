@@ -7,27 +7,10 @@ import Mustache from 'mustache'
 import { ncp } from "ncp";
 import {renderSync} from 'sass';
 
-// const generate = (x: SiSiGeConfig) => {
-//     if (x.view) {
-//         let layoutContent = readFileSync(x.layout, 'utf-8');
-//         let outputContent = Mustache.render(layoutContent, x.view);
-//         writeFileSync(x.output, outputContent);
-//     }
-    
-//     x.static.forEach(source => {
-//         ncp(source, '../docs/', (err) => {});
-//     });
-
-//     renderSync({file: x.scss})
-// }
-
 const generate = (x: SiSiGeConfig) => {
     readdirSync(x.dir).forEach(fileName => {
         const ext = extname(fileName);
         const name = basename(fileName, ext);
-        // console.log(fileName);
-        // console.log(name);
-        // console.log(ext);
 
         if (ext === '.html') {
             const source = x.dir + '/' + fileName;
