@@ -82,8 +82,10 @@ let view = githubRepoApi
   .slice(0, 500);
 
 export const config: SiSiGeConfig = {
-  layout: "github/github.html",
+  dir: 'github',
+  output: '../docs',
   view: { data: view },
-  output: "../docs/github.html",
-  static: ["github/static"],
+  // layout: "github/github.html",
+  // output: "../docs/github.html",
+  // static: ["github/static"],
 };

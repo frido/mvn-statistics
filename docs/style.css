@@ -1,68 +1,65 @@
 :root {
-    --primary-bg-color: #333399;
-    --secondary-bg-color: #ff00cc;
-
-    --primary-bg-color: #1C00DB;
-    --secondary-bg-color: #CD00EA;
-    --secondary-bg-color-hover: #DF55F2;
-    
-  }
+  --primary-bg-color: #333399;
+  --secondary-bg-color: #ff00cc;
+  --primary-bg-color: #1C00DB;
+  --secondary-bg-color: #CD00EA;
+  --secondary-bg-color-hover: #DF55F2;
+}
 
 img {
-    width: 804px;
-    margin: auto;
-    display: block;
-    margin-top: 2rem;
+  width: 804px;
+  margin: auto;
+  display: block;
+  margin-top: 2rem;
 }
 
 h2 {
-    font-size: 2rem;
-    margin-bottom: 0;
-    margin-top: 4rem;
-    /* border-bottom: solid 2px var(--secondary-bg-color); */
-    background: white;
-    padding-bottom: 5px;
+  font-size: 2rem;
+  margin-bottom: 0;
+  margin-top: 4rem;
+  /* border-bottom: solid 2px var(--secondary-bg-color); */
+  background: white;
+  padding-bottom: 5px;
 }
 
 .title-border {
-    padding-bottom: 2px;
-    background-image: linear-gradient(to right, #1C00DB, #5C00D2, #8B00DD, #A200E0, #BA00E5, #CD00EA);
-    margin-bottom: 1rem;
+  padding-bottom: 2px;
+  background-image: linear-gradient(to right, #1C00DB, #5C00D2, #8B00DD, #A200E0, #BA00E5, #CD00EA);
+  margin-bottom: 1rem;
 }
 
 a:hover {
-    color: var(--secondary-bg-color);
+  color: var(--secondary-bg-color);
 }
 
 h4.card-title {
-    color: var(--primary-bg-color);
+  color: var(--primary-bg-color);
 }
 
 .jumbotron {
-    
-    background-image: linear-gradient(to right top, #1C00DB, 35%, #5C00D2, #8B00DD, #A200E0, #BA00E5, #CD00EA);
-    color: white;
+  background-image: linear-gradient(to right top, #1C00DB, 35%, #5C00D2, #8B00DD, #A200E0, #BA00E5, #CD00EA);
+  color: white;
 }
 
 a.badge {
-    background: linear-gradient(to right, var(--primary-bg-color), var(--secondary-bg-color));
+  background: linear-gradient(to right, var(--primary-bg-color), var(--secondary-bg-color));
 }
 
 a {
-    color: var(--primary-bg-color);
+  color: var(--primary-bg-color);
 }
 
 .display-4 {
-    font-weight: 900;
+  font-weight: 900;
 }
 
 .jumbotron a.btn.btn-secondary {
-    color: #fff;
-    background-color: var(--secondary-bg-color);
-    border-color: var(--secondary-bg-color);
+  color: #fff;
+  background-color: var(--secondary-bg-color);
+  border-color: var(--secondary-bg-color);
 }
 
 .jumbotron a.btn.btn-secondary:hover {
-    background-color: var(--secondary-bg-color-hover);
-    border-color: var(--secondary-bg-color-hover);
+  background-color: var(--secondary-bg-color-hover);
+  border-color: var(--secondary-bg-color-hover);
 }

@@ -1,7 +1,8 @@
 
 export interface SiSiGeConfig {
-    layout: string;
+    dir: string;
+    // layout: string;
     view: any;
     output: string;
-    static: string[];
+    // static: string[];
 }
