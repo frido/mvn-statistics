@@ -1,78 +1,89 @@
+import { SiSiGeConfig } from "../typings";
+import githubRepoApi, { GithubRepoItem } from "../data/githubRepo";
+import githubListApi, { GithubListItemPom } from "../data/githubList";
+import dependencyGroupApi from "../data/dependencyGroup";
 
-import githubRepoJson from '../../github/github.json'
-import githubListJson from '../../data/github.json'
-import dependencyGroupJson from '../../report/dependencyGroup.json'
-import { GithubRepo, GithubRepoItem, GithubList, DependencyGroup, GithubListItem, GithubListItemPom, GithubRepoItemPom } from "../typings";
-import { SiSiGeConfig, DependencyGroupItem } from '../typings';
+class GithubPom {
+  pomLink?: String | null;
+  groupId?: String | null;
+  artifactId?: String | null;
+  value: number;
 
-const calcScore = (repo: GithubRepoItem) => {
-    const stargazers_count = (repo.stargazers_count ?? 0);
-    const usage = ((repo.usages ?? 0) / (repo.pomCount ?? 1));
+  constructor(input: GithubListItemPom) {
+    this.pomLink = input.pomLink;
+    this.artifactId = input.artifactId;
+    this.groupId = input.groupId;
+    this.value = 0;
+  }
+}
+
+class GithubViewItem {
+  full_name?: String | null;
+  description?: String | null;
+  stargazers_count?: number | null;
+  watchers_count?: number | null;
+  language?: String | null;
+  forks_count?: number | null;
+  network_count?: number | null;
+  subscribers_count?: number | null;
+  poms?: GithubPom[];
+  usages?: number;
+  score?: number;
+  pomCount?: number;
+
+  constructor(input: GithubRepoItem) {
+    this.description = input.description;
+    this.forks_count = input.forks_count;
+    this.full_name = input.full_name;
+    this.language = input.language;
+    this.network_count = input.network_count;
+    this.stargazers_count = input.stargazers_count;
+    this.subscribers_count = input.subscribers_count;
+    this.watchers_count = input.watchers_count;
+  }
+
+  setPoms(poms: GithubPom[], limit: number) {
+    this.pomCount = poms.length;
+    this.usages = poms.map((x) => x.value).reduce((sum, current) => sum + current, 0);
+    this.poms = poms
+      .sort((a: GithubPom, b: GithubPom) => {
+        return (b.value ?? 0) - (a.value ?? 0);
+      })
+      .splice(0, limit);
+  }
+
+  calcScore() {
+    const stargazers_count = this.stargazers_count ?? 0;
+    const usage = (this.usages ?? 0) / (this.pomCount ?? 1);
     const stars = stargazers_count * 0.01;
-    const forks = (repo.forks_count ?? 0) * 0.1;
-    const subscribers = (repo.subscribers_count ?? 0) * 0.5;
-
+    const forks = (this.forks_count ?? 0) * 0.1;
+    const subscribers = (this.subscribers_count ?? 0) * 0.5;
     const factor = usage;
-    
-    return (stars + forks + subscribers) * factor;
+    this.score = (stars + forks + subscribers) * factor;
+  }
 }
 
-const githubRepo: GithubRepo = githubRepoJson;
+let view = githubRepoApi
+  .list()
+  .map((x) => new GithubViewItem(x))
+  .map((viewItem: GithubViewItem) => {
+    const githubListItem = githubListApi.get(viewItem.full_name?.toLowerCase() ?? "");
+    const poms =
+      githubListItem?.poms?.map((pom) => {
+        const newPom = new GithubPom(pom);
+        newPom.value = dependencyGroupApi.get(newPom.groupId, newPom.artifactId) ?? 0;
+        return newPom;
+      }) ?? [];
+    viewItem.setPoms(poms, 3);
+    viewItem.calcScore();
+    return viewItem;
+  })
+  .sort((a: GithubViewItem, b: GithubViewItem) => (b.score ?? 0) - (a.score ?? 0))
+  .slice(0, 500);
 
-// Get top of github
-const sorter = (a:GithubRepoItem, b:GithubRepoItem) => (b.score ?? 0) - (a.score ?? 0);
-
-// TODO: get rid of duplicities
-let view = githubRepo.data?.filter((g: GithubRepoItem) => g.full_name );//.slice(0, 10);
-
-// Join with pom info from github list
-// TODO: fix java report -> remove duplicities, join poms
-const githubList: GithubList = githubListJson;
-const githubListMap: Map<String, GithubListItem> = new Map();
-githubList.data?.forEach((item: GithubListItem) => {
-    githubListMap.set(item.fullName?.toLowerCase() ?? '', item);
-});
-
-// generate dependency map
-const dependencyGroup: DependencyGroup = dependencyGroupJson;
-const dependencyGroupMap: Map<String, number> = new Map();
-dependencyGroup.data?.list?.forEach((g: DependencyGroupItem) => {
-    g.childs?.forEach(a => {
-        const key = g.name?.toLowerCase() + ":" + a.name?.toLowerCase();
-        dependencyGroupMap.set(key, a.value ?? 0);
-    })
-})
-
-view?.forEach((githubRepoItem: GithubRepoItem) => {
-    githubRepoItem.poms = [];
-    githubRepoItem.usages = 0;
-
-    const githubListItem = githubListMap.get(githubRepoItem.full_name?.toLowerCase() ?? '');
-    githubRepoItem.pomCount = githubListItem?.poms?.length;
-    githubListItem?.poms?.forEach((p: GithubListItemPom) => {
-        const key = p.groupId?.toLowerCase() + ":" + p.artifactId?.toLowerCase();
-        const value = (dependencyGroupMap.get(key) ?? 0);
-        githubRepoItem.usages = (githubRepoItem.usages ?? 0) + value;
-        githubRepoItem.poms?.push({
-            artifactId: p.artifactId,
-            groupId: p.groupId,
-            pomLink: p.pomLink,
-            value: value
-        });
-        githubRepoItem.poms = githubRepoItem.poms?.sort((a: GithubRepoItemPom , b: GithubRepoItemPom) => {
-            return (b.value ?? 0) - (a.value ?? 0);
-        }).slice(0,3);
-    })
-
-    githubRepoItem.score = calcScore(githubRepoItem);
-})
-
-
-view = view?.sort(sorter).slice(0, 500);
-
-export const config: SiSiGeConfig =  {
-    layout: 'github/github.html',
-    view: {data: view},
-    output: '../docs/github.html',
-    static: ['github/static']
-}
+export const config: SiSiGeConfig = {
+  layout: "github/github.html",
+  view: { data: view },
+  output: "../docs/github.html",
+  static: ["github/static"],
+};
