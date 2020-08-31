@@ -56,13 +56,13 @@ a {
     font-weight: 900;
 }
 
-.jumbotron a.btn.btn-secondary {
+.jumbotron .btn.btn-secondary {
     color: #fff;
     background-color: var(--secondary-bg-color);
     border-color: var(--secondary-bg-color);
 }
 
-.jumbotron a.btn.btn-secondary:hover {
+.jumbotron .btn.btn-secondary:hover {
     background-color: var(--secondary-bg-color-hover);
     border-color: var(--secondary-bg-color-hover);
 }
