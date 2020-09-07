@@ -1,41 +1,56 @@
-import { Component, Input } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
+import { FormControl } from '@angular/forms';
+import data from "./githubView.json";
+import { debounceTime, distinctUntilChanged } from 'rxjs/operators';
 
 @Component({
-  selector: "app-library",
   template: `
-    <div class="card mb-3 border-0">
-      <div class="card-body">
-        <a href="https://github.com/{{library.full_name}}" target="blank">
-          <h4 class="card-title">{{library.full_name}}</h4>
-        </a>
-        <p class="card-subtitle text-muted mb-2 mt-1">
-          <span class="mr-4">
-            <i class="far fa-star" aria-hidden="true"></i>
-            <span class="ml-1">{{library.stargazers_count}}</span>
-          </span>
-          <span class="mr-4">
-            <i class="fas fa-code-branch" aria-hidden="true"></i>
-            <span class="ml-1">{{library.network_count}}</span>
-          </span>
-          <span class="mr-4">
-            <i class="far fa-bell" aria-hidden="true"></i>
-            <span class="ml-1">{{library.subscribers_count}}</span>
-          </span>
-          <span class="mr-4">
-            <i class="fab fa-codepen" aria-hidden="true"></i>
-            <span class="ml-1">{{library.usages}}</span>
-          </span>
-        </p>
-
-        <p class="card-text mb-1">{{library.description}}</p>
-        <ng-container *ngFor="let pom of library.poms">
-          <a *ngIf="pom.value > 0" href="https://mvnrepository.com/artifact/{{pom.groupId}}/{{pom.artifactId}}" class="badge badge-secondary" target="blank">{{pom.groupId}}:{{pom.artifactId}}</a>
-        </ng-container>
+    <div class="jumbotron pb-4">
+      <div class="container">
+        <h1 class="display-4">The State of Maven ecosystem</h1>
+        <p class="lead">Analysis of 229 267 pom.xml files from Maven central repository</p>
+        <div class="input-group mb-3">
+            <div class="custom-file">
+              <input [formControl]="searchField" type="search" class="form-control" />
+            </div>
+            <div class="input-group-append">
+              <button class="btn btn-secondary" type="button">Search framework</button>
+            </div>
+          </div>
+        <a class="btn btn-secondary btn-lg mr-3" routerLink="/libraries" routerLinkActive="active" role="button">Libraries</a>
+        <a class="btn btn-secondary btn-lg" routerLink="/statistics" routerLinkActive="active" role="button">Statistics</a>
       </div>
     </div>
+    <div class="container">
+      <h3 *ngIf="term">search: {{term}}</h3>
+      <app-library-item *ngFor="let library of view" [library]="library"></app-library-item>
+    </div>
+
   `,
   styles: [],
 })
-export class LibraryComponent {
-  @Input() library: any;
+export class LibrabryComponent implements OnInit {
+  title = "docs-app";
+  searchField: FormControl;
+  view = data.data.slice(0, 100);
+  term = null;
+
+  ngOnInit() {
+    this.searchField = new FormControl();
+    this.searchField.valueChanges.pipe(
+      debounceTime(400), 
+      distinctUntilChanged()
+    )
+    .subscribe((term: string) => {
+      this.search(term);
+    });
+  }
+
+  search(term: string) {
+    this.term = term;
+    this.view = data.data.filter(x => {
+      const text = x.full_name + " " + x.description;
+      return text.match(term);
+    });
+  }
 }

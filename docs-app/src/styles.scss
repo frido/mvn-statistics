@@ -66,3 +66,8 @@ a {
     background-color: var(--secondary-bg-color-hover);
     border-color: var(--secondary-bg-color-hover);
 }
+
+.btn-secondary:not(:disabled):not(.disabled).active {
+    background-color: var(--primary-bg-color);
+    border: var(--secondary-bg-color) solid 3px;
+}
