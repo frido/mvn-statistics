@@ -1,0 +1,5 @@
+[versions]
+some = "1.4"
+
+[libraries]
+my-lib = { group = "com.mycompany", name="mylib", version.ref="some" }
